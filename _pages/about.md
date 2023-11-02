@@ -32,7 +32,7 @@ Highlights and News
 
 Undergraduate Grades
 ------
-- 1/94(TOP 1%) in the School of Artificial Intelligence
+- 1/94 (TOP 1%) in the School of Artificial Intelligence,Dalian University of Technology
 
 Competitions and Honors
 ------
