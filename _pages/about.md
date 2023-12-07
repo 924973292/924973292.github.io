@@ -27,8 +27,8 @@ Research Interest
 
 Highlights and News
 ------
-- 2023.11.01: My project, 'Multimodal Universal Human Perception,' has been approved for the 2023 Dalian University of Technology Outstanding Undergraduate Basic Research Project, with only around 70 students campus-wide.
-- 2023.10.20: I was recommended by my teacher to give a thematic presentation at the National Centre for Computer Animation at Bournemouth University in the UK. The title of my presentation is 'Rethinking Object Re-identification'.
+- 2023.11.01: My project, "Multimodal Universal Human Perception", has been approved for the 2023 Dalian University of Technology Outstanding Undergraduate Basic Research Project, with only around 70 students campus-wide.
+- 2023.10.20: I was recommended by my teacher to give a thematic presentation at the National Centre for Computer Animation at Bournemouth University in the UK. The title of my presentation is "Rethinking Object Re-identification".
 
 Undergraduate Grades
 ------
