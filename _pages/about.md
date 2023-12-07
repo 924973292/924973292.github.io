@@ -21,6 +21,7 @@ WeChat:w924973292
 
 Research Interest
 ------
+- I've been worrying whether my subbmision to AAAI2024 will be accepted.
 - My primary research focus is on large-scale models for object re-identification and human-centric perception.
 - Computer Vision, Multimodal Retrieval, Human-centric Perception
 
