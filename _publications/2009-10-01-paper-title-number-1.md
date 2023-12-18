@@ -1,12 +1,14 @@
 ---
-title: "My first paper"
-collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2023-12-02
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+title: "TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation"
+conference: "AAAI-2024"
+paperurl: 'https://arxiv.org/abs/2312.09612'
+codeurl: 'https://github.com/924973292/TOP-ReID'
+citation: "@inproceedings{wang2024topreid,
+  title={TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation},
+  author={Wang, Yuhao; Liu, Xuehu; Zhang, Pingping; Lu, Hu; Tu Zhengzheng and Lu, Huchuan},
+  booktitle={AAAI},
+  year={2024}
+}"
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
