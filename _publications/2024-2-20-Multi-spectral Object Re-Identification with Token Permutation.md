@@ -6,6 +6,7 @@ excerpt: 'A Novel Fusion Method Focused on Multi-Modal Object Re-Identification.
 date: 2024-2-20
 venue: 'AAAI'
 paperurl: 'https://arxiv.org/abs/2312.09612'
+codeurl: 'https://github.com/924973292/TOP-ReID'
 ---
 A Novel Fusion Method Focused on Multi-Modal Object Re-Identification.
 
