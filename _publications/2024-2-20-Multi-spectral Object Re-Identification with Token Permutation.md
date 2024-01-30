@@ -1,9 +1,9 @@
 ---
 title: "Multi-Spectral Object Re-identification with Token Permutation"
 collection: publications
-permalink: /publication/2023-12-15-Multi-spectral Object Re-Identification with Token Permutation
+permalink: /publication/2024-2-20-Multi-spectral Object Re-Identification with Token Permutation
 excerpt: 'The code is available at https://github.com/924973292/TOP-ReID.'
-date: 2023-12-15
+date: 2024-2-20
 venue: 'AAAI2024'
 paperurl: 'https://arxiv.org/abs/2312.09612'
 citation: 'See[https://arxiv.org/abs/2312.09612]'
