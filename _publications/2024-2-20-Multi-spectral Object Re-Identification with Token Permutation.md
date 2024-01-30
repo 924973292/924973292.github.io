@@ -2,14 +2,14 @@
 title: "Multi-Spectral Object Re-identification with Token Permutation"
 collection: publications
 permalink: /publication/2024-2-20-Multi-spectral Object Re-Identification with Token Permutation
-excerpt: 'The code is available at https://github.com/924973292/TOP-ReID.'
+excerpt: 'A Novel Fusion Method Focused on Multi-Modal Target Re-Identification.'
 date: 2024-2-20
-venue: 'AAAI2024'
+venue: 'AAAI'
 paperurl: 'https://arxiv.org/abs/2312.09612'
-citation: 'See[https://arxiv.org/abs/2312.09612]'
+citation: ' '
 ---
-The code is available at https://github.com/924973292/TOP-ReID.
+A Novel Fusion Method Focused on Multi-Modal Target Re-Identification.
 
 [Download paper here](https://arxiv.org/abs/2312.09612)
 
-Recommended citation: See[https://arxiv.org/abs/2312.09612]
+Recommended citation:  
