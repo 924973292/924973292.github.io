@@ -2,6 +2,7 @@
 title: "Multi-Spectral Object Re-identification with Token Permutation"
 collection: publications
 permalink: /publication/2024-2-20-Multi-spectral Object Re-Identification with Token Permutation
+imageurl: /images/AAAI_2024_poster.jpg
 excerpt: 'A Novel Fusion Method Focused on Multi-Modal Object Re-Identification.'
 date: 2024-2-20
 venue: 'AAAI'

@@ -55,6 +55,8 @@
     {% if post.paperurl %}
       <p><a href=" {{ post.paperurl }} "><u>Paper</u></a>        <a href=" {{ post.codeurl }} "><u>Code</u></a></p>
     {% endif %}
-
+    {% if post.imageurl %}
+    <img src="{{ post.imageurl }}" alt="Image Description">
+    {% endif %}
   </article>
 </div>
