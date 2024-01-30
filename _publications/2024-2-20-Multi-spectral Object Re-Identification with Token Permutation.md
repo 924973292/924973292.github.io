@@ -10,5 +10,3 @@ paperurl: 'https://arxiv.org/abs/2312.09612'
 A Novel Fusion Method Focused on Multi-Modal Object Re-Identification.
 
 [Download paper here](https://arxiv.org/abs/2312.09612)
-
-Recommended citation:  
