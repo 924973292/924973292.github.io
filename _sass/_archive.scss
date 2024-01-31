@@ -66,6 +66,12 @@
   }
 }
 
+.separator {
+  margin: 20px 0; /* 设置分隔符上下间距 */
+  height: 1px; /* 设置分隔符高度 */
+  background-color: #ccc; /* 设置分隔符颜色 */
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
