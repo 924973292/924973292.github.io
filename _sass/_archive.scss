@@ -68,10 +68,12 @@
 
 .separator {
   height: 4px; /* 设置分隔符高度 */
-  background-color: #3498db; /* 设置分隔符颜色，这里使用深蓝色 */
   margin: 20px 0; /* 设置分隔符上下间距 */
   border-radius: 5px; /* 设置边框半径，使分隔符带有圆角 */
+  background-color: #cfe9f9; /* 设置分隔符颜色，这里使用淡蓝色 */
+  background-image: linear-gradient(90deg, #e1f0f9 50%, transparent 50%); /* 使用线性渐变创建断断续续的线条效果 */
 }
+
 
 
 
