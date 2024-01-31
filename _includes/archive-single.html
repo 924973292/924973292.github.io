@@ -75,8 +75,6 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <!-- Add separator at the beginning -->
-  <div class="separator"></div>
 
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -125,4 +123,6 @@
     {% endif %}
   </article>
 
+  <!-- Add separator at the end -->
+  <div class="separator"></div>
 </div>
