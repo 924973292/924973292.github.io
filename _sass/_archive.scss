@@ -67,10 +67,12 @@
 }
 
 .separator {
-  height: 2px; /* 设置分隔符高度 */
-  background: linear-gradient(to right, #f06, #9f6); /* 使用渐变颜色作为分隔符颜色 */
+  height: 4px; /* 设置分隔符高度 */
+  background-color: #3498db; /* 设置分隔符颜色，这里使用深蓝色 */
   margin: 20px 0; /* 设置分隔符上下间距 */
+  border-radius: 5px; /* 设置边框半径，使分隔符带有圆角 */
 }
+
 
 
 .archive__item-teaser {
