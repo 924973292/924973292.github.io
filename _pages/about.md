@@ -30,14 +30,11 @@ Highlights and News
 - 2024.02.27: My paper "Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification" has been accepted by the CVPR2024. Paper will be on arXiv first! [Code](https://github.com/924973292/EDITOR)
 - 2023.12.27: I have compiled a list of research papers and corresponding code repositories on multi-modal object Re-Identification (ReID). The collection can be found at: [Link](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
 - 2023.12.09: My paper "TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation" has been accepted by the AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>) [Code](https://github.com/924973292/TOP-ReID)
-
-[//]: # (- 2023.11.23: I submitted a paper to the CVPR2024.)
+- 2023.11.23: I submitted a paper to the CVPR2024.
 - 2023.11.01: My project, "Multimodal Universal Human Perception", has been approved for the 2023 Dalian University of Technology Outstanding Undergraduate Basic Research Project, with only around 71 students campus-wide.
 - 2023.10.20: I was recommended by my teacher to give a thematic presentation at the National Centre for Computer Animation at Bournemouth University in the UK. The title of my presentation is "Rethinking Object Re-identification".
-
-[//]: # (- 2023.09.28: I am glad to receive "Thank you for submitting your paper to AAAI-24. We are pleased to inform you that your submission has advanced to the second phase based on the first round of reviews!")
-
-[//]: # (- 2023.08.15: I submitted a paper to the AAAI2024.)
+- 2023.09.28: I am glad to receive "Thank you for submitting your paper to AAAI-24. We are pleased to inform you that your submission has advanced to the second phase based on the first round of reviews!"
+- 2023.08.15: I submitted a paper to the AAAI2024.
 
 Undergraduate Grades
 ------
