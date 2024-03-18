@@ -1,2 +1,3 @@
 pub_date~~title~~venue~~excerpt~~citation~~url_slug~~paper_url~~code_url
 2024-2-20~~Multi-Spectral Object Re-identification with Token Permutation~~AAAI~~A Novel Fusion Method Focused on Multi-Modal Object Re-Identification.~~ ~~Multi-spectral Object Re-Identification with Token Permutation~~https://arxiv.org/abs/2312.09612~~https://github.com/924973292/TOP-ReID
+2024-3-18~~Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification~~CVPR~~A Novel Selecting-based Method Focused on Multi-Modal Object Re-Identification.~~ ~~Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification~~https://arxiv.org/abs/2403.10254~~https://github.com/924973292/EDITOR
