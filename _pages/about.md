@@ -28,7 +28,7 @@ Research Interest
 Highlights and News
 ------
 - 2024.03.08: I submitted three papers to the ECCV2024, hoping for good results.
-- 2024.02.27: My paper "Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification" has been accepted by the CVPR2024. Paper will be on arXiv first! [Code](https://github.com/924973292/EDITOR)
+- 2024.02.27: My paper "Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification" has been accepted by the CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>) [Code](https://github.com/924973292/EDITOR)
 - 2023.12.27: I have compiled a list of research papers and corresponding code repositories on multi-modal object Re-Identification (ReID). The collection can be found at: [Link](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
 - 2023.12.09: My paper "TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation" has been accepted by the AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>) [Code](https://github.com/924973292/TOP-ReID)
 - 2023.11.23: I submitted a paper to the CVPR2024.
