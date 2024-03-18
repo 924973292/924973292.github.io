@@ -25,6 +25,6 @@ codeurl: 'https://github.com/924973292/TOP-ReID'
   </p>
 <p align="center">
 
-[Paper](https://arxiv.org/abs/2312.09612)
+[Paper](<https://arxiv.org/abs/2403.10254>)
 [Code](https://github.com/924973292/TOP-ReID)
 ![AAAI_2024_poster.svg](..%2Fimages%2FAAAI_2024_poster.svg)
