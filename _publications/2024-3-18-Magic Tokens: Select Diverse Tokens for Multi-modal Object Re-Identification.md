@@ -1,7 +1,7 @@
 ---
 title: "Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification"
 collection: publications
-permalink: /publication/2024-3-18-Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification
+permalink: /publication/2024-3-18-Select Diverse Tokens for Multi-modal Object Re-Identification
 excerpt: 'A Novel Selecting-based Method Focused on Multi-Modal Object Re-Identification.'
 date: 2024-3-18
 venue: 'CVPR'
