@@ -11,5 +11,5 @@ codeurl: 'https://github.com/924973292/TOP-ReID'
 A Novel Fusion Method Focused on Multi-Modal Object Re-Identification.
 
 [Paper](https://arxiv.org/abs/2312.09612)
-
 [Code](https://github.com/924973292/TOP-ReID)
+![AAAI_2024_poster.svg](..%2Fimages%2FAAAI_2024_poster.svg)

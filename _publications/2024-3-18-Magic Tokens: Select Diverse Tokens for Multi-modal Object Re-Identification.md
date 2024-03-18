@@ -11,5 +11,5 @@ codeurl: 'https://github.com/924973292/EDITOR'
 A Novel Selecting-based Method Focused on Multi-Modal Object Re-Identification.
 
 [Paper](https://arxiv.org/abs/2403.10254)
-
 [Code](https://github.com/924973292/EDITOR)
+![CVPR2024_poster.png](..%2Fimages%2FCVPR2024_poster.png)
