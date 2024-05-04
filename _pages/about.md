@@ -27,6 +27,8 @@ Research Interest
 
 Highlights and News
 ------
+- 2024.05.04: I am glad to attend the VALSE2024 for Poster Presentation!
+- 2024.04.04: Thanks [Zifu Wan](<https://zifuwan.github.io/>) for his work!!! Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation[paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/zifuwan/Sigma>) The first Multi-modal Semantic Segmentation method based on VMamba!!!
 - 2024.02.27: My paper "Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification" has been accepted by the CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>) [Code](https://github.com/924973292/EDITOR)
 - 2023.12.27: I have compiled a list of research papers and corresponding code repositories on multi-modal object Re-Identification (ReID). The collection can be found at: [Link](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
 - 2023.12.09: My paper "TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation" has been accepted by the AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>) [Code](https://github.com/924973292/TOP-ReID)
