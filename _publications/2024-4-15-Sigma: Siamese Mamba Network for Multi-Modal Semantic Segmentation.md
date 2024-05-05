@@ -16,5 +16,8 @@ codeurl: 'https://github.com/zifuwan/Sigma'
 [Paper](https://arxiv.org/abs/2404.04256)
 [Code](https://github.com/zifuwan/Sigma)
 
+**a. Overall Framework**
 ![sigma.png](..%2Fimages%2Fsigma.png)
+
+**b. Comparison of Complexity**
 ![overall_flops.png](..%2Fimages%2Foverall_flops.png)
