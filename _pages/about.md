@@ -14,8 +14,6 @@ Contact
 ======
 Email:924973292@mail.dlut.deu.cn
 
-QQ:924973292
-
 WeChat:w924973292
 
 Research Interest
@@ -24,7 +22,7 @@ Research Interest
 - Computer Vision, Multimodal Retrieval, Human-centric Perception
 
 
-Highlights and News
+Highlights and News (More in **Publications**)
 ------
 - 2024.05.04: I am glad to attend the VALSE2024 for Poster Presentation!
 - 2024.04.04: Thanks [Zifu Wan](<https://zifuwan.github.io/>) for his work!!! Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation --> The first Multi-modal Semantic Segmentation method based on VMamba!!! [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/zifuwan/Sigma>)
