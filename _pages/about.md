@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Yuhao Wang (王宇皓), and I am currently a senior student at Dalian University of Technology's School of Artificial Intelligence. I was admitted directly to the [**IIAU**](https://futureschool.dlut.edu.cn/IIAU.htm) Laboratory at Dalian University of Technology and am under the guidance of Professor [**Huchuan Lu (卢湖川)**](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=ao). At the same time, I am currently primarily under the guidance of Professor [**Pingping Zhang (张平平)**](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN&oi=ao), conducting research in the field of multimodal retrieval. 
-
+My name is Yuhao Wang (王宇皓), and I am a senior student at the School of Artificial Intelligence, Dalian University of Technology. I am conducting research in multimodal retrieval under the guidance of Professor [**Huchuan Lu (卢湖川)**](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=ao) at the  [**IIAU**](https://futureschool.dlut.edu.cn/IIAU.htm) Laboratory and primarily under the supervision of Professor [**Pingping Zhang (张平平)**](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN&oi=ao).
 
 Contact
 ======
