@@ -24,6 +24,7 @@ Research Interest
 
 Highlights and News
 ------
+- 2024.05.27: I am glad to be a reviewer for NeurIPS 2024! This is the first time I have been a reviewer for a top conference!
 - 2024.05.04: I am glad to attend the VALSE2024 for Poster Presentation!
 - 2024.04.04: Thanks [Zifu Wan](<https://zifuwan.github.io/>) for his work!!! Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation --> The first Multi-modal Semantic Segmentation method based on VMamba!!! [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/zifuwan/Sigma>)
 - 2024.02.27: My paper "Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification" has been accepted by the CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>) [Code](https://github.com/924973292/EDITOR)
@@ -57,3 +58,7 @@ Scholarships
 - Science and Technology Innovation Scholarship Dec. 2022
 - Spiritual Civilization Scholarship Dec. 2022
 - Social Work Scholarship Dec. 2022
+
+Service
+------
+- Reviewer, NeurIPS 2024
