@@ -24,11 +24,11 @@ Research Interest
 
 Highlights and News
 ------
-- 2024.05.04: I am glad to attend the VALSE2024 for Poster Presentation!
-- 2024.04.04: Thanks [Zifu Wan](<https://zifuwan.github.io/>) for his work!!! Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation --> The first Multi-modal Semantic Segmentation method based on VMamba!!! [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/zifuwan/Sigma>)
-- 2024.02.27: My paper "Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification" has been accepted by the CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>) [Code](https://github.com/924973292/EDITOR)
-- 2023.12.27: I have compiled a list of research papers and corresponding code repositories on multi-modal object Re-Identification (ReID). The collection can be found at: [Link](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
-- 2023.12.09: My paper "TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation" has been accepted by the AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>) [Code](https://github.com/924973292/TOP-ReID)
+- 2024.05.04: Presented a poster at VALSE2024.
+- 2024.04.04: A new paper is currently available for preview on arXiv. [Paper](<https://arxiv.org/abs/2404.04256>)**｜**[Code](<https://github.com/zifuwan/Sigma>)
+- 2024.02.27: One paper is accepted by CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>)**｜**[Code](https://github.com/924973292/EDITOR)
+- 2023.12.27: Summary repository for multi-modal object ReID. [Link](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
+- 2023.12.09: One paper is accepted by AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>)**｜**[Code](https://github.com/924973292/TOP-ReID)
 
 
 Undergraduate Grades
@@ -42,16 +42,6 @@ Competitions and Honors
 - First Prize, National College Student Mathematical Modeling Competition (Team Leader) Feb. 2022
 - Outstanding Student, DLUT Dec. 2021
 
-[//]: # (- Honer Prize, American College Student Mathematical Modeling Competition &#40;Team Leader&#41; Feb. 2022)
-
-[//]: # (- Second Prize, "Internet+" Innovation and Entrepreneurship Competition, DLUT Sep. 2022)
-
-[//]: # (- Second Prize, China Optoelectronic Design Competition Jul. 2022)
-
-[//]: # (- Second Prize, Baidu Cup Innovation Competition, DLUT &#40;Team Leader&#41; Dec. 2021)
-
-[//]: # (- Second Prize, National College Student Mathematics Competition, Dalian Dec. 2021)
-
 
 Scholarships
 ------
@@ -59,13 +49,6 @@ Scholarships
 - National Encouragement Scholarship Dec. 2023 / 2022
 - Outstanding Academic Performance Scholarship Dec. 2023 / 2022 / 2021
 
-[//]: # (- Sports and Cultural Activities Scholarship Dec. 2022 / 2021)
-
-[//]: # (- Science and Technology Innovation Scholarship Dec. 2022)
-
-[//]: # (- Spiritual Civilization Scholarship Dec. 2022)
-
-[//]: # (- Social Work Scholarship Dec. 2022)
 
 Service
 ------
