@@ -58,10 +58,14 @@ Scholarships
 - National Scholarship Dec.  2021
 - National Encouragement Scholarship Dec. 2023 / 2022
 - Outstanding Academic Performance Scholarship Dec. 2023 / 2022 / 2021
-- Sports and Cultural Activities Scholarship Dec. 2022 / 2021
-- Science and Technology Innovation Scholarship Dec. 2022
-- Spiritual Civilization Scholarship Dec. 2022
-- Social Work Scholarship Dec. 2022
+
+[//]: # (- Sports and Cultural Activities Scholarship Dec. 2022 / 2021)
+
+[//]: # (- Science and Technology Innovation Scholarship Dec. 2022)
+
+[//]: # (- Spiritual Civilization Scholarship Dec. 2022)
+
+[//]: # (- Social Work Scholarship Dec. 2022)
 
 Service
 ------
