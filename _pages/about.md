@@ -40,13 +40,13 @@ Competitions and Honors
 ------
 - 6th place CVPR2023 Workshop Smart City Challenge Apr. 2023
 - First Prize, National College Student Mathematical Modeling Competition (Team Leader) Feb. 2022
+- Outstanding Student, DLUT Dec. 2021
 
 [//]: # (- Honer Prize, American College Student Mathematical Modeling Competition &#40;Team Leader&#41; Feb. 2022)
 
 [//]: # (- Second Prize, "Internet+" Innovation and Entrepreneurship Competition, DLUT Sep. 2022)
 
 [//]: # (- Second Prize, China Optoelectronic Design Competition Jul. 2022)
-- Outstanding Student, DLUT Dec. 2021
 
 [//]: # (- Second Prize, Baidu Cup Innovation Competition, DLUT &#40;Team Leader&#41; Dec. 2021)
 
