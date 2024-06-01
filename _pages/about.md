@@ -25,10 +25,10 @@ Research Interest
 Highlights and News
 ------
 - 2024.05.04: Presented a poster at VALSE2024.
-- 2024.04.04: A new paper is currently available for preview on arXiv. [Paper](<https://arxiv.org/abs/2404.04256>)**｜**[Code](<https://github.com/zifuwan/Sigma>)
-- 2024.02.27: One paper is accepted by CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>)**｜**[Code](https://github.com/924973292/EDITOR)
+- 2024.04.04: A new paper is currently available for preview on arXiv. [Paper](<https://arxiv.org/abs/2404.04256>)｜[Code](<https://github.com/zifuwan/Sigma>)
+- 2024.02.27: One paper is accepted by CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>)｜[Code](https://github.com/924973292/EDITOR)
 - 2023.12.27: Summary repository for multi-modal object ReID. [Link](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
-- 2023.12.09: One paper is accepted by AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>)**｜**[Code](https://github.com/924973292/TOP-ReID)
+- 2023.12.09: One paper is accepted by AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>)｜[Code](https://github.com/924973292/TOP-ReID)
 
 
 Undergraduate Grades
