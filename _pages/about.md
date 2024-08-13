@@ -52,4 +52,4 @@ Scholarships
 
 Service
 ------
-- Reviewer, NeurIPS 2024
+- Reviewer, NeurIPS 2024, WACV2025
