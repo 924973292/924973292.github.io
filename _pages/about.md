@@ -53,5 +53,4 @@ Scholarships
 
 Service
 ------
-- Reviewer
-- NeurIPS 2024, WACV2025,ICLR2025
+- Reviewer: NeurIPS 2024, WACV 2025,ICLR 2025
