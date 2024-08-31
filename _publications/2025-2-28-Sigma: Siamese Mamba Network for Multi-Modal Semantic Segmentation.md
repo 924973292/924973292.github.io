@@ -1,10 +1,10 @@
 ---
 title: "Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation"
 collection: publications
-permalink: /publication/2024-4-05-Siamese Mamba Network for Multi-Modal Semantic Segmentation
+permalink: /publication/2025-2-28-Siamese Mamba Network for Multi-Modal Semantic Segmentation
 excerpt: 'A Novel VMamba-based Method Focused on Multi-Modal Semantic Segmentation.'
-date: 2024-4-05
-venue: 'ArXiv'
+date: 2025-2-28
+venue: 'WACV'
 paperurl: 'https://arxiv.org/abs/2404.04256'
 codeurl: 'https://github.com/zifuwan/Sigma'
 ---
