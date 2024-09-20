@@ -28,7 +28,7 @@ table, th, td {
             <tbody>
               
               <tr>
-                <td class="noBorder" width="40%">
+                <td class="noBorder" width="100%">
                   <img width="360" src="{{ base_path }}/images/Sigma.png" alt="Sigma" style="border:0px">
                 </td>
                 <td>
@@ -48,7 +48,7 @@ table, th, td {
               </tr>
 
               <tr>
-                 <td class="noBorder" width="40%">
+                 <td class="noBorder" width="100%">
                       <img width="360" src="{{ base_path }}/images/EDITOR.png" alt="Sigma" style="border:0px">
                  </td>
                  <td>
