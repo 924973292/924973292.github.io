@@ -72,8 +72,8 @@ table, th, td {
                   <img width="360" src="{{ base_path }}/images/TOPReID.png" alt="Sigma" style="border:0px">
                 </td>
                 <td>
-                  <b>Sigma: Siamese Mamba Network for Multi-Modal</b> <br>
-                  <b>Semantic Segmentation</b>
+                  <b>TOP-ReID: Multi-spectral Object Re-Identification</b> <br>
+                  <b>with Token Permutation</b>
                   <br>
                   <b>Yuhao Wang<b>, Xuehu Liu, Pingping Zhang*, Hu Lu,<br>
                   Zhengzheng Tu, Huchuan Lu
