@@ -4,6 +4,16 @@ title: "👨🏻‍💻 Experience"
 permalink: /experience/
 author_profile: false
 ---
+
+<style>
+table, th, td {
+  border: none;
+  border-collapse: collapse;
+}
+</style>
+
+{% include base_path %}
+
 <hr>
 
 ## 🎓 Education
