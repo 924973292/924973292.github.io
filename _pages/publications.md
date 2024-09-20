@@ -98,8 +98,8 @@ table, th, td {
                   <img width="360" src="{{ base_path }}/images/FusionReID.png" alt="FusionReID" style="border:0px">
                 </td>
                 <td>
-                  <b>TOP-ReID: Multi-spectral Object Re-Identification</b> <br>
-                  <b>with Token Permutation</b>
+                  <b>Unity is Strength: Unifying Convolutional and Transformeral Features for</b> <br>
+                  <b>Better Person Re-Identification</b>
                   <br>
                   <b>Yuhao Wang</b>, Pingping Zhang*,  Xuehu Liu,<br>
                   Zhengzheng Tu, Huchuan Lu
