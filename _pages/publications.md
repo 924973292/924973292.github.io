@@ -54,8 +54,8 @@ table, th, td {
                       <img width="360" src="{{ base_path }}/images/EDITOR.png" alt="EDITOR" style="border:0px">
                  </td>
                  <td>
-                   <b>Magic tokens: Select diverse tokens for multi-modal</b> <br>
-                   <b>object re-identification</b>
+                   <b>Magic tokens: Select Diverse Tokens for Multi-Modal</b> <br>
+                   <b>Object Re-Identification</b>
                    <br>
                    Pingping Zhang*, <b>Yuhao Wang</b>, Yang Liu,<br>
                    Zhengzheng Tu, Huchuan Lu
