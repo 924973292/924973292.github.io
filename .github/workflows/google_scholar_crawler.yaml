@@ -21,7 +21,7 @@ jobs:
           cd ./results
           git config --local user.name "${GITHUB_ACTOR}"
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"  # 设置用户邮箱
-          git add *.json
+          git add -f *.json  # 强制添加被忽略的 JSON 文件
           git commit -m "Updated Citation Data" || echo "No changes to commit"
           git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" HEAD:google-scholar-stats --force
         env:
