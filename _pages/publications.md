@@ -75,7 +75,7 @@ table, th, td {
                   <b>TOP-ReID: Multi-spectral Object Re-Identification</b> <br>
                   <b>with Token Permutation</b>
                   <br>
-                  <b>Yuhao Wang<b>, Xuehu Liu, Pingping Zhang*, Hu Lu,<br>
+                  <b>Yuhao Wang</b>, Xuehu Liu, Pingping Zhang*, Hu Lu,<br>
                   Zhengzheng Tu, Huchuan Lu
                   <br>
                   <em> Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2024)</em>
