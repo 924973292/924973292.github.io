@@ -55,7 +55,7 @@ table, th, td {
                    <b>Magic tokens: Select diverse tokens for multi-modal</b> <br>
                    <b>object re-identification</b>
                    <br>
-                   <i>Pingping Zhang&#10024;</i>, <b>Yuhao Wang</b>, Yang Liu,<br>
+                   Pingping Zhang*, <b>Yuhao Wang</b>, Yang Liu,<br>
                    Zhengzheng Tu, Huchuan Lu
                    <br>
                    <em> IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2024)</em>
