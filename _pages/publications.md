@@ -28,7 +28,7 @@ table, th, td {
             <tbody>
               
               <tr>
-                <td class="noBorder" width="40%">
+                <td class="noBorder" width="40%" >
                   <img width="360" src="{{ base_path }}/images/Sigma.png" alt="Sigma" style="border:0px">
                 </td>
                 <td>
@@ -46,7 +46,9 @@ table, th, td {
                   <a href="{{ base_path }}/ciations/Sigma.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
                 </td>
               </tr>
-
+              <tr>
+                <td style="height: 20px;"></td> <!-- 插入空行来增加间距 -->
+              </tr>
               <tr>
                  <td class="noBorder" width="40%">
                       <img width="360" src="{{ base_path }}/images/EDITOR.png" alt="Sigma" style="border:0px">
