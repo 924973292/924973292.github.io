@@ -32,9 +32,10 @@ table, th, td {
                   <img width="360" src="{{ base_path }}/images/Sigma.png" alt="Sigma" style="border:0px">
                 </td>
                 <td>
-                  <b>Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation</b> <br>
+                  <b>Sigma: Siamese Mamba Network for Multi-Modal</b> <br>
+                  <b>Semantic Segmentation</b>
                   <br>
-                  <b>Zifu Wa</b>, Pingping Zhang, Yuhao Wang, Silong Yong,<br>
+                  Zifu Wan, Pingping Zhang, <b>Yuhao Wang</b>, Silong Yong,<br>
                   Simon Stepputtis, Katia Sycara, Yaqi Xie <br>
                   <br>
                   <em> IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2025)</em>
