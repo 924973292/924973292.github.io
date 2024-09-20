@@ -2,7 +2,7 @@
 layout: archive
 title: "👨🏻‍💻 Experience"
 permalink: /experience/
-author_profile: false
+author_profile: True
 ---
 
 <style>
