@@ -36,7 +36,7 @@ table, th, td {
                   <b>Semantic Segmentation</b>
                   <br>
                   Zifu Wan, Pingping Zhang, <b>Yuhao Wang</b>, Silong Yong,<br>
-                  Simon Stepputtis, Katia Sycara, Yaqi Xie <br>
+                  Simon Stepputtis, Katia Sycara, Yaqi Xie
                   <br>
                   <em> IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2025)</em>
                   <br>
