@@ -31,7 +31,3 @@ Highlights and News
 - 2023.12.27: Summary repository for multi-modal object ReID. [Link](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
 - 2023.12.09: One paper is accepted by AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>) [Code](https://github.com/924973292/TOP-ReID)
 
-
-Service
-------
-- Reviewer: NeurIPS 2024, WACV 2025, ICLR 2025
