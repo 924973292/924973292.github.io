@@ -13,6 +13,8 @@ Undergraduate Grades
 
 Competitions and Honors
 ------
+- Outstanding Graduate of Liaoning Province, Jun. 2024
+- Outstanding Undergraduate Thesis of Dalian University of Technology, Jun. 2024
 - 6th place CVPR2023 Workshop Smart City Challenge Apr. 2023
 - First Prize, National College Student Mathematical Modeling Competition (Team Leader) Feb. 2022
 - Outstanding Student, DLUT Dec. 2021
