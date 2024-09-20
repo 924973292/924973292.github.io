@@ -16,7 +16,7 @@ table, th, td {
 
 <hr>
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can find detailed information about my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 <br>
