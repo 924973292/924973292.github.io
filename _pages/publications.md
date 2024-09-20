@@ -86,6 +86,7 @@ table, th, td {
                   <a href="{{ base_path }}/ciations/TOPReID.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
                 </td>
               </tr>
+
             </tbody>
           </table>
 </font>
