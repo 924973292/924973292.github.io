@@ -21,7 +21,6 @@ table, th, td {
 
 <br>
 
-
 # 📝 Select Publications
 <hr>
 <font face="helvetica, ariel, &#39;sans serif&#39;">
@@ -52,4 +51,6 @@ table, th, td {
 
 </font>
 
+<!-- {% for post in site.publications reversed %}
+  {% include archive-single.html %}
 {% endfor %}  -->
