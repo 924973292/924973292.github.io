@@ -17,6 +17,10 @@ main:
     
 #  - title: "CV"
 #    url: /cv/
-    
+  - title: "Honors and Awards"
+    url: /honors-awards/
+
   - title: "Experience"
     url: /experience/
+
+

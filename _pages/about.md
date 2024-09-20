@@ -32,25 +32,6 @@ Highlights and News
 - 2023.12.09: One paper is accepted by AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>) [Code](https://github.com/924973292/TOP-ReID)
 
 
-Undergraduate Grades
-------
-- 1/94 (TOP 1%) in the School of Artificial Intelligence,Dalian University of Technology
-
-
-Competitions and Honors
-------
-- 6th place CVPR2023 Workshop Smart City Challenge Apr. 2023
-- First Prize, National College Student Mathematical Modeling Competition (Team Leader) Feb. 2022
-- Outstanding Student, DLUT Dec. 2021
-
-
-Scholarships
-------
-- National Scholarship Dec.  2021
-- National Encouragement Scholarship Dec. 2023 / 2022
-- Outstanding Academic Performance Scholarship Dec. 2023 / 2022 / 2021
-
-
 Service
 ------
 - Reviewer: NeurIPS 2024, WACV 2025, ICLR 2025
