@@ -47,28 +47,27 @@ table, th, td {
                 </td>
               </tr>
 
-                <tr>
-                    <td class="noBorder" width="40%">
+              <tr>
+                 <td class="noBorder" width="40%">
                       <img width="360" src="{{ base_path }}/images/EDITOR.png" alt="Sigma" style="border:0px">
-                    </td>
-                    <td>
-                      <b>Magic tokens: Select diverse tokens for multi-modal</b> <br>
-                      <b>object re-identification</b>
-                      <br>
-                      Pingping Zhang#10024;, <b>Yuhao Wang</b>, Yang Liu,<br>
-                      Zhengzheng Tu, Huchuan Lu
-                      <br>
-                      <em> IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2024)</em>
-                      <br>
-                      <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Magic_Tokens_Select_Diverse_Tokens_for_Multi-modal_Object_Re-Identification_CVPR_2024_paper.html"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
-                      <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FXiangboYin%2Fxiangboyin.github.io%40google-scholar-stats%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:qjMakFHDy7sC%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
-                      <a href="https://github.com/924973292/EDITOR"><img src="https://img.shields.io/github/stars/924973292/EDITOR?style=social" alt="GitHub Stars"></a>&nbsp;&nbsp;
-                      <a href="{{ base_path }}/ciations/EDITOR.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-
+                 </td>
+                 <td>
+                   <b>Magic tokens: Select diverse tokens for multi-modal</b> <br>
+                   <b>object re-identification</b>
+                   <br>
+                   <i>Pingping Zhang&#10024;</i>, <b>Yuhao Wang</b>, Yang Liu,<br>
+                   Zhengzheng Tu, Huchuan Lu
+                   <br>
+                   <em> IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR 2024)</em>
+                   <br>
+                   <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Magic_Tokens_Select_Diverse_Tokens_for_Multi-modal_Object_Re-Identification_CVPR_2024_paper.html"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
+                   <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FXiangboYin%2Fxiangboyin.github.io%40google-scholar-stats%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:qjMakFHDy7sC%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
+                   <a href="https://github.com/924973292/EDITOR"><img src="https://img.shields.io/github/stars/924973292/EDITOR?style=social" alt="GitHub Stars"></a>&nbsp;&nbsp;
+                   <a href="{{ base_path }}/ciations/EDITOR.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
+                 </td>
+              </tr>
+            </tbody>
+          </table>
 </font>
 
 <!-- {% for post in site.publications reversed %}
