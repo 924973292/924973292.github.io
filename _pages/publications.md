@@ -2,7 +2,7 @@
 layout: archive
 title: "📖 Publications"
 permalink: /publications/
-author_profile: true
+author_profile: True
 ---
 
 <style>
@@ -114,6 +114,7 @@ table, th, td {
               </tr>
             </tbody>
           </table>
+
 </font>
 
 <!-- {% for post in site.publications reversed %}
