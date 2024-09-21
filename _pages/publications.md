@@ -21,7 +21,7 @@ table, th, td {
 
 <br>
 
-# 📝 Select Publications
+# 📝 Selected Publications
 <hr>
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder" style="text-align:center">
