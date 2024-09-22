@@ -38,7 +38,7 @@ table, th, td {
                   Zifu Wan, Pingping Zhang, <b>Yuhao Wang</b>, Silong Yong,<br>
                   Simon Stepputtis, Katia Sycara, Yaqi Xie
                   <br>
-                  <em> Winter Conference on Applications of Computer Vision (WACV 2025)</em>
+                  <em> Winter Conference on Applications of Computer Vision <b>(WACV 2025)</b></em>
                   <br>
                   <a href="https://arxiv.org/abs/2404.04256"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
                   <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:qjMakFHDy7sC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
@@ -60,7 +60,7 @@ table, th, td {
                    Pingping Zhang*, <b>Yuhao Wang</b>, Yang Liu,<br>
                    Zhengzheng Tu, Huchuan Lu
                    <br>
-                   <em> Computer Vision and Pattern Recognition Conference (CVPR 2024)</em>
+                   <em> Computer Vision and Pattern Recognition Conference <b>(CVPR 2024)</b></em>
                    <br>
                    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Magic_Tokens_Select_Diverse_Tokens_for_Multi-modal_Object_Re-Identification_CVPR_2024_paper.html"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
                    <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:2osOgNQ5qMEC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:2osOgNQ5qMEC%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
@@ -82,7 +82,7 @@ table, th, td {
                   <b>Yuhao Wang</b>, Xuehu Liu, Pingping Zhang*, Hu Lu,<br>
                   Zhengzheng Tu, Huchuan Lu
                   <br>
-                  <em> AAAI Conference on Artificial Intelligence (AAAI 2024)</em>
+                  <em> AAAI Conference on Artificial Intelligence <b>(AAAI 2024)</b></em>
                   <br>
                   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
                   <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:IjCSPb-OGe4C"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:IjCSPb-OGe4C%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
@@ -104,7 +104,7 @@ table, th, td {
                   <b>Yuhao Wang</b>, Pingping Zhang*,  Xuehu Liu,<br>
                   Zhengzheng Tu, Huchuan Lu
                   <br>
-                  <em> Transactions on Intelligent Transportation Systems (TITS 2024)</em>
+                  <em> Transactions on Intelligent Transportation Systems <b>(TITS 2024)</b></em>
                   <br>
                   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
                   <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:qjMakFHDy7sC%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
