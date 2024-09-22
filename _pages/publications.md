@@ -29,7 +29,7 @@ table, th, td {
               
               <tr>
                 <td class="noBorder" width="40%" >
-                  <img width="360" src="{{ base_path }}/images/Sigma.png" alt="Sigma" style="border:0px">
+                  <img width="480" src="{{ base_path }}/images/Sigma.png" alt="Sigma" style="border:0px">
                 </td>
                 <td>
                   <b>Sigma: Siamese Mamba Network for Multi-Modal</b> <br>
@@ -53,7 +53,7 @@ table, th, td {
               </tr>
               <tr>
                  <td class="noBorder" width="40%">
-                      <img width="360" src="{{ base_path }}/images/EDITOR.png" alt="EDITOR" style="border:0px">
+                      <img width="480" src="{{ base_path }}/images/EDITOR.png" alt="EDITOR" style="border:0px">
                  </td>
                  <td>
                    <b>Magic tokens: Select Diverse Tokens for Multi-Modal</b> <br>
@@ -77,7 +77,7 @@ table, th, td {
               </tr>
               <tr>
                 <td class="noBorder" width="40%">
-                  <img width="360" src="{{ base_path }}/images/TOPReID.png" alt="TOPReID" style="border:0px">
+                  <img width="480" src="{{ base_path }}/images/TOPReID.png" alt="TOPReID" style="border:0px">
                 </td>
                 <td>
                   <b>TOP-ReID: Multi-spectral Object Re-Identification</b> <br>
@@ -101,7 +101,7 @@ table, th, td {
               </tr>
               <tr>
                 <td class="noBorder" width="40%">
-                  <img width="360" src="{{ base_path }}/images/FusionReID.png" alt="FusionReID" style="border:0px">
+                  <img width="480" src="{{ base_path }}/images/FusionReID.png" alt="FusionReID" style="border:0px">
                 </td>
                 <td>
                   <b>Unity is Strength: Unifying Convolutional and Transformeral Features for</b> <br>
