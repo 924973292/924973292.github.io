@@ -28,7 +28,7 @@ table, th, td {
             <tbody>
               
               <tr>
-                <td class="noBorder" width="40%" >
+                <td class="noBorder" width="60%" >
                   <img width="480" src="{{ base_path }}/images/Sigma.png" alt="Sigma" style="border:0px">
                 </td>
                 <td>
@@ -52,7 +52,7 @@ table, th, td {
                 <td style="height: 20px;"></td> <!-- 插入空行来增加间距 -->
               </tr>
               <tr>
-                 <td class="noBorder" width="40%">
+                 <td class="noBorder" width="60%">
                       <img width="480" src="{{ base_path }}/images/EDITOR.png" alt="EDITOR" style="border:0px">
                  </td>
                  <td>
@@ -76,7 +76,7 @@ table, th, td {
                 <td style="height: 20px;"></td> <!-- 插入空行来增加间距 -->
               </tr>
               <tr>
-                <td class="noBorder" width="40%">
+                <td class="noBorder" width="60%">
                   <img width="480" src="{{ base_path }}/images/TOPReID.png" alt="TOPReID" style="border:0px">
                 </td>
                 <td>
@@ -100,7 +100,7 @@ table, th, td {
                 <td style="height: 20px;"></td> <!-- 插入空行来增加间距 -->
               </tr>
               <tr>
-                <td class="noBorder" width="40%">
+                <td class="noBorder" width="60%">
                   <img width="480" src="{{ base_path }}/images/FusionReID.png" alt="FusionReID" style="border:0px">
                 </td>
                 <td>
