@@ -39,6 +39,7 @@ table, th, td {
                   Simon Stepputtis, Katia Sycara, Yaqi Xie
                   <br>
                   <em> IEEE/CVF Winter Conference on Applications of Computer Vision </em>
+                  <br>
                   <em> <b>WACV 2025</b> </em>
                   <br>
                   <a href="https://arxiv.org/abs/2404.04256"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
@@ -62,6 +63,7 @@ table, th, td {
                    Zhengzheng Tu, Huchuan Lu
                    <br>
                    <em> IEEE/CVF Computer Vision and Pattern Recognition Conference </em>
+                   <br>
                    <em> <b>CVPR 2024</b> </em>
                    <br>
                    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Magic_Tokens_Select_Diverse_Tokens_for_Multi-modal_Object_Re-Identification_CVPR_2024_paper.html"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
@@ -85,6 +87,7 @@ table, th, td {
                   Zhengzheng Tu, Huchuan Lu
                   <br>
                   <em> Proceedings of the AAAI Conference on Artificial Intelligence </em>
+                  <br>
                   <em> <b>AAAI 2024</b> </em>
                   <br>
                   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
@@ -108,6 +111,7 @@ table, th, td {
                   Zhengzheng Tu, Huchuan Lu
                   <br>
                   <em> IEEE Transactions on Intelligent Transportation Systems </em>
+                  <br>
                   <em> <b>TITS 2024</b></em>
                   <br>
                   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
