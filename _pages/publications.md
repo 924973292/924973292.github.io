@@ -2,7 +2,7 @@
 layout: archive
 title: "📖 Publications"
 permalink: /publications/
-author_profile: True
+author_profile: true
 ---
 
 <style>
@@ -21,7 +21,7 @@ table, th, td {
 
 <br>
 
-# 📝 Selected Publications 
+# 📝 Selected Publications
 <hr>
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder" style="text-align:center">
@@ -41,7 +41,7 @@ table, th, td {
                   <em> Winter Conference on Applications of Computer Vision (WACV 2025)</em>
                   <br>
                   <a href="https://arxiv.org/abs/2404.04256"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
-                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https://cdn.jsdelivr.net/gh/924973292/924973292.github.io@google-scholar-stats/google_scholar_crawler/results/gs_data.json&query=$['publications']['WZvjVLkAAAAJ%3AqjMakFHDy7sC']['num_citations']&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:qjMakFHDy7sC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
                   <a href="https://github.com/zifuwan/Sigma"><img src="https://img.shields.io/github/stars/zifuwan/Sigma?style=social" alt="GitHub Stars"></a>&nbsp;&nbsp;
                   <a href="{{ base_path }}/ciations/Sigma.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
                 </td>
@@ -114,7 +114,6 @@ table, th, td {
               </tr>
             </tbody>
           </table>
-
 </font>
 
 <!-- {% for post in site.publications reversed %}
