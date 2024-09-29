@@ -22,6 +22,7 @@ Competitions and Honors
 
 Scholarships
 ------
+- National Scholarship for Outstanding Recommended Graduate Students，Sep. 2024
 - National Scholarship，Dec. 2021
 - National Encouragement Scholarship，Dec. 2023 / 2022
 - Outstanding Academic Performance Scholarship，Dec. 2023 / 2022 / 2021
