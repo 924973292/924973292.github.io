@@ -25,6 +25,7 @@ Research Interest
 
 Highlights and News
 ------
+- 2024.09.30: Glad to win the **National Scholarship for Outstanding Recommended Graduate Students**.
 - 2024.08.31: One paper is accepted by WACV2025. [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/zifuwan/Sigma>)
 - 2024.05.04: Presented two posters at VALSE2024.
 - 2024.02.27: One paper is accepted by CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>) [Code](https://github.com/924973292/EDITOR)
