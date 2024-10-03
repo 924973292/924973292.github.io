@@ -34,5 +34,5 @@ Highlights and News
 
 
 <div style="display: flex; justify-content: center; align-items: center; height: 50vh;">
-  <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5m1v4rr09ms&s=500&m=0&v=true&r=false&b=ffffff&n=false&c=ff0000" async="async"></script>
+  <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5m1v4rr09ms&s=256&m=0&v=true&r=false&b=ffffff&n=false&c=ff0000" async="async"></script>
 </div>
