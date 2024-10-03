@@ -33,4 +33,6 @@ Highlights and News
 - 2023.12.09: One paper is accepted by AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>) [Code](https://github.com/924973292/TOP-ReID)
 
 
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5m1v4rr09ms&amp;s=220&amp;m=0&amp;v=true&amp;r=false&amp;b=ffffff&amp;n=false&amp;c=ff0000" async="async"></script>
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5m1v4rr09ms&s=300&m=0&v=true&r=false&b=ffffff&n=false&c=ff0000" async="async"></script>
+</div>
