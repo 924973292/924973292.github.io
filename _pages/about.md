@@ -14,7 +14,7 @@ More information about my research can be found on the [**Publications**](https:
 
 Contact
 ======
-Email:924973292@mail.dlut.deu.cn
+Email:924973292@mail.dlut.edu.cn
 
 WeChat:w924973292
 
