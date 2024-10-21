@@ -25,6 +25,7 @@ Research Interest
 
 Highlights and News
 ------
+- 2024.10.21: One paper is accepted by TITS2024. [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/924973292/FusionReID>)
 - 2024.09.30: Glad to win the **National Scholarship for Outstanding Recommended Graduate Students**.
 - 2024.08.31: One paper is accepted by WACV2025. [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/zifuwan/Sigma>)
 - 2024.05.04: Presented two posters at VALSE2024.
