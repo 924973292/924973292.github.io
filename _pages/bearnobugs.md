@@ -18,15 +18,14 @@ author_profile: True
 
   <!-- 照片展示区 -->
   <div class="photo-grid">
-    <!-- 每个照片元素 -->
-    <div class="photo-item" onclick="openModal('photo1.jpg')">
-      <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG180279.jpg" alt="BearNoBugs in action" class="photo">
-      <p class="caption">Exploring the world! 🌍</p>
-    </div>
+  <div class="photo-item" onclick="openModal('https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG180279.jpg')">
+    <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG180279.jpg" alt="BearNoBugs in action" class="photo">
+    <p class="caption">Exploring the world! 🌍</p>
+  </div>
   </div>
 </div>
 
-<!-- 模态框，用于放大照片 -->
+<!-- 模态框 -->
 <div id="modal" class="modal">
   <span class="close" onclick="closeModal()">&times;</span>
   <img class="modal-content" id="modalImage">
@@ -130,7 +129,7 @@ author_profile: True
   }
 </style>
 
-<!-- JavaScript 用于交互 -->
+<!-- JavaScript -->
 <script>
   function openModal(imageSrc) {
     var modal = document.getElementById('modal');
