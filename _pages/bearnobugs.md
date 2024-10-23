@@ -142,4 +142,12 @@ author_profile: True
     var modal = document.getElementById('modal');
     modal.style.display = 'none';
   }
+
+ // 点击模态框外部时关闭模态框
+  window.onclick = function(event) {
+    var modal = document.getElementById('modal');
+    if (event.target == modal) {
+      closeModal(); // 调用关闭模态框的函数
+    }
+  }
 </script>
