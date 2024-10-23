@@ -73,7 +73,7 @@ author_profile: True
     width: 100%; /* 确保图片宽度100% */
     height: auto; /* 高度自适应 */
     max-width: 300px; /* 设置最大宽度 */
-    max-height: 350px; /* 设置最大高度 */
+    max-height: 400px; /* 设置最大高度 */
     border-radius: 10px;
     transition: transform 0.3s ease, filter 0.3s ease;
   }
