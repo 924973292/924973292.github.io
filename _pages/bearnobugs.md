@@ -17,26 +17,6 @@ author_profile: True
       <img src="images/bearnobugs/WechatIMG180279.jpg" alt="BearNoBugs in action" class="photo">
       <p class="caption">Exploring the world! 🌍</p>
     </div>
-
-[//]: # (    <div class="photo-item" onclick="openModal&#40;'photo2.jpg'&#41;">)
-
-[//]: # (      <img src="/path/to/photo2.jpg" alt="BearNoBugs chilling" class="photo">)
-
-[//]: # (      <p class="caption">Chilling with style 😎</p>)
-
-[//]: # (    </div>)
-
-[//]: # ()
-[//]: # (    <div class="photo-item" onclick="openModal&#40;'photo3.jpg'&#41;">)
-
-[//]: # (      <img src="/path/to/photo3.jpg" alt="BearNoBugs coding" class="photo">)
-
-[//]: # (      <p class="caption">Deep in coding mode 💻</p>)
-
-[//]: # (    </div>)
-
-[//]: # ()
-[//]: # (    <!-- 更多照片元素... -->)
   </div>
 </div>
 
