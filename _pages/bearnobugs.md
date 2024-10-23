@@ -13,7 +13,7 @@ author_profile: True
   <h1 class="title">Welcome to BearNoBugs' Photo Exhibition! 🖼️</h1>
   <p class="description">
   Explore the vibrant world of BearNoBugs through these dynamic and playful photos! Click or hover on the photos for surprises! 🎉 
-  <strong>（All BearBugs were gifted by my girlfriend Yueru! 💖）</strong>
+  <strong>（All BearBugs are gifted by my girlfriend Yueru! 💖）</strong>
   </p>
 
   <!-- 照片展示区 -->
@@ -43,7 +43,7 @@ author_profile: True
 
   .title {
     font-size: 2.5em;
-    color: #e3dfd5;
+    color: #ede2c3;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
