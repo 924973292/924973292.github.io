@@ -11,13 +11,16 @@ author_profile: True
 <!-- 页面主容器 -->
 <div class="exhibition-container">
   <h1 class="title">Welcome to BearNoBugs' Photo Exhibition! 🖼️</h1>
-  <p class="description">Explore the vibrant world of BearNoBugs through these dynamic and playful photos! Click or hover on the photos for surprises! 🎉</p>
+  <p class="description">
+  Explore the vibrant world of BearNoBugs through these dynamic and playful photos! Click or hover on the photos for surprises! 🎉 
+  <strong>（All BearBugs were gifted by my girlfriend Yueru! 💖）</strong>
+  </p>
 
   <!-- 照片展示区 -->
   <div class="photo-grid">
     <!-- 每个照片元素 -->
     <div class="photo-item" onclick="openModal('photo1.jpg')">
-      <img src="images/bearnobugs/WechatIMG180279.jpg" alt="BearNoBugs in action" class="photo">
+      <img src="https://924973292.github.io/images/bearnobugs/WechatIMG180279.jpg" alt="BearNoBugs in action" class="photo">
       <p class="caption">Exploring the world! 🌍</p>
     </div>
   </div>
