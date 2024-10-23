@@ -20,6 +20,21 @@ author_profile: True
       <p class="caption">Exploring the world! 🌍</p>
     </div>
   </div>
+
+  <div class="photo-item">
+      <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG321.jpg" alt="BearNoBugs chilling" class="photo">
+      <p class="caption">Chilling with style 😎</p>
+  </div>
+  
+  <div class="photo-item">
+      <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG322.jpg" alt="BearNoBugs chilling" class="photo">
+      <p class="caption">Chilling with style 😎</p>
+  </div>
+
+  <div class="photo-item">
+      <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG323.jpg" alt="BearNoBugs chilling" class="photo">
+      <p class="caption">Chilling with style 😎</p>
+  </div>
 </div>
 
 <!-- CSS 样式部分 -->
