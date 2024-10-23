@@ -19,17 +19,14 @@ author_profile: True
       <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG180279.jpg" alt="BearNoBugs in action" class="photo">
       <p class="caption">Exploring the world! 🌍</p>
     </div>
-    
     <div class="photo-item">
       <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG321.jpg" alt="BearNoBugs chilling" class="photo">
       <p class="caption">Chilling with style 😎</p>
     </div>
-    
     <div class="photo-item">
       <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG322.jpg" alt="BearNoBugs chilling" class="photo">
       <p class="caption">Chilling with style 😎</p>
     </div>
-
     <div class="photo-item">
       <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG323.jpg" alt="BearNoBugs chilling" class="photo">
       <p class="caption">Chilling with style 😎</p>
@@ -76,7 +73,7 @@ author_profile: True
     width: 100%; /* 确保图片宽度100% */
     height: auto; /* 高度自适应 */
     max-width: 300px; /* 设置最大宽度 */
-    max-height: 200px; /* 设置最大高度 */
+    max-height: 350px; /* 设置最大高度 */
     border-radius: 10px;
     transition: transform 0.3s ease, filter 0.3s ease;
   }
