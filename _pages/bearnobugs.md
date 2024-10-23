@@ -5,7 +5,7 @@ permalink: /exhibition/
 author_profile: True
 ---
 
-{% include base_path %}
+
 
 
 <!-- 页面主容器 -->
@@ -17,7 +17,7 @@ author_profile: True
   <div class="photo-grid">
     <!-- 每个照片元素 -->
     <div class="photo-item" onclick="openModal('photo1.jpg')">
-      <img src="{{ base_path }}/images/bearnobugs/WechatIMG180279.jpg" alt="BearNoBugs in action" class="photo">
+      <img src="{{ site.baseurl }}/images/bearnobugs/WechatIMG180279.jpg" alt="BearNoBugs in action" class="photo">
       <p class="caption">Exploring the world! 🌍</p>
     </div>
   </div>
