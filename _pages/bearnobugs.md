@@ -19,21 +19,21 @@ author_profile: True
       <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG180279.jpg" alt="BearNoBugs in action" class="photo">
       <p class="caption">Exploring the world! 🌍</p>
     </div>
-  </div>
-
-  <div class="photo-item">
+    
+    <div class="photo-item">
       <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG321.jpg" alt="BearNoBugs chilling" class="photo">
       <p class="caption">Chilling with style 😎</p>
-  </div>
-  
-  <div class="photo-item">
+    </div>
+    
+    <div class="photo-item">
       <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG322.jpg" alt="BearNoBugs chilling" class="photo">
       <p class="caption">Chilling with style 😎</p>
-  </div>
+    </div>
 
-  <div class="photo-item">
+    <div class="photo-item">
       <img src="https://raw.githubusercontent.com/924973292/924973292.github.io/master/images/bearnobugs/WechatIMG323.jpg" alt="BearNoBugs chilling" class="photo">
       <p class="caption">Chilling with style 😎</p>
+    </div>
   </div>
 </div>
 
@@ -63,7 +63,7 @@ author_profile: True
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+    gap: 20px; /* 图片间隔 */
   }
 
   .photo-item {
@@ -72,20 +72,18 @@ author_profile: True
     cursor: pointer;
   }
 
+  .photo {
+    width: 100%; /* 确保图片宽度100% */
+    height: auto; /* 高度自适应 */
+    max-width: 300px; /* 设置最大宽度 */
+    max-height: 200px; /* 设置最大高度 */
+    border-radius: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
   .photo-item:hover img {
     transform: scale(1.1); /* 鼠标悬停时放大 */
     filter: brightness(0.8);
-  }
-
-  .photo-item:hover .caption {
-    opacity: 1;
-  }
-
-  .photo {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.3s ease, filter 0.3s ease;
   }
 
   .caption {
@@ -99,9 +97,8 @@ author_profile: True
     opacity: 0;
     transition: opacity 0.3s ease;
   }
-</style>
 
-<!-- JavaScript -->
-<script>
-  // 删除模态框的相关代码
-</script>
+  .photo-item:hover .caption {
+    opacity: 1;
+  }
+</style>
