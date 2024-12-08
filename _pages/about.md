@@ -23,7 +23,7 @@ Research Interest
 - Computer Vision, Multimodal Retrieval, Human-centric Perception
 
 ## Internship
-- **[LV LAB](<http://www.lv-nus.org/>)**, National University of Singapore, Singapore, 2024.12 - 2025.03
+- **[LV LAB](<http://www.lv-nus.org/>)**, National University of Singapore, Singapore, 2024.12 - 2025.03, supervised by Professor [**Xinchao Wang**](https://sites.google.com/site/sitexinchaowang/).
 
 Highlights and News
 ------
