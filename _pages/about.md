@@ -22,9 +22,12 @@ Research Interest
 ------
 - Computer Vision, Multimodal Retrieval, Human-centric Perception
 
+## Internship
+- **[LV LAB](<http://www.lv-nus.org/>)**, National University of Singapore, Singapore, 2024.12 - 2025.03
 
 Highlights and News
 ------
+- 2024.12.08: Start my internship at **[LV LAB](<http://www.lv-nus.org/>)** in NUS.
 - 2024.10.21: One paper is accepted by TITS2024. [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/924973292/FusionReID>)
 - 2024.09.30: Glad to win the **National Scholarship for Outstanding Recommended Graduate Students**.
 - 2024.08.31: One paper is accepted by WACV2025. [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/zifuwan/Sigma>)
