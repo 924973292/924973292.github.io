@@ -7,14 +7,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-{% include base_path %}
 
 My name is Yuhao Wang (王宇皓), and I am currently a first-year master's student majoring in Artificial Intelligence at the School of Computer Science and Technology, Dalian University of Technology.
 I am conducting research in multimodal retrieval under the guidance of Professor [**Huchuan Lu (卢湖川)**](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=ao) **(IEEE Fellow)** at the  [**IIAU**](https://futureschool.dlut.edu.cn/IIAU.htm) Laboratory and primarily under the supervision of Professor [**Pingping Zhang (张平平)**](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN&oi=ao).
 More information about my research can be found on the [**Publications**](https://924973292.github.io//publications/).
 
-## Internship
-- <img src="<{{ base_path }}/images/Inter/lvlogo.png>" alt="LV LAB Logo" style="width:40px; height:40px; vertical-align:middle; margin-right:5px;"> **[LV LAB](<http://www.lv-nus.org/>)**, National University of Singapore, Singapore, 2024.12 - 2025.03, supervised by Professor [**Xinchao Wang**](https://sites.google.com/site/sitexinchaowang/).
+Internship
+======
+- <img src="images/Inter/lvlogo.png>" alt="LV LAB Logo" style="width:40px; height:40px; vertical-align:middle; margin-right:5px;"> **[LV LAB]**(https://www.lv-nus.org/), National University of Singapore, Singapore, 2024.12 - 2025.03, supervised by Professor [**Xinchao Wang**](https://sites.google.com/site/sitexinchaowang/).
 
 Contact
 ======
