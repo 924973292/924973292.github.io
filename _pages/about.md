@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-My name is Yuhao Wang (王宇皓), and I am currently a first-year master's student majoring in Artificial Intelligence at the School of Computer Science and Technology, Dalian University of Technology.
-I am conducting research in multimodal retrieval under the guidance of Professor [**Huchuan Lu (卢湖川)**](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=ao) **(IEEE Fellow)** at the  [**IIAU**](https://futureschool.dlut.edu.cn/IIAU.htm) Laboratory and primarily under the supervision of Professor [**Pingping Zhang (张平平)**](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN&oi=ao).
-More information about my research can be found on the [**Publications**](https://924973292.github.io//publications/).
+Welcome to my homepage! My name is Yuhao Wang, currently a first-year master's student at [**IIAU Lab**](https://futureschool.dlut.edu.cn/IIAU.htm), Dalian University of Technology.
+I am conducting research under the guidance of Prof. [**Huchuan Lu (卢湖川)**](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=ao) **(IEEE Fellow)** and primarily under the supervision of Prof. [**Pingping Zhang (张平平)**](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN&oi=ao).
+Prior to that, I got my B.Eng. Degree from Dalian University of Technology.
+
+My current research interests are mainly about **Multimodal Retrieval** and **Human-centric Perception**. More information about my research can be found on the [**Publications**](https://924973292.github.io//publications/).
 
 Internship
 ------
@@ -19,13 +21,8 @@ Internship
 
 Contact
 ------
-Email:924973292@mail.dlut.edu.cn
-
-WeChat:w924973292
-
-Research Interest
-------
-- Multimodal Retrieval, Human-centric Perception
+- Email:924973292@mail.dlut.edu.cn
+- WeChat:w924973292
 
 Highlights and News
 ------
