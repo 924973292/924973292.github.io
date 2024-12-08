@@ -33,8 +33,8 @@ table, th, td {
 <hr>
 <ul>
     <li>
-        <strong><i>2024.12 - 2025.03</i></strong> 
-        <img src="{{ base_path }}/images/Inter/lvlogo.png" alt="LV LAB Logo" style="width:20px; height:20px; vertical-align:middle; margin-left:5px;">: 
+        <img src="{{ base_path }}/images/Inter/lvlogo.png" alt="LV LAB Logo" style="width:40px; height:40px; vertical-align:middle; margin-left:5px;">
+        <strong><i>2024.12 - 2025.03</i></strong>
         Research Intern at <a href="http://www.lv-nus.org/" target="_blank"><strong>LV LAB</strong></a>, 
         National University of Singapore, Singapore, supervised by Professor 
         <a href="https://sites.google.com/site/sitexinchaowang/" target="_blank"><strong>Xinchao Wang</strong></a>.
