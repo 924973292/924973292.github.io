@@ -14,6 +14,10 @@ Prior to that, I got my B.Eng. Degree from Dalian University of Technology.
 
 My current research interests are mainly about **Multimodal Retrieval** and **Human-centric Perception**. More information about my research can be found on the [**Publications**](https://924973292.github.io//publications/).
 
+<div style="text-align: center; font-style: italic; font-size: 1.1em; margin-top: 20px; color: gray;">
+  “生如芥子，心藏须弥.” -- None
+</div>
+
 Highlights and News
 ------
 - 2024.12.08: Start my internship at **[LV LAB](<http://www.lv-nus.org/>)** in NUS.
