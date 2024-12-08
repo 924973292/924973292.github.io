@@ -32,3 +32,8 @@ table, th, td {
 
 ## 💼 Work
 <hr>
+<ul>
+    <li>
+        <strong><i>2024.12 - 2025.03</i></strong>: Research Intern at [**LV LAB**](http://www.lv-nus.org/), National University of Singapore, Singapore, supervised by Professor [**Xinchao Wang**](https://sites.google.com/site/sitexinchaowang/).
+    </li>
+</ul>
