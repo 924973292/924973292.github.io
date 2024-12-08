@@ -14,7 +14,7 @@ More information about my research can be found on the [**Publications**](https:
 
 Internship
 ======
-- <img src="images/Inter/lvlogo.png>" alt="LV LAB Logo" style="width:40px; height:40px; vertical-align:middle; margin-right:5px;"> **[LV LAB]**(https://www.lv-nus.org/), National University of Singapore, Singapore, 2024.12 - 2025.03, supervised by Professor [**Xinchao Wang**](https://sites.google.com/site/sitexinchaowang/).
+- **2024.12 - 2025.03** **[LV LAB](https://www.lv-nus.org/)**, National University of Singapore, Singapore, supervised by Professor [**Xinchao Wang**](https://sites.google.com/site/sitexinchaowang/).
 
 Contact
 ======
