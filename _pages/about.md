@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yuhao Wang (王宇皓)"
+title: "Yuhao Wang"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
