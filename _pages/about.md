@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yuhao Wang"
+title: "Yuhao Wang (王宇皓)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,16 +14,6 @@ Prior to that, I got my B.Eng. Degree from Dalian University of Technology.
 
 My current research interests are mainly about **Multimodal Retrieval** and **Human-centric Perception**. More information about my research can be found on the [**Publications**](https://924973292.github.io//publications/).
 
-Internship
-------
-- <img src="{{ base_path }}/images/Inter/lvlogo.png" alt="LV LAB Logo" style="width:40px; height:40px; vertical-align:middle; margin-right:5px;">**2024.12 - 2025.03**  
-  **[LV LAB](https://www.lv-nus.org/)**, National University of Singapore, Singapore, supervised by Professor [**Xinchao Wang**](https://sites.google.com/site/sitexinchaowang/).
-
-Contact
-------
-- Email:924973292@mail.dlut.edu.cn
-- WeChat:w924973292
-
 Highlights and News
 ------
 - 2024.12.08: Start my internship at **[LV LAB](<http://www.lv-nus.org/>)** in NUS.
@@ -34,6 +24,16 @@ Highlights and News
 - 2024.02.27: One paper is accepted by CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>) [Code](https://github.com/924973292/EDITOR)
 - 2023.12.27: Summary repository for multi-modal object ReID. [Link](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
 - 2023.12.09: One paper is accepted by AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>) [Code](https://github.com/924973292/TOP-ReID)
+
+Internship
+------
+- <img src="{{ base_path }}/images/Inter/lvlogo.png" alt="LV LAB Logo" style="width:40px; height:40px; vertical-align:middle; margin-right:5px;">**2024.12 - 2025.03**  
+  **[LV LAB](https://www.lv-nus.org/)**, National University of Singapore, Singapore, supervised by Professor [**Xinchao Wang**](https://sites.google.com/site/sitexinchaowang/).
+
+Contact
+------
+- Email:924973292@mail.dlut.edu.cn
+- WeChat:w924973292
 
 
 
