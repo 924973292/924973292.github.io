@@ -13,12 +13,12 @@ I am conducting research in multimodal retrieval under the guidance of Professor
 More information about my research can be found on the [**Publications**](https://924973292.github.io//publications/).
 
 Internship
-======
-- **2024.12 - 2025.03**  ![LV LAB Logo](<{{ base_path }}/images/Inter/lvlogo.png>)  
+------
+- **2024.12 - 2025.03**  <img src="{{ base_path }}/images/Inter/lvlogo.png" alt="LV LAB Logo" style="width:20px; height:20px; vertical-align:middle; margin-right:5px;">    
   **[LV LAB](https://www.lv-nus.org/)**, National University of Singapore, Singapore, supervised by Professor [**Xinchao Wang**](https://sites.google.com/site/sitexinchaowang/).
 
 Contact
-======
+------
 Email:924973292@mail.dlut.edu.cn
 
 WeChat:w924973292
