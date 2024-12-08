@@ -7,6 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<div style="text-align: center; margin-bottom: 20px;">
+  <h1>Yuhao Wang</h1>
+</div>
 
 Welcome to my homepage! My name is Yuhao Wang, currently a first-year master's student at [**IIAU Lab**](https://futureschool.dlut.edu.cn/IIAU.htm), Dalian University of Technology.
 I am conducting research under the guidance of Prof. [**Huchuan Lu (卢湖川)**](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=ao) **(IEEE Fellow)** and primarily under the supervision of Prof. [**Pingping Zhang (张平平)**](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN&oi=ao).
