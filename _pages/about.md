@@ -24,7 +24,7 @@ WeChat:w924973292
 
 Research Interest
 ------
-- Computer Vision, Multimodal Retrieval, Human-centric Perception
+- Multimodal Retrieval, Human-centric Perception
 
 Highlights and News
 ------
