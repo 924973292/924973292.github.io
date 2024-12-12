@@ -8,6 +8,7 @@ author_profile: True
 
 ## Conference Reviewer
 <ul>
+    <li>ICML 2025</li>
     <li>ICLR 2025</li>
     <li>WACV 2025</li>
     <li>NeurIPS 2024</li>
