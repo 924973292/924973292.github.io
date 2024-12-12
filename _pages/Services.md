@@ -14,6 +14,7 @@ author_profile: True
     <li>NeurIPS 2024</li>
 </ul>
 
+---
 
 ## Journal Reviewer
 <ul>
