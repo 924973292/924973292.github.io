@@ -20,9 +20,9 @@ My current research interests are mainly about **Multimodal Retrieval** and **Hu
 
 Highlights and News
 ------
+- 2024.12.13: 🥳🥳🥳🥳 After nearly two years of submissions, my first work, *Unity is Strength: Unifying Convolutional and Transformer Features for Better Person Re-Identification*, has finally been officially accepted by IEEE TITS! This comprehensive research journey has laid a solid foundation for my future studies. [Code](<https://github.com/924973292/FusionReID>)
 - 2024.12.10: 🥳🥳🥳🥳 Three papers are accepted by AAAI2025. First author for two papers about **Multi-modal Object ReID**. 
 - 2024.12.08: Start my internship at **[LV LAB](<http://www.lv-nus.org/>)** in NUS.
-- 2024.10.21: One paper is accepted by TITS2024. [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/924973292/FusionReID>)
 - 2024.09.30: Glad to win the **National Scholarship for Outstanding Recommended Graduate Students**.
 - 2024.08.31: One paper is accepted by WACV2025. [Paper](<https://arxiv.org/abs/2404.04256>) [Code](<https://github.com/zifuwan/Sigma>)
 - 2024.05.04: Presented two posters at VALSE2024.
