@@ -26,7 +26,6 @@ table, th, td {
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder" style="text-align:center">
             <tbody>
-              
               <tr>
                 <td class="noBorder" width="44%" >
                   <img width="480" src="{{ base_path }}/images/Sigma.png" alt="Sigma" style="border:0px">
