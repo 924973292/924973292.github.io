@@ -28,29 +28,6 @@ table, th, td {
             <tbody>
               <tr>
                 <td class="noBorder" width="44%" >
-                  <img width="480" src="{{ base_path }}/images/DeMo.png" alt="DeMo" style="border:0px">
-                </td>
-                <td>
-                  <b>DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal/b> <br>
-                  <b>Object Re-Identification</b>
-                  <br>
-                  <b>Yuhao Wang</b>, Yang Liu, Aihua Zheng, Pingping Zhang<br>
-                  <br>
-                  <em> Proceedings of the AAAI Conference on Artificial Intelligence </em>
-                  <br>
-                  <em> <b>AAAI 2025</b> </em>
-                  <br>
-                  <a href="https://arxiv.org/abs/2404.04256"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
-                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:qjMakFHDy7sC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
-                  <a href="https://github.com/zifuwan/Sigma"><img src="https://img.shields.io/github/stars/zifuwan/Sigma?style=social" alt="GitHub Stars"></a>&nbsp;&nbsp;
-                  <a href="{{ base_path }}/ciations/Sigma.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
-                </td>
-              </tr>
-              <tr>
-                <td style="height: 20px;"></td> <!-- 插入空行来增加间距 -->
-              </tr>
-              <tr>
-                <td class="noBorder" width="44%" >
                   <img width="480" src="{{ base_path }}/images/Sigma.png" alt="Sigma" style="border:0px">
                 </td>
                 <td>
