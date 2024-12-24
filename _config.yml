@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yuhao Wang"
   avatar           : "WangYuhao.png"
-  bio              : "DLUT"
+  bio              : "DLUT [CV](https://924973292.github.io/CV/resume.pdf)"
   location         : "Dalian  China "
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  CV               : "./CV/resume.pdf"
+  twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
