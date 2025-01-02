@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my homepage! My name is **Yuhao Wang (王宇皓)**, currently a first-year master's student at [**IIAU Lab**](https://futureschool.dlut.edu.cn/IIAU.htm), Dalian University of Technology.
+Welcome to my homepage! My name is **Yuhao Wang (王宇皓)**, currently a first-year master's student at [**IIAU Lab**](https://futureschool.dlut.edu.cn/wljsxy_old/IIAU.htm), Dalian University of Technology.
 I am conducting research under the guidance of Prof. [**Huchuan Lu (卢湖川)**](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=ao) **(IEEE Fellow)** and primarily under the supervision of Prof. [**Pingping Zhang (张平平)**](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN&oi=ao).
 Prior to that, I got my B.Eng. Degree from Dalian University of Technology.
 
