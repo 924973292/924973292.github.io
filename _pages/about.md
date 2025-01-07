@@ -14,12 +14,14 @@ Prior to that, I got my B.Eng. Degree from Dalian University of Technology.
 
 My current research interests are mainly about **Multimodal Retrieval** and **Human-centric Perception**. More information about my research can be found on the [**Publications**](https://924973292.github.io//publications/).
 
-Awesome-Collections:
-- [Awesome-Multi-Modal-Object-Re-Identification](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
-
 <div style="text-align: left; font-style: italic; font-size: 0.9em; margin-top: 27px; color: lightgrey; font-family: 'Georgia', 'Times New Roman', serif;">
   “ 生如芥子，心藏须弥 ” -- NONE
 </div>
+
+## Awesome Repositories
+- [Awesome-Multi-Modal-Object-Re-Identification](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
+- [Awesome-EfficientAI-for-MLLM](<https://github.com/924973292/Awesome-EfficientAI-for-MLLM>)
+
 
 Highlights and News
 ------
