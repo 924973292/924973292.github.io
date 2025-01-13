@@ -33,8 +33,8 @@ table, th, td {
                 <td>
                   <b>DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal</b> <br>
                   <b>Object Re-Identification</b>
-                  <b>Yuhao Wang</b>, Yang Liu, Aihua Zheng, Pingping Zhang*<br>
                   <br>
+                  <b>Yuhao Wang</b>, Yang Liu, Aihua Zheng, Pingping Zhang*<br>
                   <em> AAAI Conference on Artificial Intelligence </em>
                   <br>
                   <em> <b>AAAI 2025</b> </em>
