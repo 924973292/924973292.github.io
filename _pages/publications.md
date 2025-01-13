@@ -114,9 +114,9 @@ table, th, td {
                   <em> <b>TITS 2024</b></em>
                   <br>
                   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
-                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:qjMakFHDy7sC%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Y0pCki6q_DkC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:Y0pCki6q_DkC%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
                   <a href="https://github.com/924973292/FusionReID"><img src="https://img.shields.io/github/stars/924973292/FusionReID?style=social" alt="GitHub Stars"></a>&nbsp;&nbsp;
-                  <a href="{{ base_path }}/ciations/TOPReID.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
+                  <a href="{{ base_path }}/ciations/FusionReID.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
                 </td>
               </tr>
             </tbody>
