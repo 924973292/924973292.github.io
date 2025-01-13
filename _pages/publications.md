@@ -26,6 +26,28 @@ table, th, td {
 <font face="helvetica, ariel, &#39;sans serif&#39;">
         <table cellspacing="0" cellpadding="0" class="noBorder" style="text-align:center">
             <tbody>
+               <tr>
+                <td class="noBorder" width="44%" >
+                  <img width="480" src="{{ base_path }}/images/DeMo.png" alt="DeMo" style="border:0px">
+                </td>
+                <td>
+                  <b>DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal</b> <br>
+                  <b>Object Re-Identification</b>
+                  <b>Yuhao Wang</b>, Yang Liu, Aihua Zheng, Pingping Zhang*<br>
+                  <br>
+                  <em> AAAI Conference on Artificial Intelligence </em>
+                  <br>
+                  <em> <b>AAAI 2025</b> </em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2412.10650"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:hqOjcs7Dif8C"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:hqOjcs7Dif8C'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
+                  <a href="https://github.com/924973292/DeMo"><img src="https://img.shields.io/github/stars/924973292/DeMo?style=social" alt="GitHub Stars"></a>&nbsp;&nbsp;
+                  <a href="{{ base_path }}/ciations/DeMo.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
+                </td>
+              </tr>
+              <tr>
+                <td style="height: 20px;"></td> <!-- 插入空行来增加间距 -->
+              </tr>
               <tr>
                 <td class="noBorder" width="44%" >
                   <img width="480" src="{{ base_path }}/images/MambaPro.png" alt="MambaPro" style="border:0px">
@@ -136,7 +158,7 @@ table, th, td {
                   <br>
                   <em> <b>TITS 2024</b></em>
                   <br>
-                  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
+                  <a href="https://arxiv.org/abs/2412.17239"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
                   <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Y0pCki6q_DkC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:Y0pCki6q_DkC%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
                   <a href="https://github.com/924973292/FusionReID"><img src="https://img.shields.io/github/stars/924973292/FusionReID?style=social" alt="GitHub Stars"></a>&nbsp;&nbsp;
                   <a href="{{ base_path }}/ciations/FusionReID.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
