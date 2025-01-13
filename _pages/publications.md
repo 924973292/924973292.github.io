@@ -56,7 +56,8 @@ table, th, td {
                   <b>MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation</b> <br>
                   <b>and Synergistic Prompt</b>
                   <br>
-                  <b>Yuhao Wang</b>, Xuehu Liu, Yang Liu, Aihua Zheng, Pingping Zhang*, Huchuan Lu<br>
+                  <b>Yuhao Wang</b>, Xuehu Liu, Yang Liu, Aihua Zheng,<br>
+                  Pingping Zhang*, Huchuan Lu
                   <br>
                   <em> AAAI Conference on Artificial Intelligence </em>
                   <br>
