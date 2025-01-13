@@ -19,8 +19,8 @@ My current research interests are mainly about **Multimodal Retrieval** and **Hu
 </div>
 
 ## Awesome Repositories
-- [Awesome-Multi-Modal-Object-Re-Identification](<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
-- [Awesome-EfficientAI-for-MLLM](<https://github.com/924973292/Awesome-EfficientAI-for-MLLM>)
+- **[Awesome-Multi-Modal-Object-Re-Identification]**(<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
+- **[Awesome-EfficientAI-for-MLLM]**(<https://github.com/924973292/Awesome-EfficientAI-for-MLLM>)
 
 
 Highlights and News
