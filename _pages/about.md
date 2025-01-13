@@ -22,7 +22,6 @@ My current research interests are mainly about **Multimodal Retrieval** and **Hu
 - **[Awesome-Multi-Modal-Object-Re-Identification]**(<https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification>)
 - **[Awesome-EfficientAI-for-MLLM]**(<https://github.com/924973292/Awesome-EfficientAI-for-MLLM>)
 
-
 Highlights and News
 ------
 - 2024.12.13: One paper is accepted by IEEE TITS. [Paper](https://arxiv.org/abs/2412.17239) [Code](<https://github.com/924973292/FusionReID>)
