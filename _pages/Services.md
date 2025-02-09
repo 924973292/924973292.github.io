@@ -18,5 +18,6 @@ author_profile: True
 
 ## Journal Reviewer
 <ul>
-    <li></li>
+    <li>TMM</li>
+    <li>TETCI</li>
 </ul>
