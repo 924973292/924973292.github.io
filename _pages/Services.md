@@ -11,7 +11,7 @@ author_profile: True
     <li>ICML 2025</li>
     <li>ICLR 2025</li>
     <li>WACV 2025</li>
-    <li>NeurIPS 2024</li>
+    <li>NeurIPS 2024、2025</li>
 </ul>
 
 ---
