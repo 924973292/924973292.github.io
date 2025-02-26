@@ -25,7 +25,7 @@ My current research interests are mainly about **Multimodal Retrieval** and **Hu
 
 Highlights and News
 ------
-[//]: # (- 2025.02.26: One paper is accepted by CVPR2025. )
+- 2025.02.27: One paper about **Multi-modal Object ReID** is accepted by CVPR2025. MLLMs are the future!
 - 2024.12.13: One paper is accepted by IEEE TITS. [Paper](https://arxiv.org/abs/2412.17239) [Code](<https://github.com/924973292/FusionReID>)
 - 2024.12.10: Three papers are accepted by AAAI2025. First author for two papers about **Multi-modal Object ReID**. [DeMo](https://github.com/924973292/DeMo) / [MambaPro](https://github.com/924973292/MambaPro)
 - 2024.12.08: Start my internship at **[LV LAB](<http://www.lv-nus.org/>)** in NUS.
