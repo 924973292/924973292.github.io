@@ -38,7 +38,7 @@ Highlights and News
 
 Projects
 ------
-- DUT Outstanding Undergraduate Research Program (PI, 71 students university-wide, ¥20,000, completed)
+- DUT Outstanding Undergraduate Research Program (**PI**, 71 students university-wide, ¥20,000, completed)
 
 Internship
 ------
