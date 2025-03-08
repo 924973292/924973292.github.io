@@ -38,8 +38,7 @@ Highlights and News
 
 Projects
 ------
-- DUT Outstanding Undergraduate Fundamental Research Program (Principal Investigator, 71 students university-wide, funded with 20,000 RMB, completed)
-
+- DUT Outstanding Undergraduate Research Program (PI, 71 students university-wide, ¥20,000, completed)
 
 Internship
 ------
