@@ -35,6 +35,12 @@ Highlights and News
 - 2024.02.27: One paper is accepted by CVPR2024.  [Paper](<https://arxiv.org/abs/2403.10254>) [Code](https://github.com/924973292/EDITOR)
 - 2023.12.09: One paper is accepted by AAAI2024. [Paper](<https://arxiv.org/abs/2312.09612>) [Code](https://github.com/924973292/TOP-ReID)
 
+
+Projects
+------
+- DUT Outstanding Undergraduate Fundamental Research Program (Principal Investigator, selected among 71 students university-wide, funded with 20,000 RMB, completed)
+
+
 Internship
 ------
 - <img src="{{ base_path }}/images/Inter/lvlogo.png" alt="LV LAB Logo" style="width:40px; height:40px; vertical-align:middle; margin-right:5px;">**2024.12 - 2025.03**  
