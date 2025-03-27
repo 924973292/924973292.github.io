@@ -251,7 +251,7 @@ author_profile: true
       </p>
       <p class="publication-conference">
         <b>IEEE/CVF Winter Conference on Applications of Computer Vision 2025 
-        <span style="background-color: #e74c3c; color: white; padding: 1px 8px; border-radius: 4px; font-size: 12px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);">Oral</span></b>
+        <span style="background-color: #e74c3c; color: white; padding: 2px 4px; border-radius: 4px; font-size: 18px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);">Oral</span></b>
       </p>
       <div class="publication-buttons">
         <a href="https://arxiv.org/abs/2404.04256" class="publication-button">
