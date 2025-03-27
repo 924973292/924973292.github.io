@@ -299,61 +299,41 @@ author_profile: true
     </div>
   </div>
 
-[//]: # (  <!-- Publication 7 -->)
+  <!-- Publication 7 -->
+  <div class="publication-entry">
+    <img src="{{ base_path }}/images/TOPReID.png" alt="TOPReID" class="publication-image">
+    <div class="publication-info">
+      <h3 class="publication-title">
+        TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation
+      </h3>
+      <p class="publication-authors">
+        <b>Yuhao Wang</b>, Xuehu Liu, Pingping Zhang*, Hu Lu, Zhengzheng Tu, Huchuan Lu
+      </p>
+      <p class="publication-conference">
+        <b>AAAI Conference on Artificial Intelligence 2024</b>
+      </p>
+      <div class="publication-buttons">
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388" class="publication-button">
+          <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">
+        </a>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:IjCSPb-OGe4C" class="publication-button">
+          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:IjCSPb-OGe4C'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+        </a>
+        <a href="https://github.com/924973292/TOP-ReID" class="publication-button">
+          <img src="https://img.shields.io/github/stars/924973292/TOP-ReID?style=social" alt="GitHub Stars">
+        </a>
+        <a href="{{ base_path }}/ciations/TOPReID.md" class="publication-button">
+          <img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
-[//]: # (  <div class="publication-entry">)
-
-[//]: # (    <img src="{{ base_path }}/images/TOPReID.png" alt="TOPReID" class="publication-image">)
-
-[//]: # (    <div class="publication-info">)
-
-[//]: # (      <h3 class="publication-title">)
-
-[//]: # (        TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation)
-
-[//]: # (      </h3>)
-
-[//]: # (      <p class="publication-authors">)
-
-[//]: # (        <b>Yuhao Wang</b>, Xuehu Liu, Pingping Zhang*, Hu Lu, Zhengzheng Tu, Huchuan Lu)
-
-[//]: # (      </p>)
-
-[//]: # (      <p class="publication-conference">)
-
-[//]: # (        <b>AAAI Conference on Artificial Intelligence 2024</b>)
-
-[//]: # (      </p>)
-
-[//]: # (      <div class="publication-buttons">)
-
-[//]: # (        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388" class="publication-button">)
-
-[//]: # (          <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">)
-
-[//]: # (        </a>)
-
-[//]: # (        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:IjCSPb-OGe4C" class="publication-button">)
-
-[//]: # (          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:IjCSPb-OGe4C'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">)
-
-[//]: # (        </a>)
-
-[//]: # (        <a href="https://github.com/924973292/TOP-ReID" class="publication-button">)
-
-[//]: # (          <img src="https://img.shields.io/github/stars/924973292/TOP-ReID?style=social" alt="GitHub Stars">)
-
-[//]: # (        </a>)
-
-[//]: # (        <a href="{{ base_path }}/ciations/TOPReID.md" class="publication-button">)
-
-[//]: # (          <img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX">)
-
-[//]: # (        </a>)
-
-[//]: # (      </div>)
-
-[//]: # (    </div>)
-
-[//]: # (  </div>)
+<div class="fun-section">
+  <h2>🎉 感谢阅读！</h2>
+  <p>如果你对这些研究感兴趣，欢迎关注我的 <a href="https://github.com/924973292">GitHub</a> 或查看我的 <a href="https://scholar.google.com/citations?user=WZvjVLkAAAAJ">Google Scholar</a>。</p>
+  <p>此外，这里是我的微信，欢迎讨论：</p>
+    <img src="{{ base_path }}/images/wechat.jpg" alt="微信" style="max-width: 100%; height: auto; margin-top: 20px;">
+  <img src="https://imgs.xkcd.com/comics/machine_learning.png" alt="有趣的漫画：机器学习" style="max-width: 100%; height: auto; margin-top: 20px;">
 </div>
