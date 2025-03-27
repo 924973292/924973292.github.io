@@ -4,7 +4,6 @@ title: "ð     Publications"
 permalink: /publications/
 author_profile: true
 ---
-
 <style>
   /* 全局样式 */
   body {
@@ -24,6 +23,7 @@ author_profile: true
   /* 发表条目样式 */
   .publication-entry {
     display: flex;
+    flex-direction: column; /* 垂直排列 */
     align-items: flex-start;
     margin-bottom: 40px;
     border-bottom: 1px solid #ddd;
@@ -35,11 +35,12 @@ author_profile: true
   }
 
   .publication-image {
-    width: 150px; /* 调整图标大小 */
+    width: 100%;
+    max-width: 800px; /* 根据需要调整图片最大宽度 */
     height: auto;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
+    margin-bottom: 20px; /* 图片与文本之间的间距 */
   }
 
   .publication-info {
