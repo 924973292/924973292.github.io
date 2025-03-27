@@ -82,8 +82,8 @@ author_profile: true
     background-color: #f5f5f5;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 8px 8px;
+    font-size: 24px;
     text-decoration: none;
     color: #333;
     transition: background-color 0.3s ease;
@@ -96,7 +96,7 @@ author_profile: true
   .publication-button img {
     width: auto; /* 按照原始宽度显示 */
     height: auto; /* 按照原始高度显示 */
-    margin-right: 4px;
+    margin-right: 0px;
   }
 
   hr {
