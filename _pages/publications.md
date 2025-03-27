@@ -31,9 +31,9 @@ author_profile: true
     padding-bottom: 20px;
   }
 
-  .publication-entry:last-child {
-    border: none; /* 最后一个条目去掉底部边框 */
-  }
+  /*.publication-entry:last-child {*/
+  /*  border: none; !* 最后一个条目去掉底部边框 *!*/
+  /*}*/
 
   .publication-image {
     width: 100%; /* 图片宽度占满容器 */
