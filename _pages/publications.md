@@ -337,7 +337,7 @@ author_profile: true
 
   <!-- 并列图片 -->
   <div class="image-container">
-    <img src="{{ base_path }}/images/wechat.png" alt="微信" class="sub-image">
+    <img src="{{ base_path }}/images/WeChat.png" alt="微信" class="sub-image">
     <img src="https://imgs.xkcd.com/comics/machine_learning.png" alt="有趣的漫画：机器学习" class="sub-image">
   </div>
 
@@ -367,6 +367,5 @@ author_profile: true
     background-color: #ffffff; /* 背景颜色为纯白 */
     margin-top: 30px; /* 与上方内容保持一定间距 */
     border-radius: 8px; /* 添加圆角效果 */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影效果 */
   }
 </style>
