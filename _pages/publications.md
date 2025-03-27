@@ -94,9 +94,9 @@ author_profile: true
   }
 
   .publication-button img {
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
+    width: auto; /* 按照原始宽度显示 */
+    height: auto; /* 按照原始高度显示 */
+    margin-right: 4px;
   }
 
   hr {
