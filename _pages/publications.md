@@ -116,7 +116,7 @@ author_profile: true
 {% endif %}
 
 <div class="publications-container">
-  <h2>🥳 Selected Publications</h2>
+  <h2>Selected Publications</h2>
   <hr>
 
   <!-- Publication 1 -->
