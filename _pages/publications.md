@@ -106,48 +106,42 @@ author_profile: true
 
 {% include base_path %}
 
-<hr>
-{% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can find detailed information about my publications on <a href="{{site.author.googlescholar}}">the Google Scholar profile</a>.
-  </div>
-{% endif %}
-
-<br>
-
 <div class="publications-container">
-  <h2>📝 Selected Publications</h2>
+  <h2>ð     Selected Publications</h2>
   <hr>
 
   <!-- Publication 1 -->
   <div class="publication-entry">
-    <div>
-      <img src="{{ base_path }}/images/IDEA.png" alt="IDEA">
-    </div>
+    <img src="{{ base_path }}/images/IDEA.png" alt="IDEA" class="publication-image">
     <div class="publication-info">
-      <div>
-        <b>IDEA: Inverted Text with Cooperative Deformable Aggregation for<br>Multi-Modal Object Re-Identification</b>
-      </div>
-      <div style="margin: 10px 0;">
-        <b>Yuhao Wang</b>, Yongfeng Lv, Pingping Zhang*,<br>
+      <h3 class="publication-title">
+        IDEA: Inverted Text with Cooperative Deformable Aggregation for<br>
+        Multi-Modal Object Re-Identification
+      </h3>
+      <p class="publication-authors">
+        Yuhao Wang, Yongfeng Lv, Pingping Zhang*,<br>
         Huchuan Lu
-      </div>
-      <div>
-        <em>IEEE/CVF Computer Vision and Pattern Recognition Conference</em><br>
-        <em><b>CVPR 2025</b></em>
-      </div>
-      <div class="publication-buttons" style="margin-top: 10px;">
-        <a href="https://arxiv.org/abs/2503.10324">
+      </p>
+      <p class="publication-conference">
+        IEEE/CVF Computer Vision and Pattern Recognition Conference<br>
+        <b>CVPR 2025</b>
+      </p>
+      <div class="publication-buttons">
+        <a href="https://arxiv.org/abs/2503.10324" class="publication-button">
           <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">
+          Paper
         </a>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:5nxA0vEk-isC">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:5nxA0vEk-isC" class="publication-button">
           <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:5nxA0vEk-isC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+          Citations
         </a>
-        <a href="https://github.com/924973292/IDEA">
+        <a href="https://github.com/924973292/IDEA" class="publication-button">
           <img src="https://img.shields.io/github/stars/924973292/IDEA?style=social" alt="GitHub Stars">
+          GitHub Stars
         </a>
-        <a href="{{ base_path }}/ciations/IDEA.md">
+        <a href="{{ base_path }}/ciations/IDEA.md" class="publication-button">
           <img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX">
+          BibTeX
         </a>
       </div>
     </div>
@@ -155,33 +149,36 @@ author_profile: true
 
   <!-- Publication 2 -->
   <div class="publication-entry">
-    <div>
-      <img src="{{ base_path }}/images/DeMo.png" alt="DeMo">
-    </div>
+    <img src="{{ base_path }}/images/DeMo.png" alt="DeMo" class="publication-image">
     <div class="publication-info">
-      <div>
-        <b>DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal<br>Object Re-Identification</b>
-      </div>
-      <div style="margin: 10px 0;">
-        <b>Yuhao Wang</b>, Yang Liu, Aihua Zheng,<br>
+      <h3 class="publication-title">
+        DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal<br>
+        Object Re-Identification
+      </h3>
+      <p class="publication-authors">
+        Yuhao Wang, Yang Liu, Aihua Zheng,<br>
         Pingping Zhang*
-      </div>
-      <div>
-        <em>AAAI Conference on Artificial Intelligence</em><br>
-        <em><b>AAAI 2025</b></em>
-      </div>
-      <div class="publication-buttons" style="margin-top: 10px;">
-        <a href="https://arxiv.org/abs/2412.10650">
+      </p>
+      <p class="publication-conference">
+        AAAI Conference on Artificial Intelligence<br>
+        <b>AAAI 2025</b>
+      </p>
+      <div class="publication-buttons">
+        <a href="https://arxiv.org/abs/2412.10650" class="publication-button">
           <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">
+          Paper
         </a>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:hqOjcs7Dif8C">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:hqOjcs7Dif8C" class="publication-button">
           <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:hqOjcs7Dif8C'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+          Citations
         </a>
-        <a href="https://github.com/924973292/DeMo">
+        <a href="https://github.com/924973292/DeMo" class="publication-button">
           <img src="https://img.shields.io/github/stars/924973292/DeMo?style=social" alt="GitHub Stars">
+          GitHub Stars
         </a>
-        <a href="{{ base_path }}/ciations/DeMo.md">
+        <a href="{{ base_path }}/ciations/DeMo.md" class="publication-button">
           <img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX">
+          BibTeX
         </a>
       </div>
     </div>
@@ -189,33 +186,36 @@ author_profile: true
 
   <!-- Publication 3 -->
   <div class="publication-entry">
-    <div>
-      <img src="{{ base_path }}/images/MambaPro.png" alt="MambaPro">
-    </div>
+    <img src="{{ base_path }}/images/MambaPro.png" alt="MambaPro" class="publication-image">
     <div class="publication-info">
-      <div>
-        <b>MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation<br>and Synergistic Prompt</b>
-      </div>
-      <div style="margin: 10px 0;">
-        <b>Yuhao Wang</b>, Xuehu Liu, Yang Liu, Aihua Zheng,<br>
+      <h3 class="publication-title">
+        MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation<br>
+        and Synergistic Prompt
+      </h3>
+      <p class="publication-authors">
+        Yuhao Wang, Xuehu Liu, Yang Liu, Aihua Zheng,<br>
         Pingping Zhang*, Huchuan Lu
-      </div>
-      <div>
-        <em>AAAI Conference on Artificial Intelligence</em><br>
-        <em><b>AAAI 2025</b></em>
-      </div>
-      <div class="publication-buttons" style="margin-top: 10px;">
-        <a href="https://arxiv.org/abs/2412.10707">
+      </p>
+      <p class="publication-conference">
+        AAAI Conference on Artificial Intelligence<br>
+        <b>AAAI 2025</b>
+      </p>
+      <div class="publication-buttons">
+        <a href="https://arxiv.org/abs/2412.10707" class="publication-button">
           <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">
+          Paper
         </a>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:ufrVoPGSRksC">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:ufrVoPGSRksC" class="publication-button">
           <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:ufrVoPGSRksC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+          Citations
         </a>
-        <a href="https://github.com/924973292/MambaPro">
+        <a href="https://github.com/924973292/MambaPro" class="publication-button">
           <img src="https://img.shields.io/github/stars/924973292/MambaPro?style=social" alt="GitHub Stars">
+          GitHub Stars
         </a>
-        <a href="{{ base_path }}/ciations/MambaPro.md">
+        <a href="{{ base_path }}/ciations/MambaPro.md" class="publication-button">
           <img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX">
+          BibTeX
         </a>
       </div>
     </div>
@@ -223,33 +223,36 @@ author_profile: true
 
   <!-- Publication 4 -->
   <div class="publication-entry">
-    <div>
-      <img src="{{ base_path }}/images/FusionReID.png" alt="FusionReID">
-    </div>
+    <img src="{{ base_path }}/images/FusionReID.png" alt="FusionReID" class="publication-image">
     <div class="publication-info">
-      <div>
-        <b>Unity is Strength: Unifying Convolutional and Transformeral Features for<br>Better Person Re-Identification</b>
-      </div>
-      <div style="margin: 10px 0;">
-        <b>Yuhao Wang</b>, Pingping Zhang*,  Xuehu Liu,<br>
+      <h3 class="publication-title">
+        Unity is Strength: Unifying Convolutional and Transformeral Features for<br>
+        Better Person Re-Identification
+      </h3>
+      <p class="publication-authors">
+        Yuhao Wang, Pingping Zhang*, Xuehu Liu,<br>
         Zhengzheng Tu, Huchuan Lu
-      </div>
-      <div>
-        <em>IEEE Transactions on Intelligent Transportation Systems</em><br>
-        <em><b>TITS 2025</b></em>
-      </div>
-      <div class="publication-buttons" style="margin-top: 10px;">
-        <a href="https://arxiv.org/abs/2412.17239">
+      </p>
+      <p class="publication-conference">
+        IEEE Transactions on Intelligent Transportation Systems<br>
+        <b>TITS 2025</b>
+      </p>
+      <div class="publication-buttons">
+        <a href="https://arxiv.org/abs/2412.17239" class="publication-button">
           <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">
+          Paper
         </a>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Y0pCki6q_DkC">
-          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:Y0pCki6q_DkC%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Y0pCki6q_DkC" class="publication-button">
+          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:Y0pCki6q_DkC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+          Citations
         </a>
-        <a href="https://github.com/924973292/FusionReID">
+        <a href="https://github.com/924973292/FusionReID" class="publication-button">
           <img src="https://img.shields.io/github/stars/924973292/FusionReID?style=social" alt="GitHub Stars">
+          GitHub Stars
         </a>
-        <a href="{{ base_path }}/ciations/FusionReID.md">
+        <a href="{{ base_path }}/ciations/FusionReID.md" class="publication-button">
           <img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX">
+          BibTeX
         </a>
       </div>
     </div>
@@ -257,33 +260,36 @@ author_profile: true
 
   <!-- Publication 5 -->
   <div class="publication-entry">
-    <div>
-      <img src="{{ base_path }}/images/Sigma.png" alt="Sigma">
-    </div>
+    <img src="{{ base_path }}/images/Sigma.png" alt="Sigma" class="publication-image">
     <div class="publication-info">
-      <div>
-        <b>Sigma: Siamese Mamba Network for Multi-Modal<br>Semantic Segmentation</b>
-      </div>
-      <div style="margin: 10px 0;">
-        Zifu Wan, Pingping Zhang, <b>Yuhao Wang</b>, Silong Yong,<br>
+      <h3 class="publication-title">
+        Sigma: Siamese Mamba Network for Multi-Modal<br>
+        Semantic Segmentation
+      </h3>
+      <p class="publication-authors">
+        Zifu Wan, Pingping Zhang, Yuhao Wang, Silong Yong,<br>
         Simon Stepputtis, Katia Sycara, Yaqi Xie
-      </div>
-      <div>
-        <em>IEEE/CVF Winter Conference on Applications of Computer Vision</em><br>
-        <em><b>WACV 2025</b></em>
-      </div>
-      <div class="publication-buttons" style="margin-top: 10px;">
-        <a href="https://arxiv.org/abs/2404.04256">
+      </p>
+      <p class="publication-conference">
+        IEEE/CVF Winter Conference on Applications of Computer Vision<br>
+        <b>WACV 2025</b>
+      </p>
+      <div class="publication-buttons">
+        <a href="https://arxiv.org/abs/2404.04256" class="publication-button">
           <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">
+          Paper
         </a>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC" class="publication-button">
           <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:qjMakFHDy7sC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+          Citations
         </a>
-        <a href="https://github.com/zifuwan/Sigma">
+        <a href="https://github.com/zifuwan/Sigma" class="publication-button">
           <img src="https://img.shields.io/github/stars/zifuwan/Sigma?style=social" alt="GitHub Stars">
+          GitHub Stars
         </a>
-        <a href="{{ base_path }}/ciations/Sigma.md">
+        <a href="{{ base_path }}/ciations/Sigma.md" class="publication-button">
           <img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX">
+          BibTeX
         </a>
       </div>
     </div>
@@ -291,33 +297,36 @@ author_profile: true
 
   <!-- Publication 6 -->
   <div class="publication-entry">
-    <div>
-      <img src="{{ base_path }}/images/EDITOR.png" alt="EDITOR">
-    </div>
+    <img src="{{ base_path }}/images/EDITOR.png" alt="EDITOR" class="publication-image">
     <div class="publication-info">
-      <div>
-        <b>Magic tokens: Select Diverse Tokens for Multi-Modal<br>Object Re-Identification</b>
-      </div>
-      <div style="margin: 10px 0;">
-        Pingping Zhang*, <b>Yuhao Wang</b>, Yang Liu,<br>
+      <h3 class="publication-title">
+        Magic tokens: Select Diverse Tokens for Multi-Modal<br>
+        Object Re-Identification
+      </h3>
+      <p class="publication-authors">
+        Pingping Zhang*, Yuhao Wang, Yang Liu,<br>
         Zhengzheng Tu, Huchuan Lu
-      </div>
-      <div>
-        <em>IEEE/CVF Computer Vision and Pattern Recognition Conference</em><br>
-        <em><b>CVPR 2024</b></em>
-      </div>
-      <div class="publication-buttons" style="margin-top: 10px;">
-        <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Magic_Tokens_Select_Diverse_Tokens_for_Multi-modal_Object_Re-Identification_CVPR_2024_paper.html">
+      </p>
+      <p class="publication-conference">
+        IEEE/CVF Computer Vision and Pattern Recognition Conference<br>
+        <b>CVPR 2024</b>
+      </p>
+      <div class="publication-buttons">
+        <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Magic_Tokens_Select_Diverse_Tokens_for_Multi-modal_Object_Re-Identification_CVPR_2024_paper.html" class="publication-button">
           <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">
+          Paper
         </a>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:2osOgNQ5qMEC">
-          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:2osOgNQ5qMEC%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:2osOgNQ5qMEC" class="publication-button">
+          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:2osOgNQ5qMEC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+          Citations
         </a>
-        <a href="https://github.com/924973292/EDITOR">
+        <a href="https://github.com/924973292/EDITOR" class="publication-button">
           <img src="https://img.shields.io/github/stars/924973292/EDITOR?style=social" alt="GitHub Stars">
+          GitHub Stars
         </a>
-        <a href="{{ base_path }}/ciations/EDITOR.md">
+        <a href="{{ base_path }}/ciations/EDITOR.md" class="publication-button">
           <img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX">
+          BibTeX
         </a>
       </div>
     </div>
@@ -325,36 +334,38 @@ author_profile: true
 
   <!-- Publication 7 -->
   <div class="publication-entry">
-    <div>
-      <img src="{{ base_path }}/images/TOPReID.png" alt="TOPReID">
-    </div>
+    <img src="{{ base_path }}/images/TOPReID.png" alt="TOPReID" class="publication-image">
     <div class="publication-info">
-      <div>
-        <b>TOP-ReID: Multi-spectral Object Re-Identification<br>with Token Permutation</b>
-      </div>
-      <div style="margin: 10px 0;">
-        <b>Yuhao Wang</b>, Xuehu Liu, Pingping Zhang*, Hu Lu,<br>
+      <h3 class="publication-title">
+        TOP-ReID: Multi-spectral Object Re-Identification<br>
+        with Token Permutation
+      </h3>
+      <p class="publication-authors">
+        Yuhao Wang, Xuehu Liu, Pingping Zhang*, Hu Lu,<br>
         Zhengzheng Tu, Huchuan Lu
-      </div>
-      <div>
-        <em>Proceedings of the AAAI Conference on Artificial Intelligence</em><br>
-        <em><b>AAAI 2024</b></em>
-      </div>
-      <div class="publication-buttons" style="margin-top: 10px;">
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388">
+      </p>
+      <p class="publication-conference">
+        Proceedings of the AAAI Conference on Artificial Intelligence<br>
+        <b>AAAI 2024</b>
+      </p>
+      <div class="publication-buttons">
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388" class="publication-button">
           <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">
+          Paper
         </a>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:IjCSPb-OGe4C">
-          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$[%27publications%27][%27WZvjVLkAAAAJ:IjCSPb-OGe4C%27][%27num_citations%27]&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:IjCSPb-OGe4C" class="publication-button">
+          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:IjCSPb-OGe4C'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+          Citations
         </a>
-        <a href="https://github.com/924973292/TOP-ReID">
+        <a href="https://github.com/924973292/TOP-ReID" class="publication-button">
           <img src="https://img.shields.io/github/stars/924973292/TOP-ReID?style=social" alt="GitHub Stars">
+          GitHub Stars
         </a>
-        <a href="{{ base_path }}/ciations/TOPReID.md">
+        <a href="{{ base_path }}/ciations/TOPReID.md" class="publication-button">
           <img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX">
+          BibTeX
         </a>
       </div>
     </div>
   </div>
-
 </div>
