@@ -337,16 +337,12 @@ author_profile: true
 
   <!-- 并列图片 -->
   <div class="image-container">
-    <img src="{{ base_path }}/images/wechat.png" alt="微信" class="sub-image">
+    <img src="{{ base_path }}/images/wechat.jpg" alt="微信" class="sub-image">
     <img src="https://imgs.xkcd.com/comics/machine_learning.png" alt="有趣的漫画：机器学习" class="sub-image">
   </div>
 
-  <!-- 海浪装饰 -->
-  <div class="wave-decoration">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#f5f5f5" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,192C384,181,480,139,576,133.3C672,128,768,160,864,170.7C960,181,1056,171,1152,149.3C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-    </svg>
-  </div>
+  <!-- 纯白长方形 -->
+  <div class="white-rectangle"></div>
 </div>
 
 <style>
@@ -364,15 +360,13 @@ author_profile: true
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  /* 海浪装饰样式 */
-  .wave-decoration {
-    width: 100%;
-    overflow: hidden; /* 隐藏超出部分 */
-    margin-top: 30px;
-  }
-  .wave-decoration svg {
-    width: 100%;
-    height: auto;
-    transform: translateY(0); /* 调整垂直位置 */
+  /* 纯白长方形样式 */
+  .white-rectangle {
+    width: 100%; /* 宽度填满整个容器 */
+    height: 50px; /* 高度为 50px */
+    background-color: #ffffff; /* 背景颜色为纯白 */
+    margin-top: 30px; /* 与上方内容保持一定间距 */
+    border-radius: 8px; /* 添加圆角效果 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影效果 */
   }
 </style>
