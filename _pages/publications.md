@@ -250,7 +250,7 @@ author_profile: true
         Zifu Wan, Pingping Zhang, <b>Yuhao Wang</b>, Silong Yong, Simon Stepputtis, Katia Sycara, Yaqi Xie
       </p>
       <p class="publication-conference">
-        <b>IEEE/CVF Winter Conference on Applications of Computer Vision 2025</b>
+        <b>IEEE/CVF Winter Conference on Applications of Computer Vision 2025 [Oral]</b>
       </p>
       <div class="publication-buttons">
         <a href="https://arxiv.org/abs/2404.04256" class="publication-button">
