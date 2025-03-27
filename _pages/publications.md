@@ -19,13 +19,13 @@ author_profile: true
   .publication-entry:last-child { border: none; }
   .publication-entry img {
     width: 100%;
-    max-width: 480px;
+    max-width: 100px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
   }
   .publication-info {
     flex: 1;
-    padding: 20px;
+    padding: 24px;
   }
   .publication-info b {
     font-size: 18px;
