@@ -131,8 +131,7 @@ author_profile: true
         Yuhao Wang, Yongfeng Lv, Pingping Zhang*, Huchuan Lu
       </p>
       <p class="publication-conference">
-        IEEE/CVF Computer Vision and Pattern Recognition Conference<br>
-        <b>CVPR 2025</b>
+        <b>IEEE/CVF Computer Vision and Pattern Recognition Conference 2025</b>
       </p>
       <div class="publication-buttons">
         <a href="https://arxiv.org/abs/2503.10324" class="publication-button">
@@ -162,8 +161,7 @@ author_profile: true
         Yuhao Wang, Yang Liu, Aihua Zheng, Pingping Zhang*
       </p>
       <p class="publication-conference">
-        AAAI Conference on Artificial Intelligence<br>
-        <b>AAAI 2025</b>
+        <b>AAAI Conference on Artificial Intelligence 2025</b>
       </p>
       <div class="publication-buttons">
         <a href="https://arxiv.org/abs/2412.10650" class="publication-button">
@@ -193,8 +191,7 @@ author_profile: true
         Yuhao Wang, Xuehu Liu, Yang Liu, Aihua Zheng, Pingping Zhang*, Huchuan Lu
       </p>
       <p class="publication-conference">
-        AAAI Conference on Artificial Intelligence<br>
-        <b>AAAI 2025</b>
+        <b>AAAI Conference on Artificial Intelligence 2025</b>
       </p>
       <div class="publication-buttons">
         <a href="https://arxiv.org/abs/2412.10707" class="publication-button">
@@ -224,8 +221,7 @@ author_profile: true
         Yuhao Wang, Pingping Zhang*, Xuehu Liu, Zhengzheng Tu, Huchuan Lu
       </p>
       <p class="publication-conference">
-        IEEE Transactions on Intelligent Transportation Systems<br>
-        <b>TITS 2025</b>
+        <b>IEEE Transactions on Intelligent Transportation Systems 2025</b>
       </p>
       <div class="publication-buttons">
         <a href="https://arxiv.org/abs/2412.17239" class="publication-button">
@@ -255,8 +251,7 @@ author_profile: true
         Zifu Wan, Pingping Zhang, Yuhao Wang, Silong Yong, Simon Stepputtis, Katia Sycara, Yaqi Xie
       </p>
       <p class="publication-conference">
-        IEEE/CVF Winter Conference on Applications of Computer Vision<br>
-        <b>WACV 2025</b>
+        <b>IEEE/CVF Winter Conference on Applications of Computer Vision 2025</b>
       </p>
       <div class="publication-buttons">
         <a href="https://arxiv.org/abs/2404.04256" class="publication-button">
@@ -286,8 +281,7 @@ author_profile: true
         Pingping Zhang*, Yuhao Wang, Yang Liu, Zhengzheng Tu, Huchuan Lu
       </p>
       <p class="publication-conference">
-        IEEE/CVF Computer Vision and Pattern Recognition Conference<br>
-        <b>CVPR 2024</b>
+        <b>IEEE/CVF Computer Vision and Pattern Recognition Conference 2024</b>
       </p>
       <div class="publication-buttons">
         <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Magic_Tokens_Select_Diverse_Tokens_for_Multi-modal_Object_Re-Identification_CVPR_2024_paper.html" class="publication-button">
@@ -317,8 +311,7 @@ author_profile: true
         Yuhao Wang, Xuehu Liu, Pingping Zhang*, Hu Lu, Zhengzheng Tu, Huchuan Lu
       </p>
       <p class="publication-conference">
-        Proceedings of the AAAI Conference on Artificial Intelligence<br>
-        <b>AAAI 2024</b>
+        <b>AAAI Conference on Artificial Intelligence 2024</b>
       </p>
       <div class="publication-buttons">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28388" class="publication-button">
