@@ -16,13 +16,7 @@ author_profile: true
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
   }
-  .publication-entry {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-  align-items: center;
-  gap: 20px; /* 增加间距以优化布局 */
-  }
+  .publication-entry:last-child { border: none; }
   .publication-entry img {
   width: 100%;
   max-width: 80px; /* 调整为更适合的大小 */
