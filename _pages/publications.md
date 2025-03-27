@@ -337,7 +337,7 @@ author_profile: true
 
   <!-- 并列图片 -->
   <div class="image-container">
-    <img src="{{ base_path }}/images/wechat.jpg" alt="微信" class="sub-image">
+    <img src="{{ base_path }}/images/wechat.png" alt="微信" class="sub-image">
     <img src="https://imgs.xkcd.com/comics/machine_learning.png" alt="有趣的漫画：机器学习" class="sub-image">
   </div>
 
