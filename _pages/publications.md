@@ -1,43 +1,100 @@
 ---
 layout: archive
-title: "📖 Publications"
+title: "ð     Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 <style>
-  body { font-family: 'Helvetica', Arial, sans-serif; }
-  .publications-container { max-width: 1200px; margin: 0 auto; }
+  /* 全局样式 */
+  body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  .publications-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* 发表条目样式 */
   .publication-entry {
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-start;
     margin-bottom: 40px;
-    align-items: center;
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
   }
-  .publication-entry:last-child { border: none; }
-  .publication-entry img {
-  width: 100%;
-  max-width: 80px; /* 调整为更适合的大小 */
-  border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+
+  .publication-entry:last-child {
+    border: none;
   }
+
+  .publication-image {
+    width: 150px; /* 调整图标大小 */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+
   .publication-info {
     flex: 1;
-    padding: 24px;
   }
-  .publication-info b {
-    font-size: 18px;
+
+  .publication-title {
+    font-size: 20px;
+    font-weight: bold;
     line-height: 1.4;
+    margin: 0;
   }
-  .publication-info em {
-    color: #555;
+
+  .publication-authors {
     font-size: 16px;
+    color: #555;
+    margin: 10px 0;
   }
-  .publication-buttons a {
-    margin-right: 10px;
+
+  .publication-conference {
+    font-style: italic;
+    font-size: 16px;
+    color: #555;
   }
+
+  .publication-buttons {
+    display: flex;
+    gap: 10px; /* 按钮之间的间距 */
+    margin-top: 20px;
+  }
+
+  .publication-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+
+  .publication-button:hover {
+    background-color: #e0e0e0;
+  }
+
+  .publication-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+
   hr {
     border: 0;
     height: 1px;
