@@ -128,7 +128,7 @@ author_profile: true
         IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-Modal Object Re-Identification
       </h3>
       <p class="publication-authors">
-        Yuhao Wang, Yongfeng Lv, Pingping Zhang*, Huchuan Lu
+        <b>Yuhao Wang</b>, Yongfeng Lv, Pingping Zhang*, Huchuan Lu
       </p>
       <p class="publication-conference">
         <b>IEEE/CVF Computer Vision and Pattern Recognition Conference 2025</b>
@@ -158,7 +158,7 @@ author_profile: true
         DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification
       </h3>
       <p class="publication-authors">
-        Yuhao Wang, Yang Liu, Aihua Zheng, Pingping Zhang*
+        <b>Yuhao Wang</b>, Yang Liu, Aihua Zheng, Pingping Zhang*
       </p>
       <p class="publication-conference">
         <b>AAAI Conference on Artificial Intelligence 2025</b>
@@ -188,7 +188,7 @@ author_profile: true
         MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation and Synergistic Prompt
       </h3>
       <p class="publication-authors">
-        Yuhao Wang, Xuehu Liu, Yang Liu, Aihua Zheng, Pingping Zhang*, Huchuan Lu
+        <b>Yuhao Wang</b>, Xuehu Liu, Yang Liu, Aihua Zheng, Pingping Zhang*, Huchuan Lu
       </p>
       <p class="publication-conference">
         <b>AAAI Conference on Artificial Intelligence 2025</b>
@@ -218,7 +218,7 @@ author_profile: true
         Unity is Strength: Unifying Convolutional and Transformeral Features for Better Person Re-Identification
       </h3>
       <p class="publication-authors">
-        Yuhao Wang, Pingping Zhang*, Xuehu Liu, Zhengzheng Tu, Huchuan Lu
+        <b>Yuhao Wang</b>, Pingping Zhang*, Xuehu Liu, Zhengzheng Tu, Huchuan Lu
       </p>
       <p class="publication-conference">
         <b>IEEE Transactions on Intelligent Transportation Systems 2025</b>
@@ -248,7 +248,7 @@ author_profile: true
         Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation
       </h3>
       <p class="publication-authors">
-        Zifu Wan, Pingping Zhang, Yuhao Wang, Silong Yong, Simon Stepputtis, Katia Sycara, Yaqi Xie
+        Zifu Wan, Pingping Zhang, <b>Yuhao Wang</b>, Silong Yong, Simon Stepputtis, Katia Sycara, Yaqi Xie
       </p>
       <p class="publication-conference">
         <b>IEEE/CVF Winter Conference on Applications of Computer Vision 2025</b>
@@ -278,7 +278,7 @@ author_profile: true
         Magic tokens: Select Diverse Tokens for Multi-Modal Object Re-Identification
       </h3>
       <p class="publication-authors">
-        Pingping Zhang*, Yuhao Wang, Yang Liu, Zhengzheng Tu, Huchuan Lu
+        Pingping Zhang*, <b>Yuhao Wang</b>, Yang Liu, Zhengzheng Tu, Huchuan Lu
       </p>
       <p class="publication-conference">
         <b>IEEE/CVF Computer Vision and Pattern Recognition Conference 2024</b>
@@ -308,7 +308,7 @@ author_profile: true
         TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation
       </h3>
       <p class="publication-authors">
-        Yuhao Wang, Xuehu Liu, Pingping Zhang*, Hu Lu, Zhengzheng Tu, Huchuan Lu
+        <b>Yuhao Wang</b>, Xuehu Liu, Pingping Zhang*, Hu Lu, Zhengzheng Tu, Huchuan Lu
       </p>
       <p class="publication-conference">
         <b>AAAI Conference on Artificial Intelligence 2024</b>
