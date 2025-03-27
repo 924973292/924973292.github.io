@@ -1,9 +1,10 @@
 ---
 layout: archive
-title: "ð     Publications"
+title: "📖 Publications"
 permalink: /publications/
 author_profile: true
 ---
+
 <style>
   /* 全局样式 */
   body {
@@ -15,8 +16,8 @@ author_profile: true
   }
 
   .publications-container {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 800px; /* 容器最大宽度 */
+    margin: 0 auto; /* 居中显示 */
     padding: 20px;
   }
 
@@ -24,19 +25,19 @@ author_profile: true
   .publication-entry {
     display: flex;
     flex-direction: column; /* 垂直排列 */
-    align-items: flex-start;
+    align-items: flex-start; /* 内容左对齐 */
     margin-bottom: 40px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
   }
 
   .publication-entry:last-child {
-    border: none;
+    border: none; /* 最后一个条目去掉底部边框 */
   }
 
   .publication-image {
-    width: 100%;
-    max-width: 800px; /* 根据需要调整图片最大宽度 */
+    width: 100%; /* 图片宽度占满容器 */
+    max-width: 800px; /* 图片最大宽度 */
     height: auto;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -45,6 +46,7 @@ author_profile: true
 
   .publication-info {
     flex: 1;
+    text-align: left; /* 确保文本左对齐 */
   }
 
   .publication-title {
@@ -70,6 +72,7 @@ author_profile: true
     display: flex;
     gap: 10px; /* 按钮之间的间距 */
     margin-top: 20px;
+    flex-wrap: wrap; /* 如果按钮过多，自动换行 */
   }
 
   .publication-button {
@@ -105,6 +108,13 @@ author_profile: true
 </style>
 
 {% include base_path %}
+
+<hr>
+{% if site.author.googlescholar %}
+  <div class="wordwrap">
+    You can find detailed information about my publications on <a href="{{site.author.googlescholar}}">the Google Scholar profile</a>.
+  </div>
+{% endif %}
 
 <div class="publications-container">
   <h2>ð     Selected Publications</h2>
