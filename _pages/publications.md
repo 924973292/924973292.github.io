@@ -17,7 +17,7 @@ author_profile: true
 
   .publications-container {
     max-width: 800px; /* 容器最大宽度 */
-    margin: 0 auto; /* 居中显示 */
+    margin: 0 ;
     padding: 20px;
   }
 
