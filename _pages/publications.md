@@ -28,6 +28,29 @@ table, th, td {
             <tbody>
                <tr>
                 <td class="noBorder" width="44%" >
+                  <img width="480" src="{{ base_path }}/images/IDEA.png" alt="DeMo" style="border:0px">
+                </td>
+                <td>
+                  <b>IDEA: Inverted Text with Cooperative Deformable Aggregation for</b> <br>
+                  <b>Multi-Modal Object Re-Identification</b>
+                  <br>
+                  <b>Yuhao Wang</b>, Yongfeng Lv, Pingping Zhang*,<br>
+                  Huchuan Lu
+                  <br>
+                  <em> IEEE/CVF Computer Vision and Pattern Recognition Conference </em>
+                  <br>
+                  <em> <b>CVPR 2025</b> </em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2503.10324"><img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper"></a>&nbsp;&nbsp;
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:5nxA0vEk-isC"><img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:5nxA0vEk-isC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations"></a>&nbsp;&nbsp;
+                  <a href="https://github.com/924973292/IDEA"><img src="https://img.shields.io/github/stars/924973292/IDEA?style=social" alt="GitHub Stars"></a>&nbsp;&nbsp;
+                  <a href="{{ base_path }}/ciations/IDEA.md"><img src="https://img.shields.io/badge/-BibTeX-blue?labelColor=white&color=F5F5F5&logo=latex&logoColor=008080" alt="BibTeX"></a>
+                </td>
+              </tr>
+              <tr>
+                <td style="height: 20px;"></td> <!-- 插入空行来增加间距 -->
+              </tr>
+                <td class="noBorder" width="44%" >
                   <img width="480" src="{{ base_path }}/images/DeMo.png" alt="DeMo" style="border:0px">
                 </td>
                 <td>
