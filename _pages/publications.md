@@ -334,6 +334,6 @@ author_profile: true
   <h2>🎉 感谢阅读！</h2>
   <p>如果你对这些研究感兴趣，欢迎关注我的 <a href="https://github.com/924973292">GitHub</a> 或查看我的 <a href="https://scholar.google.com/citations?user=WZvjVLkAAAAJ">Google Scholar</a>。</p>
   <p>此外，这里是我的微信，欢迎讨论：</p>
-    <img src="{{ base_path }}/images/wechat.jpg" alt="微信" style="max-width: 100%; height: auto; margin-top: 20px;">
+    <img src="{{ base_path }}/images/wechat.jpg" alt="微信" style="max-width: 40%; height: 40%; margin-top: 20px;">
   <img src="https://imgs.xkcd.com/comics/machine_learning.png" alt="有趣的漫画：机器学习" style="max-width: 100%; height: auto; margin-top: 20px;">
 </div>
