@@ -334,6 +334,44 @@ author_profile: true
   <h2>🎉 感谢阅读！</h2>
   <p>如果你对这些研究感兴趣，欢迎关注我的 <a href="https://github.com/924973292">GitHub</a> 或查看我的 <a href="https://scholar.google.com/citations?user=WZvjVLkAAAAJ">Google Scholar</a>。</p>
   <p>此外，这里是我的微信，欢迎讨论：</p>
-    <img src="{{ base_path }}/images/wechat.jpg" alt="微信" style="max-width: 40%; height: 40%; margin-top: 20px;">
-  <img src="https://imgs.xkcd.com/comics/machine_learning.png" alt="有趣的漫画：机器学习" style="max-width: 100%; height: auto; margin-top: 20px;">
+
+  <!-- 并列图片 -->
+  <div class="image-container">
+    <img src="{{ base_path }}/images/wechat.jpg" alt="微信" class="sub-image">
+    <img src="https://imgs.xkcd.com/comics/machine_learning.png" alt="有趣的漫画：机器学习" class="sub-image">
+  </div>
+
+  <!-- 围栏装饰 -->
+  <div class="fence-decoration"></div>
 </div>
+
+<style>
+  /* 并列图片样式 */
+  .image-container {
+    display: flex;
+    justify-content: space-between; /* 图片之间留有间距 */
+    align-items: center; /* 垂直居中对齐 */
+    margin-top: 20px;
+  }
+  .sub-image {
+    max-width: 48%; /* 每张图片占容器的一半宽度 */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* 围栏装饰样式 */
+  .fence-decoration {
+    width: 100%;
+    height: 20px;
+    background: repeating-linear-gradient(
+      90deg,
+      #ddd,
+      #ddd 10px,
+      transparent 10px,
+      transparent 20px
+    );
+    margin-top: 30px;
+    border-radius: 4px;
+  }
+</style>
