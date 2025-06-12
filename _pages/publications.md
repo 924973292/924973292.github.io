@@ -166,8 +166,8 @@ author_profile: true
         <a href="https://arxiv.org/abs/2412.10650" class="publication-button">
           <img src="https://img.shields.io/badge/-Paper-blue?logo=microsoftpowerpoint&logoColor=B7472A&labelColor=white&color=F5F5F5&style=flat" alt="paper">
         </a>
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:hqOjcs7Dif8C" class="publication-button">
-          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:hqOjcs7Dif8C'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:MXK_kJrjxJIC" class="publication-button">
+          <img src="https://img.shields.io/badge/dynamic/json?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F924973292%2F924973292.github.io%40google-scholar-stats%2Fgoogle_scholar_crawler%2Fresults%2Fgs_data.json&query=$.publications['WZvjVLkAAAAJ:MXK_kJrjxJIC'].num_citations&labelColor=f6f6f6&color=9cf&style=flat&label=Citations" alt="Citations">
         </a>
         <a href="https://github.com/924973292/DeMo" class="publication-button">
           <img src="https://img.shields.io/github/stars/924973292/DeMo?style=social" alt="GitHub Stars">
