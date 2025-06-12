@@ -25,6 +25,8 @@ My current research interests are mainly about **Multimodal Retrieval** and **Hu
 
 Highlights and News
 ------
+- 2025.06.08: Presented one poster at VALSE2025.
+- 2025.05.10: Give a Spolight Talk at CCIG2025.
 - 2025.02.27: One paper about **Multi-modal Object ReID** is accepted by CVPR2025. [Paper](<https://arxiv.org/pdf/2503.10324>) [Code](<https://github.com/924973292/IDEA>)
 - 2024.12.13: One paper is accepted by IEEE TITS. [Paper](https://arxiv.org/abs/2412.17239) [Code](<https://github.com/924973292/FusionReID>)
 - 2024.12.10: Three papers are accepted by AAAI2025. First author for two papers about **Multi-modal Object ReID**. [DeMo](https://github.com/924973292/DeMo) / [MambaPro](https://github.com/924973292/MambaPro)
