@@ -12,7 +12,7 @@ Welcome to my homepage! My name is **Yuhao Wang (王宇皓)**, currently a maste
 I am conducting research under the guidance of Prof. [**Huchuan Lu (卢湖川)**](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=ao) **(IEEE Fellow)** and primarily under the supervision of Prof. [**Pingping Zhang (张平平)**](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN&oi=ao).
 Prior to that, I got my B.Eng. Degree from Dalian University of Technology.
 
-My current research interests are mainly about **Multimodal Retrieval** and **Human-centric Perception**. More information about my research can be found on the [**Publications**](https://924973292.github.io//publications/).
+My current research interests are mainly about **Multimodal Retrieval** and **LightVLM**. More information about my research can be found on the [**Publications**](https://924973292.github.io//publications/).
 
 <div style="text-align: left; font-style: italic; font-size: 0.9em; margin-top: 27px; color: lightgrey; font-family: 'Georgia', 'Times New Roman', serif;">
   “ 生如芥子，心藏须弥 ” -- NONE
