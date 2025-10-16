@@ -22,6 +22,8 @@ Competitions and Honors
 
 Scholarships
 ------
+- Bochuan Qu Scholarship，Oct. 2025
+- National Scholarship 2025，Sep. 2025
 - National Scholarship for Outstanding Recommended Graduate Students，Sep. 2024
 - National Scholarship，Dec. 2021
 - National Encouragement Scholarship，Dec. 2023 / 2022

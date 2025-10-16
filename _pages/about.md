@@ -25,6 +25,8 @@ My current research interests are mainly about **Multimodal Retrieval** and **Li
 
 Highlights and News
 ------
+- 2025.10.16: Recipient of the Bochuan Qu Scholarship, the highest honor at Dalian University of Technology, awarded to only 10 students annually (<0.05% of the student body) for outstanding academic performance and leadership potential.
+- 2025.09.24: National Scholarship 2025.
 - 2025.06.08: Presented one poster at VALSE2025.
 - 2025.05.10: Give a Spolight Talk at CCIG2025.
 - 2025.02.27: One paper about **Multi-modal Object ReID** is accepted by CVPR2025. [Paper](<https://arxiv.org/pdf/2503.10324>) [Code](<https://github.com/924973292/IDEA>)
