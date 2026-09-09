@@ -46,8 +46,8 @@ redirect_from:
   <section class="home-section" id="research">
     <div class="section-heading">
       <p class="eyebrow">RESEARCH AGENDA</p>
-      <h2>From difficult visual conditions to dependable identity.</h2>
-      <p>I study how models can connect heterogeneous signals, preserve semantic detail, and remain efficient enough for real systems.</p>
+      <h2>From multimodal perception to autonomous action.</h2>
+      <p>I study how models can connect heterogeneous signals, preserve semantic detail, and move from understanding to efficient decisions in real systems.</p>
     </div>
     <div class="research-grid">
       {% for theme in site.data.research %}

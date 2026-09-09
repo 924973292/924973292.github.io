@@ -11,7 +11,7 @@ author_profile: true
   <section class="page-intro">
     <p class="eyebrow">PUBLICATIONS / RESEARCH OUTPUT</p>
     <h1>Work that moves between modalities.</h1>
-    <p class="page-intro__lead">A curated record of published papers, manuscripts in review, and ongoing collaborations across multimodal recognition, efficient vision-language models, and structured visual representation.</p>
+    <p class="page-intro__lead">A curated record of published papers, manuscripts in review, and ongoing collaborations across multimodal fusion, efficient multimodal models, and edge intelligence.</p>
     <div class="page-intro__links">
       <a class="button button--primary" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Open Google Scholar <span aria-hidden="true">↗</span></a>
       <span class="data-note">Profile metrics are maintained externally by Google Scholar.</span>
