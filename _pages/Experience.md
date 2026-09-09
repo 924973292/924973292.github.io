@@ -1,45 +1,30 @@
 ---
 layout: archive
-title: "👨🏻‍💻 Experience"
+title: "Experience & Timeline"
 permalink: /experience/
-author_profile: True
+author_profile: true
 ---
 
-<style>
-table, th, td {
-  border: none;
-  border-collapse: collapse;
-}
-</style>
+<div class="page-intro">
+  <p class="eyebrow">EXPERIENCE / CONTEXT</p>
+  <h1>Where the questions came from.</h1>
+  <p class="page-intro__lead">A compact timeline of the places, collaborations, and milestones that have shaped my research practice.</p>
+</div>
 
-{% include base_path %}
-
-<hr>
-
-## 🎓 Education
-<hr>
-<ul>
-    <li>
-        <strong><i>2024.09 - now</i></strong>: M.S. in School of Computer Science and Technology, Dalian University of Technology, China.
-    </li>
-    <li>
-        <strong><i>2020.09 - 2024.06</i></strong>: B.S. in School of Future Technology, Dalian University of Technology, China.
-    </li>
-</ul>
-
- 
-
-## 💼 Work
-<hr>
-<ul>
-    <li>
-        <img src="{{ base_path }}/images/Inter/lvlogo.png" alt="LV LAB Logo" style="width:40px; height:40px; vertical-align:middle; margin-left:5px;">
-        <strong><i>2024.12 - 2025.03</i></strong>
-        Research Intern at <a href="http://www.lv-nus.org/" target="_blank"><strong>LV LAB</strong></a>, 
-        National University of Singapore, Singapore, supervised by Professor 
-        <a href="https://sites.google.com/site/sitexinchaowang/" target="_blank"><strong>Xinchao Wang</strong></a>.
-    </li>
-</ul>
-
-
-
+<div class="experience-timeline">
+  {% for item in site.data.timeline %}
+    <article class="experience-item">
+      <div class="experience-item__date">{{ item.date }}</div>
+      <div class="experience-item__marker" aria-hidden="true"></div>
+      <div class="experience-item__content">
+        <p class="eyebrow">{{ item.type }}</p>
+        <h2>{{ item.title }}</h2>
+        <p class="experience-item__organization">
+          {% if item.logo %}<img src="{{ site.baseurl }}/images/{{ item.logo }}" alt="" loading="lazy">{% endif %}
+          {{ item.organization }}
+        </p>
+        <p>{{ item.description }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>

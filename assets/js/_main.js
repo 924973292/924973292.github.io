@@ -55,7 +55,55 @@ $(document).ready(function(){
   $(".author__urls-wrapper button").on("click", function() {
     $(".author__urls").fadeToggle("fast", function() {});
     $(".author__urls-wrapper button").toggleClass("open");
+    $(this).attr("aria-expanded", $(this).hasClass("open") ? "true" : "false");
   });
+
+  // Accessible publication filtering
+  var publicationCards = $("[data-publication-card]");
+  var activeStatus = "all";
+  var activeYear = "all";
+  var searchQuery = "";
+
+  var updatePublicationFilter = function() {
+    var visible = 0;
+
+    publicationCards.each(function() {
+      var card = $(this);
+      var matchesStatus = activeStatus === "all" || card.data("status") === activeStatus;
+      var matchesYear = activeYear === "all" || String(card.data("year")) === activeYear;
+      var haystack = (card.text() + " " + card.data("tags")).toLowerCase();
+      var matchesSearch = !searchQuery || haystack.indexOf(searchQuery) !== -1;
+      var show = matchesStatus && matchesYear && matchesSearch;
+
+      card.toggleClass("is-hidden", !show);
+      if (show) {
+        visible += 1;
+      }
+    });
+
+    $("[data-filter-result]").text(visible + " publication" + (visible === 1 ? "" : "s") + " shown");
+  };
+
+  $("[data-status-filter]").on("click", function() {
+    activeStatus = $(this).data("status-filter");
+    $("[data-status-filter]").removeClass("is-active").attr("aria-pressed", "false");
+    $(this).addClass("is-active").attr("aria-pressed", "true");
+    updatePublicationFilter();
+  });
+
+  $("[data-year-filter]").on("change", function() {
+    activeYear = $(this).val();
+    updatePublicationFilter();
+  });
+
+  $("[data-publication-search]").on("input", function() {
+    searchQuery = $(this).val().trim().toLowerCase();
+    updatePublicationFilter();
+  });
+
+  if (publicationCards.length) {
+    updatePublicationFilter();
+  }
 
   // init smooth scroll
   $("a").smoothScroll({offset: -20});

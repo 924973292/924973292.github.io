@@ -1,0 +1,227 @@
+- id: IDEA
+  title: "IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-Modal Object Re-Identification"
+  authors: "<strong>Yuhao Wang</strong>, Yongfeng Lv, Pingping Zhang*, Huchuan Lu"
+  year: 2025
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  status: "Published"
+  status_class: "published"
+  featured: true
+  role: "First author"
+  image: "IDEA.png"
+  summary: "A text-guided multimodal framework that uses cooperative deformable aggregation to bridge visual and language cues for object re-identification."
+  tags:
+    - "Multimodal ReID"
+    - "Cross-modal Retrieval"
+  paper: "https://arxiv.org/abs/2503.10324"
+  code: "https://github.com/924973292/IDEA"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:5nxA0vEk-isC"
+  bibtex: "/ciations/IDEA.md"
+
+- id: DeMo
+  title: "DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification"
+  authors: "<strong>Yuhao Wang</strong>, Yang Liu, Aihua Zheng, Pingping Zhang*"
+  year: 2025
+  venue: "AAAI Conference on Artificial Intelligence (AAAI)"
+  status: "Published"
+  status_class: "published"
+  featured: true
+  role: "First author"
+  image: "DeMo.png"
+  summary: "A decoupled mixture-of-experts design that routes complementary modality features for more reliable multimodal object matching."
+  tags:
+    - "Multimodal ReID"
+    - "Mixture of Experts"
+  paper: "https://arxiv.org/abs/2412.10650"
+  code: "https://github.com/924973292/DeMo"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:MXK_kJrjxJIC"
+  bibtex: "/ciations/DeMo.md"
+
+- id: MambaPro
+  title: "MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation and Synergistic Prompt"
+  authors: "<strong>Yuhao Wang</strong>, Xuehu Liu, Tianyu Yan, Yang Liu, Pingping Zhang*, Huchuan Lu"
+  year: 2025
+  venue: "AAAI Conference on Artificial Intelligence (AAAI)"
+  status: "Published"
+  status_class: "published"
+  featured: true
+  role: "First author"
+  image: "MambaPro.png"
+  summary: "A Mamba-based aggregation and prompt learning framework for modeling long-range multimodal dependencies in object re-identification."
+  tags:
+    - "Multimodal ReID"
+    - "Mamba"
+  paper: "https://arxiv.org/abs/2412.10707"
+  code: "https://github.com/924973292/MambaPro"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:ufrVoPGSRksC"
+  bibtex: "/ciations/MambaPro.md"
+
+- id: FusionReID
+  title: "Unity is Strength: Unifying Convolutional and Transformer Features for Better Person Re-Identification"
+  authors: "<strong>Yuhao Wang</strong>, Xuehu Liu, Pingping Zhang*, Zhengzheng Tu, Huchuan Lu"
+  year: 2025
+  venue: "IEEE Transactions on Intelligent Transportation Systems (TITS)"
+  status: "Published"
+  status_class: "published"
+  featured: false
+  role: "First author"
+  image: "FusionReID.png"
+  summary: "A hybrid representation that combines convolutional locality with Transformer context for robust person re-identification."
+  tags:
+    - "Person ReID"
+    - "Hybrid Architecture"
+  paper: "https://arxiv.org/abs/2412.17239"
+  code: "https://github.com/924973292/FusionReID"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Y0pCki6q_DkC"
+  bibtex: "/ciations/FusionReID.md"
+
+- id: Sigma
+  title: "Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation"
+  authors: "Zifu Wan, Pingping Zhang, <strong>Yuhao Wang</strong>, Silong Yong, Simon Stepputtis, Katia Sycara, Yaqi Xie"
+  year: 2025
+  venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  status: "Published · Oral"
+  status_class: "published"
+  featured: true
+  role: "Contributor"
+  image: "Sigma.png"
+  summary: "A Siamese Mamba architecture for fusing complementary modalities in dense semantic prediction."
+  tags:
+    - "Semantic Segmentation"
+    - "Mamba"
+  paper: "https://arxiv.org/abs/2404.04256"
+  code: "https://github.com/zifuwan/Sigma"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"
+  bibtex: "/ciations/Sigma.md"
+
+- id: EDITOR
+  title: "Magic Tokens: Select Diverse Tokens for Multi-Modal Object Re-Identification"
+  authors: "Pingping Zhang*, <strong>Yuhao Wang</strong>, Yang Liu, Zhengzheng Tu, Huchuan Lu"
+  year: 2024
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  status: "Published"
+  status_class: "published"
+  featured: false
+  role: "Contributor"
+  image: "EDITOR.png"
+  summary: "A token selection strategy that preserves diverse, identity-relevant cues for multimodal object re-identification."
+  tags:
+    - "Multimodal ReID"
+    - "Token Learning"
+  paper: "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Magic_Tokens_Select_Diverse_Tokens_for_Multi-modal_Object_Re-Identification_CVPR_2024_paper.html"
+  code: "https://github.com/924973292/EDITOR"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:2osOgNQ5qMEC"
+  bibtex: "/ciations/EDITOR.md"
+
+- id: TOP-ReID
+  title: "TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation"
+  authors: "<strong>Yuhao Wang</strong>, Xuehu Liu, Pingping Zhang*, Hu Lu, Zhengzheng Tu, Huchuan Lu"
+  year: 2024
+  venue: "AAAI Conference on Artificial Intelligence (AAAI)"
+  status: "Published"
+  status_class: "published"
+  featured: false
+  role: "First author"
+  image: "TOPReID.png"
+  summary: "A token permutation approach for learning identity-aware representations across visible and infrared spectra."
+  tags:
+    - "Multi-spectral ReID"
+    - "Token Learning"
+  paper: "https://ojs.aaai.org/index.php/AAAI/article/view/28388"
+  code: "https://github.com/924973292/TOP-ReID"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:IjCSPb-OGe4C"
+  bibtex: "/ciations/TOPReID.md"
+
+- id: CLIMB-ReID
+  title: "CLIMB-ReID: A Hybrid CLIP-Mamba Framework for Person Re-Identification"
+  authors: "Chenyang Yu, Xuehu Liu, Jiawen Zhu, <strong>Yuhao Wang</strong>, Pingping Zhang*, Huchuan Lu"
+  year: 2025
+  venue: "AAAI Conference on Artificial Intelligence (AAAI)"
+  status: "Published"
+  status_class: "published"
+  featured: false
+  role: "Contributor"
+  summary: "A hybrid CLIP–Mamba framework for transferring language-aligned visual representations to person re-identification."
+  tags:
+    - "Person ReID"
+    - "Vision-Language"
+  paper: ""
+  code: ""
+  bibtex: ""
+
+- id: SD-ReID
+  title: "SD-ReID: View-aware Stable Diffusion for Aerial-Ground Person Re-Identification"
+  authors: "Xiang Hu, <strong>Yuhao Wang</strong>, Bin Yan, Pingping Zhang, Huchuan Lu"
+  year: 2025
+  venue: "Manuscript"
+  status: "Under Review"
+  status_class: "under-review"
+  featured: false
+  role: "Contributor"
+  tags:
+    - "Aerial–Ground ReID"
+    - "Diffusion Models"
+
+- id: LATex
+  title: "LATex: Leveraging Attribute-based Text Knowledge for Aerial-Ground Person Re-Identification"
+  authors: "Xiang Hu, <strong>Yuhao Wang</strong>, Ruijuan Zhang, Pingping Zhang, Huchuan Lu"
+  year: 2025
+  venue: "Manuscript"
+  status: "Under Review"
+  status_class: "under-review"
+  featured: false
+  role: "Contributor"
+  tags:
+    - "Aerial–Ground ReID"
+    - "Vision-Language"
+
+- id: HPF-SAM
+  title: "HPF-SAM: Hierarchical Frequency Prompt SAM for Marine Animal Segmentation"
+  authors: "Tianyu Yan, <strong>Yuhao Wang</strong>, Yang Liu, Pingping Zhang*, Huchuan Lu"
+  year: 2025
+  venue: "Manuscript"
+  status: "Under Review"
+  status_class: "under-review"
+  featured: false
+  role: "Contributor"
+  tags:
+    - "Segmentation"
+    - "Foundation Models"
+
+- id: Prompt-S6
+  title: "Multi-Modal Object Re-Identification with Prompt-S6 and Semantic-Aware Knowledge Guidance"
+  authors: "Weixiang Zhou, JiaBei Zuo, <strong>Yuhao Wang</strong>, Cong Wang, Huchuan Lu, Zhixun Su"
+  year: 2025
+  venue: "Manuscript"
+  status: "Ongoing"
+  status_class: "ongoing"
+  featured: false
+  role: "Contributor"
+  tags:
+    - "Multimodal ReID"
+    - "State Space Models"
+
+- id: VMambaX
+  title: "VMambaX: Exploiting Vision Mamba for Abdominal X-ray Image Based NEC Classification"
+  authors: "Zhoushan Feng†, Wen Long†, <strong>Yuhao Wang</strong>†, Shicun Qiao, Jingwen Mei, Yiyu Shi, Pingping Zhang*, Chunhong Jia, Fan Wu"
+  year: 2025
+  venue: "Manuscript"
+  status: "Ongoing"
+  status_class: "ongoing"
+  featured: false
+  role: "Contributor"
+  tags:
+    - "Medical Vision"
+    - "Mamba"
+
+- id: AG-VPReID
+  title: "AG-VPReID 2025: Aerial-Ground Video-based Person Re-identification Challenge Results"
+  authors: "Kien Nguyen Thanh, Clinton Fookes, …, <strong>Yuhao Wang</strong>, Pingping Zhang, …, Saeid Rezaei"
+  year: 2025
+  venue: "Challenge report"
+  status: "Ongoing"
+  status_class: "ongoing"
+  featured: false
+  role: "Contributor"
+  tags:
+    - "Aerial–Ground ReID"
+    - "Benchmarking"

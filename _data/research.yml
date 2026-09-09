@@ -1,0 +1,49 @@
+- id: multimodal-fusion
+  eyebrow: "01 / Perception"
+  title: "Multimodal fusion"
+  description: "Aligning heterogeneous signals across vision, language, infrared, and aerial viewpoints so machines can perceive complex environments with more context and less ambiguity."
+  tags:
+    - "Cross-modal Perception"
+    - "Object ReID"
+    - "Information Collaboration"
+  publications:
+    - "IDEA"
+    - "DeMo"
+    - "MambaPro"
+    - "EDITOR"
+    - "TOP-ReID"
+
+- id: edge-agents
+  eyebrow: "02 / Agency"
+  title: "Edge GUI agents"
+  description: "Compressing and accelerating multimodal agents at the interface, where every millisecond, megabyte, and decision matters."
+  tags:
+    - "GUI Agents"
+    - "Training-free Pruning"
+    - "On-device AI"
+  publications:
+    - "GUI-Agent-Pruning"
+
+- id: efficient-mllm
+  eyebrow: "03 / Efficiency"
+  title: "Efficient multimodal LLMs"
+  description: "Reducing redundant computation in large multimodal models while preserving semantic quality, SOTA accuracy, and a path to terminal deployment."
+  tags:
+    - "MLLM"
+    - "LightVLM"
+    - "Fast Inference"
+  publications:
+    - "MambaPro"
+    - "CLIMB-ReID"
+
+- id: autonomous-decision
+  eyebrow: "04 / Systems"
+  title: "From perception to decision"
+  description: "Connecting robust representation learning with autonomous decision-making and cloud–edge collaboration in real-world applications."
+  tags:
+    - "Autonomous Decision"
+    - "Cloud–Edge Collaboration"
+    - "Real-world Deployment"
+  publications:
+    - "FusionReID"
+    - "VMambaX"

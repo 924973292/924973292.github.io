@@ -235,3 +235,30 @@
     }
   }
 }
+
+.author-profile {
+  padding: 0.4rem;
+
+  .author__avatar img {
+    box-shadow: 0 0.8rem 2rem rgba(21, 32, 43, 0.1);
+  }
+
+  .author__name {
+    letter-spacing: -0.03em;
+  }
+
+  .author__bio {
+    color: $gray;
+    line-height: 1.5;
+  }
+
+  .author__urls a {
+    color: $gray;
+    font-size: 0.86rem;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: none;
+    }
+  }
+}

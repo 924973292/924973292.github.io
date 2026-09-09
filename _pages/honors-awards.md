@@ -1,31 +1,24 @@
 ---
 layout: archive
-title: "🏆 Honors and Awards"
+title: "Honors & Awards"
 permalink: /honors-awards/
-author_profile: True
+author_profile: true
 ---
 
+<div class="page-intro">
+  <p class="eyebrow">RECOGNITION</p>
+  <h1>Milestones worth remembering.</h1>
+  <p class="page-intro__lead">Academic honors, competition results, scholarships, and paper recognitions collected across my undergraduate and graduate work.</p>
+</div>
 
-Undergraduate Grades
-------
-- 1/94 (TOP 1%) in the School of Artificial Intelligence,Dalian University of Technology
-
-
-Competitions and Honors
-------
-- Outstanding Graduate of Liaoning Province, Jun. 2024
-- Outstanding Undergraduate Thesis of Dalian University of Technology, Jun. 2024
-- 6th place CVPR2023 Workshop Smart City Challenge，Apr. 2023
-- First Prize, National College Student Mathematical Modeling Competition (Team Leader)，Feb. 2022
-- Outstanding Student, DLUT，Dec. 2021
-
-
-Scholarships
-------
-- Bochuan Qu Scholarship，Oct. 2025
-- National Scholarship 2025，Sep. 2025
-- National Scholarship for Outstanding Recommended Graduate Students，Sep. 2024
-- National Scholarship，Dec. 2021
-- National Encouragement Scholarship，Dec. 2023 / 2022
-- Outstanding Academic Performance Scholarship，Dec. 2023 / 2022 / 2021
-
+<div class="honors-list">
+  {% for item in site.data.honors %}
+    <article class="honor-item">
+      <time>{{ item.date }}</time>
+      <div>
+        <h2>{{ item.title }}</h2>
+        <p>{{ item.detail }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>

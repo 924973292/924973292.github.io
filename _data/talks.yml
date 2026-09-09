@@ -1,0 +1,23 @@
+- date: "2025.06"
+  title: "VALSE 2025"
+  type: "Poster"
+  venue: "Vision And Learning SEminar"
+  description: "Presented research on multimodal visual representation."
+
+- date: "2025.05"
+  title: "CCIG 2025"
+  type: "Spotlight talk"
+  venue: "China Conference on Image and Graphics"
+  description: "Shared recent work on multimodal object re-identification."
+
+- date: "2024.05"
+  title: "VALSE 2024"
+  type: "Poster"
+  venue: "Vision And Learning SEminar"
+  description: "Presented two research posters on multimodal recognition."
+
+- date: "2023.10"
+  title: "Rethinking Object ReID"
+  type: "Academic presentation"
+  venue: "National Centre for Computer Animation, Bournemouth"
+  description: "An introduction to the core concepts, recent progress, and future prospects of object re-identification."

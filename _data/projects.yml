@@ -1,0 +1,25 @@
+- id: GUI-Agent-Pruning
+  eyebrow: "LATEST WORK / EDGE INTELLIGENCE"
+  title: "Training-free pruning for on-device GUI agents"
+  partner: "In collaboration with OPPO Y-Lab"
+  status: "Research in progress"
+  description: "A training-free large-model pruning approach designed for GUI agents, addressing multimodal computation redundancy and constrained terminal resources without sacrificing SOTA accuracy."
+  outcomes:
+    - metric: "2.5×"
+      label: "faster time-to-first-token"
+    - metric: "30 ms"
+      label: "first-token latency in deployment"
+    - metric: "300 MB"
+      label: "model package"
+
+- id: knowledge-curation
+  eyebrow: "OPEN SOURCE / CURATION"
+  title: "Making fast-moving fields easier to enter"
+  partner: "Community resources"
+  status: "Maintained"
+  description: "Curated repositories covering multimodal object re-identification and efficient AI for multimodal large language models."
+  links:
+    - title: "Awesome-Multi-Modal-Object-Re-Identification"
+      url: "https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification"
+    - title: "Awesome-EfficientAI-for-MLLM"
+      url: "https://github.com/924973292/Awesome-EfficientAI-for-MLLM"

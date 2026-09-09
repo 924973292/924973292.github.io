@@ -1,25 +1,29 @@
 ---
 layout: archive
-title: "📚 Academic Services"
+title: "Academic Services"
 permalink: /services/
-author_profile: True
----
-<hr>
-
-## Conference Reviewer
-<ul>
-    <li>ICML 2025</li>
-    <li>ICLR 2025</li>
-    <li>WACV 2025</li>
-    <li>NeurIPS 2024、2025</li>
-</ul>
-
+author_profile: true
 ---
 
-## Journal Reviewer
-<ul>
-    <li>TPAMI</li>
-    <li>TMM</li>
-    <li>TCSVT</li>
-    <li>TETCI</li>
-</ul>
+<div class="page-intro">
+  <p class="eyebrow">COMMUNITY / SERVICE</p>
+  <h1>Contributing to the research community.</h1>
+  <p class="page-intro__lead">Peer review across computer vision, machine learning, multimodal learning, and visual understanding.</p>
+</div>
+
+<div class="service-grid">
+  <section class="service-card">
+    <p class="eyebrow">CONFERENCES</p>
+    <h2>Conference reviewer</h2>
+    <ul>
+      {% for item in site.data.services.conferences %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+  </section>
+  <section class="service-card">
+    <p class="eyebrow">JOURNALS</p>
+    <h2>Journal reviewer</h2>
+    <ul>
+      {% for item in site.data.services.journals %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+  </section>
+</div>

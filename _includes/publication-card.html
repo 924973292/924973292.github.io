@@ -1,0 +1,41 @@
+{% include base_path %}
+<article class="publication-card publication-card--{{ include.publication.status_class }}"
+  data-publication-card
+  data-year="{{ include.publication.year }}"
+  data-status="{{ include.publication.status_class }}"
+  data-tags="{{ include.publication.tags | join: ',' | downcase }}">
+  {% if include.publication.image %}
+    <a class="publication-card__media image-popup" href="{{ base_path }}/images/{{ include.publication.image }}" aria-label="Open figure for {{ include.publication.title }}">
+      <img src="{{ base_path }}/images/{{ include.publication.image }}" alt="Research figure for {{ include.publication.title }}" loading="lazy">
+    </a>
+  {% else %}
+    <div class="publication-card__media publication-card__media--empty" aria-hidden="true">
+      <span>{{ include.publication.status }}</span>
+    </div>
+  {% endif %}
+
+  <div class="publication-card__body">
+    <div class="publication-card__meta">
+      <span class="status-pill status-pill--{{ include.publication.status_class }}">{{ include.publication.status }}</span>
+      <span>{{ include.publication.year }}</span>
+      {% if include.publication.role %}<span>{{ include.publication.role }}</span>{% endif %}
+    </div>
+    <h3 class="publication-card__title">{{ include.publication.title }}</h3>
+    <p class="publication-card__authors">{{ include.publication.authors }}</p>
+    <p class="publication-card__venue">{{ include.publication.venue }}</p>
+    {% if include.publication.summary %}<p class="publication-card__summary">{{ include.publication.summary }}</p>{% endif %}
+
+    {% if include.publication.tags %}
+      <ul class="tag-list" aria-label="Research topics">
+        {% for tag in include.publication.tags %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+
+    <div class="publication-card__links">
+      {% if include.publication.paper %}<a href="{{ include.publication.paper }}" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if include.publication.code %}<a href="{{ include.publication.code }}" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if include.publication.scholar %}<a href="{{ include.publication.scholar }}" target="_blank" rel="noopener noreferrer">Scholar <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if include.publication.bibtex %}<a href="{{ base_path }}{{ include.publication.bibtex }}">BibTeX <span aria-hidden="true">↗</span></a>{% endif %}
+    </div>
+  </div>
+</article>

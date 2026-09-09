@@ -1,18 +1,19 @@
-# main links links
+# Primary navigation
 main:
+  - title: "Research"
+    url: /#research
+
   - title: "Publications"
     url: /publications/
-
-  - title: "Academic Services"
-    url: /services/
-
-  - title: "Honors and Awards"
-    url: /honors-awards/
 
   - title: "Experience"
     url: /experience/
 
-  - title: "Exhibition"
-    url: /exhibition/
+  - title: "Talks"
+    url: /talks/
 
+  - title: "Services"
+    url: /services/
 
+  - title: "More"
+    url: /honors-awards/

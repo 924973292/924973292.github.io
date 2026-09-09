@@ -1,0 +1,15 @@
+- value: "15"
+  label: "published papers"
+  detail: "international conferences and journals"
+
+- value: "6"
+  label: "first-author papers"
+  detail: "from fusion to edge intelligence"
+
+- value: "734"
+  label: "Google Scholar citations"
+  detail: "latest profile snapshot"
+
+- value: "800+"
+  label: "GitHub stars"
+  detail: "open-source research projects"

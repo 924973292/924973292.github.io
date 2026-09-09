@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "Yuhao Wang / Homepage"
 title_separator          : "-"
 name                     : &name "Yuhao Wang"
-description              : &description "A senior undergraduate at DLUT"
-url                      : https://924973292.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Master's student at Dalian University of Technology researching efficient multimodal vision systems."
+url                      : https://924973292.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "924973292/924973292.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -66,14 +66,17 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Yuhao Wang"
+  links:
+    - "https://github.com/924973292"
+    - "https://scholar.google.com/citations?user=WZvjVLkAAAAJ&hl=en"
+    - "https://orcid.org/0009-0000-7906-0329"
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # Enable only when a verified tracking ID is available.
   google:
     tracking_id          :
 
@@ -82,14 +85,13 @@ analytics:
 author:
   name             : "Yuhao Wang"
   avatar           : "WangYuhao.png"
-  bio              : "<span style='font-weight: bold;'>DLUT</span> <a href='https://924973292.github.io/CV/resume.pdf' style='color: black; text-decoration: none; font-weight: bold;' target='_blank'>CV</a>"
-  location         : "Dalian  China "
+  bio              : "M.S. student · IIAU Lab · DLUT"
+  location         : "Dalian, China"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=WZvjVLkAAAAJ&hl=zh-CN&oi=sra"
-  email            :
-  researchgate     : "https://www.researchgate.net/profile/Wang-Yuhao-10?ev=hdr_xprf&_sg=WbLVXT-z1mPo_oHFWw3APWOdzXIJQwfdVYlrP2Vc6ETw2W9Dipw6eLU5keeiB_ATU-40dRQttchCRq7xWNYYnWDl"
-  uri              :
+  googlescholar    : "https://scholar.google.com/citations?user=WZvjVLkAAAAJ&hl=en"
+  email            : "924973292@mail.dlut.edu.cn"
+  researchgate     : "https://www.researchgate.net/profile/Wang-Yuhao-10"
+  uri              : "https://924973292.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -109,7 +111,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
