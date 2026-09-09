@@ -8,7 +8,7 @@ from pathlib import Path
 from scholarly import scholarly
 
 
-SCHOLAR_ID = os.environ.get("GOOGLE_SCHOLAR_ID", "WZvjVLkAAAAJ")
+SCHOLAR_ID = os.environ.get("GOOGLE_SCHOLAR_ID") or "WZvjVLkAAAAJ"
 RESULTS_DIR = Path(__file__).parent / "results"
 
 
