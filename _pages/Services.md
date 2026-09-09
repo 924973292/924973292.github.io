@@ -1,11 +1,12 @@
 ---
-layout: archive
+layout: portfolio
 title: "Academic Services"
+description: "Conference and journal peer-review service by Yuhao Wang."
 permalink: /services/
-author_profile: true
+author_profile: false
 ---
 
-<div class="page-intro">
+<div class="page-intro page-intro--wide">
   <p class="eyebrow">COMMUNITY / SERVICE</p>
   <h1>Contributing to the research community.</h1>
   <p class="page-intro__lead">Peer review across computer vision, machine learning, multimodal learning, and visual understanding.</p>

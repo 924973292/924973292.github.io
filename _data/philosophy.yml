@@ -1,0 +1,15 @@
+- index: "01"
+  title: "Perceive beyond pixels."
+  text: "Multimodal systems should preserve the evidence unique to each sensor while discovering the semantics they share."
+
+- index: "02"
+  title: "Spend compute where it matters."
+  text: "Efficiency is an information-design problem: select useful tokens, route useful features, and reuse useful memory."
+
+- index: "03"
+  title: "Design for the device."
+  text: "A method is more valuable when latency, memory, and deployment constraints influence the research question from the beginning."
+
+- index: "04"
+  title: "Connect perception to action."
+  text: "The next step is not only to understand multimodal environments, but to help agents make reliable decisions within them."

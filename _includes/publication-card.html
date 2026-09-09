@@ -1,41 +1,78 @@
 {% include base_path %}
-<article class="publication-card publication-card--{{ include.publication.status_class }}"
+{% assign publication = include.publication %}
+<article
+  id="paper-{{ publication.id }}"
+  class="publication-card publication-card--{{ publication.status_class }}{% if include.compact %} publication-card--compact{% endif %}"
   data-publication-card
-  data-year="{{ include.publication.year }}"
-  data-status="{{ include.publication.status_class }}"
-  data-tags="{{ include.publication.tags | join: ',' | downcase }}">
-  {% if include.publication.image %}
-    <a class="publication-card__media image-popup" href="{{ base_path }}/images/{{ include.publication.image }}" aria-label="Open figure for {{ include.publication.title }}">
-      <img src="{{ base_path }}/images/{{ include.publication.image }}" alt="Research figure for {{ include.publication.title }}" loading="lazy">
+  data-year="{{ publication.year }}"
+  data-status="{{ publication.status_class }}"
+  data-role="{{ publication.role | slugify }}"
+  data-type="{{ publication.type | default: 'paper' | slugify }}"
+  data-selected="{{ publication.featured }}"
+  data-tags="{{ publication.tags | join: ',' | downcase }}">
+  {% if publication.image %}
+    {% assign optimized_image = publication.image | replace: ".png", "-800.webp" %}
+    <a class="publication-card__media image-popup" href="{{ base_path }}/images/{{ publication.image }}" aria-label="Open research figure for {{ publication.title }}">
+      <picture>
+        <source srcset="{{ base_path }}/images/optimized/{{ optimized_image }}" type="image/webp">
+        <img src="{{ base_path }}/images/{{ publication.image }}" alt="Research figure for {{ publication.title }}" loading="lazy" width="800" height="450">
+      </picture>
     </a>
   {% else %}
     <div class="publication-card__media publication-card__media--empty" aria-hidden="true">
-      <span>{{ include.publication.status }}</span>
+      <span>{{ publication.status }}</span>
     </div>
   {% endif %}
 
   <div class="publication-card__body">
     <div class="publication-card__meta">
-      <span class="status-pill status-pill--{{ include.publication.status_class }}">{{ include.publication.status }}</span>
-      <span>{{ include.publication.year }}</span>
-      {% if include.publication.role %}<span>{{ include.publication.role }}</span>{% endif %}
+      <span class="status-pill status-pill--{{ publication.status_class }}">{{ publication.status }}</span>
+      <span>{{ publication.year }}</span>
+      {% if publication.type %}<span>{{ publication.type }}</span>{% endif %}
+      {% if publication.role %}<span>{{ publication.role }}</span>{% endif %}
     </div>
-    <h3 class="publication-card__title">{{ include.publication.title }}</h3>
-    <p class="publication-card__authors">{{ include.publication.authors }}</p>
-    <p class="publication-card__venue">{{ include.publication.venue }}</p>
-    {% if include.publication.summary %}<p class="publication-card__summary">{{ include.publication.summary }}</p>{% endif %}
+    <h3 class="publication-card__title">{{ publication.title }}</h3>
+    <p class="publication-card__authors">{{ publication.authors }}</p>
+    <p class="publication-card__venue">{{ publication.venue }}</p>
+    {% if publication.summary %}<p class="publication-card__summary">{{ publication.summary }}</p>{% endif %}
 
-    {% if include.publication.tags %}
+    {% unless include.compact %}
+      {% if publication.contribution or publication.abstract %}
+        <details class="publication-card__details">
+          <summary>Why this work matters <span aria-hidden="true">+</span></summary>
+          {% if publication.contribution %}
+            <div>
+              <span class="micro-label">Contribution</span>
+              <p>{{ publication.contribution }}</p>
+            </div>
+          {% endif %}
+          {% if publication.abstract %}
+            <div>
+              <span class="micro-label">Abstract</span>
+              <p>{{ publication.abstract }}</p>
+            </div>
+          {% endif %}
+        </details>
+      {% endif %}
+    {% endunless %}
+
+    {% if publication.tags %}
       <ul class="tag-list" aria-label="Research topics">
-        {% for tag in include.publication.tags %}<li>{{ tag }}</li>{% endfor %}
+        {% for tag in publication.tags %}<li>{{ tag }}</li>{% endfor %}
       </ul>
     {% endif %}
 
     <div class="publication-card__links">
-      {% if include.publication.paper %}<a href="{{ include.publication.paper }}" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>{% endif %}
-      {% if include.publication.code %}<a href="{{ include.publication.code }}" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>{% endif %}
-      {% if include.publication.scholar %}<a href="{{ include.publication.scholar }}" target="_blank" rel="noopener noreferrer">Scholar <span aria-hidden="true">↗</span></a>{% endif %}
-      {% if include.publication.bibtex %}<a href="{{ base_path }}{{ include.publication.bibtex }}">BibTeX <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.paper and publication.paper != empty %}<a href="{{ publication.paper }}" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.arxiv and publication.arxiv != empty %}<a href="{{ publication.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.code and publication.code != empty %}<a href="{{ publication.code }}" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.project and publication.project != empty %}<a href="{{ publication.project | relative_url }}">Project <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.dataset and publication.dataset != empty %}<a href="{{ publication.dataset }}" target="_blank" rel="noopener noreferrer">Dataset <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.scholar and publication.scholar != empty %}<a href="{{ publication.scholar }}" target="_blank" rel="noopener noreferrer">Scholar <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.bibtex and publication.bibtex != empty %}<a href="{{ base_path }}{{ publication.bibtex }}">BibTeX <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.bibtex_text and publication.bibtex_text != empty %}
+        <button type="button" data-copy-bibtex="{{ publication.bibtex_text | escape }}">Copy BibTeX</button>
+      {% endif %}
     </div>
   </div>
 </article>

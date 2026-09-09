@@ -1,0 +1,83 @@
+{% include base_path %}
+{% assign project = include.project %}
+<article class="project-case" id="{{ project.id }}" data-project-card data-theme="{{ project.theme }}" data-year="{{ project.year }}">
+  {% if project.image %}
+    {% assign optimized_image = project.image | replace: ".png", "-800.webp" %}
+    <div class="project-case__visual">
+      <picture>
+        <source srcset="{{ base_path }}/images/optimized/{{ optimized_image }}" type="image/webp">
+        <img src="{{ base_path }}/images/{{ project.image }}" alt="Visual overview for {{ project.title }}" loading="lazy" width="800" height="450">
+      </picture>
+      <span>{{ project.eyebrow }}</span>
+    </div>
+  {% else %}
+    <div class="project-case__visual project-case__visual--system" aria-hidden="true">
+      <span>{{ project.eyebrow }}</span>
+      <div class="system-glyph"><i></i><i></i><i></i><i></i></div>
+    </div>
+  {% endif %}
+
+  <div class="project-case__body">
+    <div class="project-case__meta">
+      <span>{{ project.year }}</span>
+      <span>{{ project.status }}</span>
+      <span>{{ project.role }}</span>
+    </div>
+    <h3>{{ project.title }}</h3>
+    <p class="project-case__tagline">{{ project.tagline }}</p>
+    {% if project.partner %}<p class="project-case__partner">{{ project.partner }}</p>{% endif %}
+
+    {% if project.outcomes %}
+      <div class="project-metrics" aria-label="Key project outcomes">
+        {% for outcome in project.outcomes %}
+          <div><strong>{{ outcome.metric }}</strong><span>{{ outcome.label }}</span></div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <details class="project-case__details">
+      <summary>Explore the case study <span aria-hidden="true">+</span></summary>
+      <div class="project-case__sections">
+        <section>
+          <span class="micro-label">Research problem</span>
+          <p>{{ project.problem }}</p>
+        </section>
+        <section>
+          <span class="micro-label">Why it matters</span>
+          <p>{{ project.motivation }}</p>
+        </section>
+        <section>
+          <span class="micro-label">Approach</span>
+          <p>{{ project.method }}</p>
+        </section>
+        <section>
+          <span class="micro-label">Contribution</span>
+          <p>{{ project.contribution }}</p>
+        </section>
+      </div>
+      {% if project.disclosure %}<p class="project-case__disclosure">{{ project.disclosure }}</p>{% endif %}
+
+      {% if project.related_publications %}
+        <div class="project-case__related">
+          <span class="micro-label">Related publications</span>
+          {% for publication_id in project.related_publications %}
+            <a href="{{ base_path }}/publications/#paper-{{ publication_id }}">{{ publication_id }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </details>
+
+    <div class="project-case__footer">
+      <ul class="tag-list" aria-label="{{ project.title }} topics">
+        {% for tag in project.tags %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+      {% if project.links.size > 0 %}
+        <div class="project-case__links">
+          {% for link in project.links %}
+            <a href="{% if link.url contains "http" %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}" {% if link.url contains "http" %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.label }} <span aria-hidden="true">↗</span></a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</article>

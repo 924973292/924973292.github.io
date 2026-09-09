@@ -1,5 +1,10 @@
 {% include base_path %}
 {% assign profile = site.data.profile %}
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="author-profile">
   <div class="author__avatar">

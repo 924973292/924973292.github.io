@@ -1,0 +1,26 @@
+- stage: "Current"
+  horizon: "Now"
+  title: "Efficient multimodal models"
+  text: "Reduce token, feature, and memory redundancy while preserving cross-modal understanding."
+  keywords:
+    - "Token pruning"
+    - "Compression"
+    - "Fast inference"
+
+- stage: "Next"
+  horizon: "Near term"
+  title: "Long-horizon GUI agents"
+  text: "Build agents that perceive interfaces, retain useful visual history, and act under real device budgets."
+  keywords:
+    - "GUI understanding"
+    - "Agent memory"
+    - "Planning"
+
+- stage: "Future"
+  horizon: "Research vision"
+  title: "Cloud–edge multimodal agent systems"
+  text: "Coordinate perception, reasoning, memory, and action across device and cloud for reliable autonomous decision-making."
+  keywords:
+    - "Adaptive compute"
+    - "Cloud–edge collaboration"
+    - "Reliable agents"

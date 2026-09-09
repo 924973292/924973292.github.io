@@ -1,11 +1,12 @@
 ---
-layout: archive
+layout: portfolio
 title: "Talks & Presentations"
+description: "Selected talks, posters, and academic presentations by Yuhao Wang."
 permalink: /talks/
-author_profile: true
+author_profile: false
 ---
 
-<div class="page-intro">
+<div class="page-intro page-intro--wide">
   <p class="eyebrow">TALKS / POSTERS / EXCHANGE</p>
   <h1>Research is also a conversation.</h1>
   <p class="page-intro__lead">Selected presentations, posters, and research exchanges that helped me test ideas beyond the page.</p>

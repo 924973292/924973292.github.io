@@ -1,8 +1,10 @@
 ---
+layout: portfolio
 permalink: /
-title: "Yuhao Wang — Research Homepage"
-excerpt: "Yuhao Wang studies efficient multimodal vision systems for recognition, retrieval, and real-world understanding."
-author_profile: true
+title: "Yuhao Wang — Multimodal Intelligence & On-device Agents"
+description: "Yuhao Wang researches multimodal perception, efficient multimodal models, and on-device GUI agents."
+excerpt: "Building efficient multimodal intelligence for perception, foundation models, and on-device agents."
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
@@ -10,86 +12,138 @@ redirect_from:
 
 {% include base_path %}
 {% assign profile = site.data.profile %}
-{% assign latest_project = site.data.projects | first %}
 
 <div class="home-page">
-  <section class="hero-panel" aria-labelledby="hero-title">
-    <p class="eyebrow">RESEARCHER · BUILDER · VISUAL THINKER</p>
-    <h1 id="hero-title">{{ profile.name }} <span>{{ profile.name_zh }}</span></h1>
-    <p class="hero-panel__role">{{ profile.role }} · {{ profile.academic_role }} · {{ profile.affiliation }}</p>
-    <p class="hero-panel__tagline">{{ profile.tagline }}</p>
-    <p class="hero-panel__intro">{{ profile.intro }} I am currently part of the <a href="{{ profile.lab_url }}" target="_blank" rel="noopener noreferrer">IIAU Lab</a> at DLUT.</p>
-    <details class="hero-panel__bilingual">
-      <summary>中文研究简介</summary>
-      <p>{{ profile.intro_zh }}</p>
-    </details>
-    <div class="hero-panel__actions">
-      {% if profile.cv_url %}<a class="button button--primary" href="{{ profile.cv_url | relative_url }}">View CV <span aria-hidden="true">↗</span></a>{% endif %}
-      <a class="button button--quiet" href="{{ profile.scholar_url }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
-      <a class="button button--quiet" href="mailto:{{ profile.email }}">Start a conversation <span aria-hidden="true">↗</span></a>
+  <section class="portfolio-hero" aria-labelledby="hero-title">
+    <div class="portfolio-hero__content">
+      <div class="portfolio-hero__status">
+        <span class="signal-dot" aria-hidden="true"></span>
+        {{ profile.availability }}
+      </div>
+      <p class="eyebrow">MULTIMODAL INTELLIGENCE · EFFICIENT AI · GUI AGENTS</p>
+      <h1 id="hero-title">{{ profile.name }}<span>{{ profile.name_zh }}</span></h1>
+      <p class="portfolio-hero__position">{{ profile.role }}</p>
+      <p class="portfolio-hero__tagline">{{ profile.tagline }}</p>
+      <p class="portfolio-hero__intro">{{ profile.intro }}</p>
+
+      <div class="portfolio-hero__context">
+        <span>{{ profile.academic_role }}</span>
+        <a href="{{ profile.lab_url }}" target="_blank" rel="noopener noreferrer">{{ profile.affiliation_short }} <span aria-hidden="true">↗</span></a>
+        <span>{{ profile.location }}</span>
+      </div>
+
+      <div class="portfolio-hero__actions">
+        <a class="button button--primary" href="{{ base_path }}/research/">Explore my research <span aria-hidden="true">↗</span></a>
+        <a class="button button--quiet" href="{{ profile.cv_url | relative_url }}">CV <span aria-hidden="true">↗</span></a>
+        <a class="button button--quiet" href="{{ profile.scholar_url }}" target="_blank" rel="noopener noreferrer">Scholar <span aria-hidden="true">↗</span></a>
+        <a class="button button--quiet" href="{{ profile.github_url }}" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a class="button button--quiet" href="{{ profile.orcid_url }}" target="_blank" rel="noopener noreferrer">ORCID <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <details class="hero-panel__bilingual">
+        <summary>中文研究简介</summary>
+        <p>{{ profile.intro_zh }}</p>
+      </details>
     </div>
-    <div class="hero-panel__focus" aria-label="Research focus">
-      {% for focus in profile.focus %}<span>{{ focus }}</span>{% endfor %}
-    </div>
+
+    <aside class="portfolio-hero__portrait">
+      <div class="portrait-frame">
+        <picture>
+          <source srcset="{{ base_path }}/images/optimized/WangYuhao.webp" type="image/webp">
+          <img src="{{ base_path }}/images/{{ profile.avatar }}" alt="Portrait of {{ profile.name }}" width="414" height="559">
+        </picture>
+        <div class="portrait-frame__caption">
+          <span>Research focus</span>
+          <strong>Perception → Efficiency → Agency</strong>
+        </div>
+      </div>
+      <div class="portfolio-hero__monogram" aria-hidden="true">YW</div>
+    </aside>
   </section>
 
-  <section class="metric-grid" aria-label="Research snapshot">
+  <section class="metric-grid" aria-label="Research at a glance">
     {% for metric in site.data.metrics %}
-      <div class="metric-card">
+      <article class="metric-card">
         <strong>{{ metric.value }}</strong>
         <span>{{ metric.label }}</span>
         <small>{{ metric.detail }}</small>
-      </div>
+        <em>{{ metric.source }} · {{ metric.updated }}</em>
+      </article>
     {% endfor %}
   </section>
 
-  <section class="home-section" id="research">
-    <div class="section-heading">
-      <p class="eyebrow">RESEARCH AGENDA</p>
-      <h2>From multimodal perception to autonomous action.</h2>
-      <p>I study how models can connect heterogeneous signals, preserve semantic detail, and move from understanding to efficient decisions in real systems.</p>
+  <section class="home-section home-section--atlas" id="research">
+    <div class="section-heading section-heading--inline">
+      <div>
+        <p class="eyebrow">01 / RESEARCH IDENTITY</p>
+        <h2>One connected research program.</h2>
+      </div>
+      <p>My work follows a continuous path from multimodal evidence to efficient representation and deployable agents.</p>
     </div>
-    <div class="research-grid">
-      {% for theme in site.data.research %}
-        <article class="research-card">
-          <p class="research-card__eyebrow">{{ theme.eyebrow }}</p>
-          <h3>{{ theme.title }}</h3>
-          <p>{{ theme.description }}</p>
-          <ul class="tag-list" aria-label="{{ theme.title }} topics">
-            {% for tag in theme.tags %}<li>{{ tag }}</li>{% endfor %}
-          </ul>
+    {% include research-map.html %}
+    <a class="section-link" href="{{ base_path }}/research/">Read the full research agenda <span aria-hidden="true">↗</span></a>
+  </section>
+
+  <section class="home-section">
+    <div class="section-heading">
+      <p class="eyebrow">02 / RESEARCH PHILOSOPHY</p>
+      <h2>Less redundant compute.<br>More useful intelligence.</h2>
+    </div>
+    <div class="philosophy-grid">
+      {% for item in site.data.philosophy %}
+        <article class="philosophy-card">
+          <span>{{ item.index }}</span>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.text }}</p>
         </article>
       {% endfor %}
     </div>
   </section>
 
-  <section class="home-section" id="featured-work">
+  <section class="home-section">
     <div class="section-heading section-heading--inline">
       <div>
-        <p class="eyebrow">SELECTED WORK</p>
-        <h2>Research, made legible.</h2>
+        <p class="eyebrow">03 / SELECTED HIGHLIGHTS</p>
+        <h2>The work to see first.</h2>
       </div>
-      <a class="text-link" href="{{ base_path }}/publications/">View selected publications <span aria-hidden="true">↗</span></a>
+      <p>A small set of research, systems, and open-source contributions that best explains the trajectory.</p>
     </div>
-    <div class="publication-grid publication-grid--featured">
-      {% for publication in site.data.publications %}
-        {% if publication.featured %}
-          {% include publication-card.html publication=publication %}
-        {% endif %}
+    <div class="highlight-grid">
+      {% for highlight in site.data.highlights %}
+        {% include highlight-card.html highlight=highlight %}
       {% endfor %}
     </div>
   </section>
 
-  <section class="home-section latest-project" id="latest-work">
-    <div class="latest-project__intro">
-      <p class="eyebrow">{{ latest_project.eyebrow }}</p>
-      <h2>{{ latest_project.title }}</h2>
-      <p>{{ latest_project.description }}</p>
-      <p class="latest-project__partner">{{ latest_project.partner }} · <strong>{{ latest_project.status }}</strong></p>
+  <section class="home-section" id="projects">
+    <div class="section-heading section-heading--inline">
+      <div>
+        <p class="eyebrow">04 / RESEARCH PROJECTS</p>
+        <h2>From question to evidence.</h2>
+      </div>
+      <a class="section-link" href="{{ base_path }}/projects/">Explore all projects <span aria-hidden="true">↗</span></a>
     </div>
-    <div class="latest-project__outcomes">
-      {% for outcome in latest_project.outcomes %}
-        <div><strong>{{ outcome.metric }}</strong><span>{{ outcome.label }}</span></div>
+    <div class="project-list project-list--home">
+      {% assign featured_projects = site.data.projects | where: "featured", true | sort: "order" %}
+      {% for project in featured_projects limit:3 %}
+        {% include project-card.html project=project %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-section" id="publications">
+    <div class="section-heading section-heading--inline">
+      <div>
+        <p class="eyebrow">05 / SELECTED PUBLICATIONS</p>
+        <h2>Methods that build on one another.</h2>
+      </div>
+      <a class="section-link" href="{{ base_path }}/publications/">Search the full record <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="publication-grid publication-grid--featured">
+      {% for publication in site.data.publications %}
+        {% if publication.featured %}
+          {% include publication-card.html publication=publication compact=true %}
+        {% endif %}
       {% endfor %}
     </div>
   </section>
@@ -97,7 +151,7 @@ redirect_from:
   <section class="home-section home-section--split">
     <div>
       <div class="section-heading">
-        <p class="eyebrow">NOW / NEXT</p>
+        <p class="eyebrow">06 / NOW</p>
         <h2>Recent signals.</h2>
       </div>
       <div class="news-list">
@@ -106,17 +160,17 @@ redirect_from:
             <time datetime="{{ item.date }}">{{ item.date | date: "%b %Y" }}</time>
             <div>
               <span class="news-item__label">{{ item.label }}</span>
-              <p>{% if item.link %}<a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</p>
+              <p>{% if item.link and item.link != empty %}<a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</p>
             </div>
           </article>
         {% endfor %}
       </div>
     </div>
 
-    <div id="timeline">
+    <div>
       <div class="section-heading">
-        <p class="eyebrow">A SHORT TIMELINE</p>
-        <h2>Places, questions, momentum.</h2>
+        <p class="eyebrow">07 / RESEARCH JOURNEY</p>
+        <h2>How the direction formed.</h2>
       </div>
       <div class="timeline">
         {% for item in site.data.timeline limit:5 %}
@@ -128,25 +182,60 @@ redirect_from:
           </article>
         {% endfor %}
       </div>
+      <a class="section-link" href="{{ base_path }}/experience/">View the complete journey <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <section class="home-section community-panel">
+    <div class="community-panel__intro">
+      <p class="eyebrow">08 / COMMUNITY & OPEN WORK</p>
+      <h2>Research also means reviewing, sharing, and maintaining.</h2>
+      <p>Beyond papers, I contribute through peer review, talks, released implementations, and curated research resources.</p>
+    </div>
+    <div class="community-panel__links">
+      <a href="{{ base_path }}/open-source/"><span>Open Source</span><strong>Code & curated resources</strong><i aria-hidden="true">↗</i></a>
+      <a href="{{ base_path }}/services/"><span>Academic Service</span><strong>Conferences & journals</strong><i aria-hidden="true">↗</i></a>
+      <a href="{{ base_path }}/talks/"><span>Talks</span><strong>Posters & presentations</strong><i aria-hidden="true">↗</i></a>
+      <a href="{{ base_path }}/honors-awards/"><span>Recognition</span><strong>Awards & scholarships</strong><i aria-hidden="true">↗</i></a>
+    </div>
+  </section>
+
+  <section class="home-section future-section">
+    <div class="section-heading">
+      <p class="eyebrow">09 / WHERE I’M GOING</p>
+      <h2>From efficient models to reliable agent systems.</h2>
+    </div>
+    <div class="future-roadmap">
+      {% for item in site.data.future %}
+        <article class="future-step">
+          <div class="future-step__marker"><span>{{ forloop.index }}</span></div>
+          <div>
+            <p class="eyebrow">{{ item.stage }}</p>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.text }}</p>
+          </div>
+        </article>
+      {% endfor %}
     </div>
   </section>
 
   <section class="home-section beyond-research">
     <div>
-      <p class="eyebrow">BEYOND RESEARCH</p>
+      <p class="eyebrow">10 / BEYOND RESEARCH</p>
       <h2>Curiosity needs a little room.</h2>
       <p>{{ profile.quote }}<br><span>{{ profile.quote_attribution }}</span></p>
     </div>
-    <div class="beyond-research__links">
-      <a href="{{ base_path }}/exhibition/">BearNoBugs / personal exhibition <span aria-hidden="true">↗</span></a>
-      <a href="https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification" target="_blank" rel="noopener noreferrer">Curated multimodal ReID resources <span aria-hidden="true">↗</span></a>
-      <a href="https://github.com/924973292/Awesome-EfficientAI-for-MLLM" target="_blank" rel="noopener noreferrer">Efficient AI for MLLMs <span aria-hidden="true">↗</span></a>
-    </div>
+    <a class="section-link" href="{{ base_path }}/exhibition/">Visit BearNoBugs <span aria-hidden="true">↗</span></a>
   </section>
 
   <section class="home-cta" id="contact">
-    <p class="eyebrow">LET'S TALK</p>
-    <h2>Interested in multimodal vision, efficient models, or a thoughtful exchange?</h2>
-    <a class="button button--primary" href="mailto:{{ profile.email }}">{{ profile.email }} <span aria-hidden="true">↗</span></a>
+    <div>
+      <p class="eyebrow">LET’S TALK</p>
+      <h2>Interested in multimodal intelligence, efficient models, or on-device agents?</h2>
+    </div>
+    <div class="home-cta__actions">
+      <a class="button button--primary" href="mailto:{{ profile.email }}">{{ profile.email }} <span aria-hidden="true">↗</span></a>
+      <span>WeChat · {{ profile.wechat }}</span>
+    </div>
   </section>
 </div>

@@ -1,19 +1,19 @@
 # Primary navigation
 main:
   - title: "Research"
-    url: /#research
+    url: /research/
+
+  - title: "Projects"
+    url: /projects/
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Experience"
+  - title: "Journey"
     url: /experience/
 
-  - title: "Talks"
-    url: /talks/
-
-  - title: "Services"
-    url: /services/
+  - title: "Open Source"
+    url: /open-source/
 
   - title: "More"
     url: /honors-awards/

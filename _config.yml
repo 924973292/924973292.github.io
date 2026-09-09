@@ -7,13 +7,15 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yuhao Wang / Homepage"
+title                    : "Yuhao Wang · Multimodal Intelligence & On-device Agents"
 title_separator          : "-"
 name                     : &name "Yuhao Wang"
-description              : &description "Master's student at Dalian University of Technology researching efficient multimodal vision systems."
+description              : &description "Yuhao Wang researches multimodal perception, efficient multimodal foundation models, and on-device GUI agents at Dalian University of Technology."
+keywords                 : "Yuhao Wang, 王宇皓, multimodal perception, multimodal large language models, efficient MLLM, GUI agents, on-device AI, computer vision, object re-identification"
 url                      : https://924973292.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "924973292/924973292.github.io"
+theme                    : # Theme files are maintained directly in this repository.
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -62,7 +64,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "og-card.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -72,6 +74,7 @@ social:
     - "https://github.com/924973292"
     - "https://scholar.google.com/citations?user=WZvjVLkAAAAJ&hl=en"
     - "https://orcid.org/0009-0000-7906-0329"
+    - "https://www.researchgate.net/profile/Wang-Yuhao-10"
 
 
 # Analytics
@@ -125,6 +128,7 @@ include:
   - _pages
   - files
 exclude:
+  - CitationMap
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

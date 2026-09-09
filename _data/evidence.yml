@@ -1,0 +1,36 @@
+updated: "2026-09-10"
+identity:
+  scholar_id: "WZvjVLkAAAAJ"
+  orcid: "0009-0000-7906-0329"
+  github: "924973292"
+  institutional_email: "924973292@mail.dlut.edu.cn"
+
+publication_record:
+  total_detailed_records: 18
+  peer_reviewed: 13
+  public_preprints: 3
+  ongoing: 2
+  first_or_cofirst: 8
+  sources:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=WZvjVLkAAAAJ&hl=en"
+    - label: "ORCID"
+      url: "https://orcid.org/0009-0000-7906-0329"
+    - label: "CV"
+      url: "/CV/resume.pdf"
+
+metrics:
+  citations:
+    value: 734
+    checked: "2026-09"
+    source: "Google Scholar profile snapshot"
+  github_stars:
+    value: "800+"
+    checked: "2026-09"
+    source: "Public personal and collaborative research-repository snapshots; current verified listed total exceeds 1,000"
+
+display_policy:
+  - "Accepted and published work is labeled Published."
+  - "Public manuscripts without a public venue are labeled Preprint."
+  - "Non-public collaborative work is labeled Ongoing and described only at a high level."
+  - "Repository stars are dated snapshots, not implied live counters."

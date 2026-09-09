@@ -1,0 +1,78 @@
+{% include base_path %}
+<div class="research-atlas" data-research-atlas>
+  <div class="research-atlas__canvas" aria-label="Interactive map of Yuhao Wang's research">
+    <svg class="research-atlas__lines" viewBox="0 0 100 100" role="img" aria-label="Research themes connected through multimodal intelligence">
+      <path d="M50 50 L14 31" data-research-line="multimodal-perception"></path>
+      <path d="M50 50 L38 69" data-research-line="multimodal-foundation-models"></path>
+      <path d="M50 50 L64 31" data-research-line="efficient-intelligence"></path>
+      <path d="M50 50 L88 69" data-research-line="on-device-agents"></path>
+      <path d="M64 31 L88 31" data-research-line="cloud-edge-agents"></path>
+      <path d="M38 69 C52 86, 73 85, 88 69" data-research-line="on-device-agents"></path>
+    </svg>
+
+    <div class="research-atlas__core">
+      <span>Research identity</span>
+      <strong>Multimodal<br>Intelligence</strong>
+      <small>Perceive · Compress · Act</small>
+    </div>
+
+    {% for theme in site.data.research %}
+      <button
+        class="research-node{% if forloop.first %} is-active{% endif %}"
+        type="button"
+        style="--node-x: {{ theme.position.x }}%; --node-y: {{ theme.position.y }}%;"
+        data-research-node="{{ theme.id }}"
+        aria-controls="research-panel-{{ theme.id }}"
+        aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
+        <span>{{ theme.index }}</span>
+        <strong>{{ theme.short_title }}</strong>
+        <small>{{ theme.maturity }}</small>
+      </button>
+    {% endfor %}
+  </div>
+
+  <div class="research-atlas__details" aria-live="polite">
+    {% for theme in site.data.research %}
+      <article
+        id="research-panel-{{ theme.id }}"
+        class="research-panel{% if forloop.first %} is-active{% endif %}"
+        data-research-panel="{{ theme.id }}"
+        {% unless forloop.first %}hidden{% endunless %}>
+        <div class="research-panel__header">
+          <div>
+            <p class="eyebrow">{{ theme.maturity }} RESEARCH THEME</p>
+            <h3>{{ theme.title }}</h3>
+          </div>
+          <span class="research-panel__index">{{ theme.index }}</span>
+        </div>
+        <p class="research-panel__question">{{ theme.question }}</p>
+        <p class="research-panel__description">{{ theme.description }}</p>
+        <div class="research-panel__columns">
+          <div>
+            <span class="micro-label">Methods</span>
+            <ul>
+              {% for method in theme.methods %}<li>{{ method }}</li>{% endfor %}
+            </ul>
+          </div>
+          <div>
+            <span class="micro-label">Evidence</span>
+            <div class="evidence-links">
+              {% for project_id in theme.projects %}
+                <a href="{{ base_path }}/projects/#{{ project_id }}">Project · {{ project_id | replace: "-", " " }}</a>
+              {% endfor %}
+              {% for publication_id in theme.publications %}
+                <a href="{{ base_path }}/publications/#paper-{{ publication_id }}">Paper · {{ publication_id }}</a>
+              {% endfor %}
+              {% if theme.projects.size == 0 and theme.publications.size == 0 %}
+                <span>Research direction in formation</span>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        <ul class="tag-list" aria-label="{{ theme.title }} keywords">
+          {% for keyword in theme.keywords %}<li>{{ keyword }}</li>{% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
+  </div>
+</div>

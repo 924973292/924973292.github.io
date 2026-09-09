@@ -1,14 +1,15 @@
 ---
-layout: archive
+layout: portfolio
 title: "Beyond Research"
+description: "A small personal photo archive beyond Yuhao Wang's research work."
 permalink: /exhibition/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
 
 <div class="exhibition-page">
-  <div class="page-intro">
+  <div class="page-intro page-intro--wide">
     <p class="eyebrow">BEYOND RESEARCH / BEARNOBUGS</p>
     <h1>A small archive of off-screen moments.</h1>
     <p class="page-intro__lead">Research is a serious practice. It is also made by people who notice light, collect small rituals, and leave room for play.</p>

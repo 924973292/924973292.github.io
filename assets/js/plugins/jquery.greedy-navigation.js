@@ -6,15 +6,17 @@
 */
 
 var $nav = $('#site-nav');
-var $btn = $('#site-nav button');
+var $btn = $('#site-nav .greedy-nav__toggle');
 var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
+var $actions = $('#site-nav .masthead__actions');
 
 var breaks = [];
 
 function updateNav() {
 
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  var actionsWidth = $actions.outerWidth(true) || 0;
+  var availableSpace = ($btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30) - actionsWidth;
 
   // The visible list is overflowing the nav
   if($vlinks.width() > availableSpace) {
@@ -67,6 +69,9 @@ $(window).resize(function() {
 $btn.on('click', function() {
   $hlinks.toggleClass('hidden');
   $(this).toggleClass('close');
+  var expanded = !$hlinks.hasClass('hidden');
+  $(this).attr('aria-expanded', expanded ? 'true' : 'false');
+  $(this).attr('aria-label', expanded ? 'Close navigation menu' : 'Open navigation menu');
 });
 
 updateNav();

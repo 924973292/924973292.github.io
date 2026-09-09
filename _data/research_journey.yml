@@ -1,0 +1,48 @@
+- period: "2020–2022"
+  phase: "Foundations"
+  title: "Artificial intelligence and visual modeling"
+  description: "Built foundations in AI, mathematical modeling, and research practice during undergraduate study at DLUT."
+  evidence:
+    - "B.Eng. in Artificial Intelligence"
+    - "National mathematical modeling first prize"
+
+- period: "2023"
+  phase: "First research direction"
+  title: "Object re-identification in real environments"
+  description: "Moved from general computer vision toward identity modeling, smart-city settings, and research communication."
+  evidence:
+    - "CVPR Smart City Challenge"
+    - "Rethinking Object ReID talk at NCCA"
+
+- period: "2024"
+  phase: "Multimodal perception"
+  title: "Identity across RGB, NIR, TIR, and tokens"
+  description: "Developed a systematic multimodal ReID direction through token permutation and diverse token selection."
+  evidence:
+    - "TOP-ReID · AAAI 2024"
+    - "Magic Tokens · CVPR 2024"
+
+- period: "2025"
+  phase: "Efficient representation"
+  title: "Language priors, expert routing, and Mamba"
+  description: "Expanded multimodal perception toward vision-language semantics and efficient long-sequence representation."
+  evidence:
+    - "IDEA · CVPR 2025"
+    - "DeMo and MambaPro · AAAI 2025"
+    - "Research internship · NUS LV Lab"
+
+- period: "Current"
+  phase: "On-device intelligence"
+  title: "Efficient multimodal GUI agents"
+  description: "Connecting training-free pruning and model compression with terminal latency, memory, and deployment constraints."
+  evidence:
+    - "OPPO Y-Lab collaboration"
+    - "2.5× TTFT improvement"
+
+- period: "Future"
+  phase: "Research vision"
+  title: "Reliable cloud–edge agent systems"
+  description: "Toward agents that coordinate multimodal perception, memory, reasoning, and action across device and cloud."
+  evidence:
+    - "Adaptive computation"
+    - "Long-horizon decision-making"
