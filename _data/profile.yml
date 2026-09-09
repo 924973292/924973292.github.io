@@ -26,9 +26,9 @@ focus:
   - "Efficient Multimodal LLMs"
   - "Autonomous Decision-Making"
 impact:
-  papers: "18"
-  first_author_papers: "8"
-  citations: "734"
+  papers: "25"
+  first_author_papers: "10"
+  citations: "735"
   github_stars: "800+"
   updated: "2026-09"
 latest_work:

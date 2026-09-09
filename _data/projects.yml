@@ -60,7 +60,11 @@
     - "Training-free Pruning"
     - "Mobile AI"
     - "Efficient MLLM"
-  links: []
+  related_publications:
+    - "TRACE"
+  links:
+    - label: "Scholar record"
+      url: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:TQgYirikUcIC"
 
 - id: text-enhanced-reid
   order: 3

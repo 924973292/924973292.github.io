@@ -6,11 +6,14 @@ identity:
   institutional_email: "924973292@mail.dlut.edu.cn"
 
 publication_record:
-  total_detailed_records: 18
-  peer_reviewed: 13
+  total_detailed_records: 25
+  scholar_records: 21
+  additional_verified_records: 4
+  peer_reviewed: 20
   public_preprints: 3
-  ongoing: 2
-  first_or_cofirst: 8
+  technical_reports: 1
+  ongoing: 1
+  first_or_cofirst: 10
   sources:
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=WZvjVLkAAAAJ&hl=en"
@@ -21,9 +24,9 @@ publication_record:
 
 metrics:
   citations:
-    value: 734
-    checked: "2026-09"
-    source: "Google Scholar profile snapshot"
+    value: 735
+    checked: "2026-09-05"
+    source: "Last successful Google Scholar automation snapshot"
   github_stars:
     value: "800+"
     checked: "2026-09"

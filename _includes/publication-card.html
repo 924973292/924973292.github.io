@@ -67,6 +67,7 @@
       {% if publication.arxiv and publication.arxiv != empty %}<a href="{{ publication.arxiv }}" target="_blank" rel="noopener noreferrer">arXiv <span aria-hidden="true">↗</span></a>{% endif %}
       {% if publication.code and publication.code != empty %}<a href="{{ publication.code }}" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>{% endif %}
       {% if publication.project and publication.project != empty %}<a href="{{ publication.project | relative_url }}">Project <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.external_project and publication.external_project != empty %}<a href="{{ publication.external_project }}" target="_blank" rel="noopener noreferrer">Project <span aria-hidden="true">↗</span></a>{% endif %}
       {% if publication.dataset and publication.dataset != empty %}<a href="{{ publication.dataset }}" target="_blank" rel="noopener noreferrer">Dataset <span aria-hidden="true">↗</span></a>{% endif %}
       {% if publication.scholar and publication.scholar != empty %}<a href="{{ publication.scholar }}" target="_blank" rel="noopener noreferrer">Scholar <span aria-hidden="true">↗</span></a>{% endif %}
       {% if publication.bibtex and publication.bibtex != empty %}<a href="{{ base_path }}{{ publication.bibtex }}">BibTeX <span aria-hidden="true">↗</span></a>{% endif %}

@@ -14,10 +14,15 @@
     - "Multimodal ReID"
     - "Cross-modal Retrieval"
   publications:
+    - "DSGM"
+    - "INSPI"
+    - "STMI"
     - "Signal"
     - "SD-ReID"
     - "CADTrack"
     - "RAGTrack"
+    - "SAS-VPReID"
+    - "VReID-XFD"
     - "Prompt-S6"
     - "IDEA"
     - "DeMo"
@@ -48,6 +53,7 @@
     - "Vision-Language"
   publications:
     - "ERA"
+    - "VISTA-Bench"
     - "RAGTrack"
     - "HFP-SAM"
     - "Prompt-S6"
@@ -77,6 +83,7 @@
     - "Fast Inference"
   publications:
     - "ERA"
+    - "STMI"
     - "Prompt-S6"
     - "DeMo"
     - "MambaPro"
@@ -105,7 +112,8 @@
     - "GUI Agents"
     - "Agent Memory"
     - "Mobile / Edge AI"
-  publications: []
+  publications:
+    - "TRACE"
   projects:
     - "edge-gui-agent"
   position:

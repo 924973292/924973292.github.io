@@ -16,7 +16,7 @@ author_profile: false
     <div class="page-intro__links">
       <a class="button button--primary" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
       <a class="button button--quiet" href="{{ site.data.profile.cv_url | relative_url }}">Download CV <span aria-hidden="true">↗</span></a>
-      <span class="data-note">18 detailed records · 13 peer-reviewed · 3 public preprints · 2 ongoing.</span>
+      <span class="data-note">25 verified records · 21 indexed by Scholar · 20 peer-reviewed · 5 clearly labeled non-final records.</span>
     </div>
   </section>
 
@@ -44,9 +44,8 @@ author_profile: false
           <span class="filter-label">Status</span>
           <select data-status-select>
             <option value="all">All statuses</option>
-            <option value="published">Published</option>
-            <option value="under-review">Under Review</option>
-            <option value="ongoing">Ongoing</option>
+            <option value="published">Published / accepted</option>
+            <option value="ongoing">Preprint / technical / ongoing</option>
           </select>
         </label>
         <label>
@@ -63,7 +62,11 @@ author_profile: false
           <select data-topic-filter>
             <option value="all">All topics</option>
             <option value="multimodal reid">Multimodal ReID</option>
+            <option value="gui agents">GUI Agents</option>
             <option value="vision-language">Vision-Language</option>
+            <option value="benchmark">Benchmarks</option>
+            <option value="rgbt tracking">RGBT Tracking</option>
+            <option value="segmentation">Segmentation</option>
             <option value="mamba">Mamba</option>
             <option value="aerial–ground reid">Aerial–Ground</option>
             <option value="medical vision">Medical Vision</option>

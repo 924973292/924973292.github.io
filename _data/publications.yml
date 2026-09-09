@@ -1,3 +1,100 @@
+- id: TRACE
+  title: "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents"
+  authors: "<strong>Yuhao Wang</strong>, Mu Qiao, Xindong Zhang, Lei Zhang, Yunzhi Zhuge, Huchuan Lu"
+  year: 2026
+  venue: "Technical report"
+  type: "Technical Report"
+  status: "Technical Report"
+  status_class: "ongoing"
+  featured: true
+  role: "First author"
+  summary: "A newly indexed technical report on efficient GUI agents. Detailed claims are withheld until the report itself becomes public."
+  tags:
+    - "GUI Agents"
+    - "Efficient Agents"
+    - "Evidence Ordering"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:TQgYirikUcIC"
+  project: "/projects/#edge-gui-agent"
+
+- id: DSGM
+  title: "Multi-Modal Object Re-Identification with Dual Semantic Guidance and Global-Local Mutual Modulation"
+  authors: "Weixiang Zhou†, Xingguo Xu†, <strong>Yuhao Wang</strong>, Cong Wang, Yang Yang, Zhixun Su, Jinshan Pan"
+  year: 2026
+  venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)"
+  type: "Journal"
+  status: "Accepted"
+  status_class: "published"
+  featured: false
+  role: "Contributor"
+  summary: "Dual semantic guidance and global-local modulation improve part-level alignment and hierarchical multimodal aggregation."
+  contribution: "Combines unified text semantics, soft-mask local modulation, and hierarchical mixture-of-experts fusion."
+  tags:
+    - "Multimodal ReID"
+    - "Semantic Guidance"
+    - "Mixture of Experts"
+  paper: "https://arxiv.org/abs/2607.29207"
+  code: "https://github.com/zw-absin/DSGM"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:hFOr9nPyWt4C"
+
+- id: INSPI
+  title: "Incentive Noise and Structural Prior Infusion for Multi-Modal Object Re-Identification"
+  authors: "Weixiang Zhou, <strong>Yuhao Wang</strong>, Xingguo Xu, Cong Wang, Weizhen Zhou, Zhixun Su, Jinshan Pan"
+  year: 2026
+  venue: "European Conference on Computer Vision (ECCV)"
+  type: "Conference"
+  status: "Accepted · Poster"
+  status_class: "published"
+  featured: false
+  role: "Contributor"
+  summary: "Accepted ECCV 2026 poster. A technical summary is intentionally omitted until reliable public paper metadata is available."
+  tags:
+    - "Multimodal ReID"
+    - "Structural Priors"
+  paper: "https://eccv.ecva.net/virtual/2026/poster/3598"
+  code: "https://github.com/zw-absin/INSPI"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:IWHjjKOFINEC"
+
+- id: STMI
+  title: "STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification"
+  authors: "Xingguo Xu†, Zhanyu Liu†, Weixiang Zhou†, Yuansheng Gao, Junjie Cao, <strong>Yuhao Wang*</strong>, Jixiang Luo, Dell Zhang"
+  year: 2026
+  venue: "AAAI Conference on Artificial Intelligence (AAAI)"
+  type: "Conference"
+  status: "Published"
+  status_class: "published"
+  featured: false
+  role: "Contributor"
+  summary: "Segmentation priors modulate foreground tokens while a cross-modal hypergraph captures higher-order RGB/NIR/TIR relations."
+  contribution: "Uses SAM-guided token redistribution and unified hypergraph interaction without relying on hard foreground deletion."
+  tags:
+    - "Multimodal ReID"
+    - "Hypergraph"
+    - "Segmentation Guidance"
+  paper: "https://doi.org/10.1609/aaai.v40i14.38125"
+  arxiv: "https://arxiv.org/abs/2603.00695"
+  code: "https://github.com/young6man/STMI"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:mVmsd5A6BfQC"
+
+- id: VISTA-Bench
+  title: "VISTA-Bench: Do Vision-Language Models Really Understand Visualized Text as Well as Pure Text?"
+  authors: "Qing’an Liu†, Juntong Feng†, <strong>Yuhao Wang†</strong>, Xinzhe Han, Yujie Cheng, Yue Zhu, Haiwen Diao, Yunzhi Zhuge, Huchuan Lu"
+  year: 2026
+  venue: "arXiv preprint"
+  type: "Preprint"
+  status: "Preprint"
+  status_class: "ongoing"
+  featured: false
+  role: "Co-first author"
+  summary: "A paired benchmark testing whether VLMs understand visualized text as reliably as equivalent pure text."
+  contribution: "Builds 1,500 paired items and evaluates more than 30 VLMs, exposing a modality gap that widens with rendering difficulty."
+  tags:
+    - "Vision-Language Models"
+    - "Benchmark"
+    - "Visualized Text"
+  paper: "https://arxiv.org/abs/2602.04802"
+  code: "https://github.com/QingAnLiu/VISTA-Bench"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:-f6ydRqryjwC"
+
 - id: ERA
   title: "ERA: Entropy-Guided Visual Token Pruning with Rectified Attention for Efficient MLLMs"
   authors: "<strong>Yuhao Wang</strong>, Mu Qiao, Haiwen Diao, Yunzhi Zhuge, Pingping Zhang, Xindong Zhang, Lei Zhang, Huchuan Lu"
@@ -16,6 +113,7 @@
     - "Attention Rectification"
   paper: "https://arxiv.org/abs/2606.31982"
   code: "https://github.com/924973292/ERA"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qUcmZB5y_30C"
   project: "/projects/#efficient-mllm-pruning"
 
 - id: Signal
@@ -26,7 +124,7 @@
   type: "Conference"
   status: "Published"
   status_class: "published"
-  featured: true
+  featured: false
   role: "Co-first author"
   summary: "Selective patch interaction and joint global-local alignment suppress background interference and improve consistency across three visual modalities."
   contribution: "Introduces selective interaction, Gramian-space global alignment, and shift-aware local alignment for multimodal object ReID."
@@ -35,10 +133,12 @@
     - "Token Selection"
     - "Global-local Alignment"
   paper: "https://ojs.aaai.org/index.php/AAAI/article/view/37674"
-  scholar: ""
+  arxiv: "https://arxiv.org/abs/2511.17965"
+  code: "https://github.com/010129/Signal"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:_kc_bZDykSQC"
 
 - id: SD-ReID
-  title: "SD-ReID: View-Aware Stable Diffusion for Aerial-Ground Person Re-Identification"
+  title: "SD-ReID: View-aware Stable Diffusion for Aerial-Ground Person Re-Identification"
   authors: "<strong>Yuhao Wang</strong>, Xiang Hu, Lixin Wang, Pingping Zhang*, Huchuan Lu"
   year: 2026
   venue: "IEEE Transactions on Image Processing (TIP)"
@@ -55,6 +155,7 @@
     - "Generative Learning"
   paper: "https://arxiv.org/abs/2504.09549"
   code: "https://github.com/924973292/SD-ReID"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:YOwf2qJgpHMC"
 
 - id: HFP-SAM
   title: "HFP-SAM: Hierarchical Frequency Prompted SAM for Efficient Marine Animal Segmentation"
@@ -74,6 +175,7 @@
     - "Mamba"
   paper: "https://arxiv.org/abs/2603.12708"
   code: "https://github.com/Drchip61/TIP-HFP-SAM"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:QIV2ME_5wuYC"
 
 - id: CADTrack
   title: "CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking"
@@ -86,20 +188,24 @@
   featured: false
   role: "Contributor"
   summary: "Contextual aggregation and deformable alignment improve robust visual tracking across visible and thermal modalities."
+  contribution: "Combines linear-complexity cross-modal interaction, sparse expert aggregation, and deformable temporal alignment."
   tags:
     - "RGBT Tracking"
     - "Multimodal Perception"
     - "Deformable Alignment"
   paper: "https://ojs.aaai.org/index.php/AAAI/article/view/37535"
+  arxiv: "https://arxiv.org/abs/2511.17967"
+  code: "https://github.com/IdolLab/CADTrack"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Zph67rFs4hoC"
 
 - id: RAGTrack
-  title: "RAGTrack: Language-Aware RGBT Tracking with Retrieval-Augmented Generation"
+  title: "RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation"
   authors: "Hao Li, <strong>Yuhao Wang</strong>, Wenning Hao*, Pingping Zhang*, Dong Wang, Huchuan Lu"
   year: 2026
-  venue: "arXiv preprint"
-  type: "Preprint"
-  status: "Preprint"
-  status_class: "ongoing"
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  type: "Conference"
+  status: "Published"
+  status_class: "published"
   featured: false
   role: "Contributor"
   summary: "Introduces MLLM-generated language and retrieval-augmented temporal reasoning into visible-thermal object tracking."
@@ -108,8 +214,48 @@
     - "RGBT Tracking"
     - "Vision-Language"
     - "Retrieval-Augmented Generation"
-  paper: "https://arxiv.org/abs/2603.03617"
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_RAGTrack_Language-aware_RGBT_Tracking_with_Retrieval-Augmented_Generation_CVPR_2026_paper.pdf"
+  arxiv: "https://arxiv.org/abs/2603.03617"
   code: "https://github.com/IdolLab/RAGTrack"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:9ZlFYXVOiuMC"
+
+- id: SAS-VPReID
+  title: "SAS-VPReID: A Scale-Adaptive Framework with Shape Priors for Video-based Person Re-Identification at Extreme Far Distances"
+  authors: "Qiwei Yang, Pingping Zhang, <strong>Yuhao Wang</strong>, Zijing Gong"
+  year: 2026
+  venue: "WACV Workshop on Video Re-Identification at Extreme Far Distances"
+  type: "Workshop"
+  status: "Published"
+  status_class: "published"
+  featured: false
+  role: "Contributor"
+  summary: "A scale-adaptive video ReID framework combining low-resolution enhancement, multiscale temporal modeling, and clothing-robust shape priors."
+  contribution: "The DLUT challenge solution ranked first in the associated extreme-far-distance video ReID track."
+  tags:
+    - "Video ReID"
+    - "Extreme Distance"
+    - "Shape Priors"
+  paper: "https://openaccess.thecvf.com/content/WACV2026W/VReID-XFD/html/Yang_SAS-VPReID_A_Scale-Adaptive_Framework_with_Shape_Priors_for_Video-based_Person_WACVW_2026_paper.html"
+  arxiv: "https://arxiv.org/abs/2601.05535"
+  code: "https://github.com/YangQiWei3/SAS-VPReID"
+
+- id: VReID-XFD
+  title: "VReID-XFD: Video-based Person Re-identification at Extreme Far Distance Challenge Results"
+  authors: "Kailash A. Hambarde, Hugo Proença, Md Rashidunnabi, Pranita Samale, Qiwei Yang, Pingping Zhang, Zijing Gong, <strong>Yuhao Wang</strong>, et al."
+  year: 2026
+  venue: "WACV Workshop on Video Re-Identification at Extreme Far Distances"
+  type: "Challenge Report"
+  status: "Published"
+  status_class: "published"
+  featured: false
+  role: "Contributor"
+  summary: "Challenge report for extreme-far-distance video person ReID, including the DLUT SAS-VPReID solution."
+  tags:
+    - "Video ReID"
+    - "Benchmarking"
+    - "Challenge"
+  paper: "https://openaccess.thecvf.com/WACV2026_workshops/VReID-XFD"
+  arxiv: "https://arxiv.org/abs/2601.01312"
 
 - id: IDEA
   title: "IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-Modal Object Re-Identification"
@@ -181,8 +327,8 @@
   bibtex: "/ciations/MambaPro.md"
 
 - id: FusionReID
-  title: "Unity is Strength: Unifying Convolutional and Transformer Features for Better Person Re-Identification"
-  authors: "<strong>Yuhao Wang</strong>, Xuehu Liu, Pingping Zhang*, Zhengzheng Tu, Huchuan Lu"
+  title: "Unity Is Strength: Unifying Convolutional and Transformeral Features for Better Person Re-Identification"
+  authors: "<strong>Yuhao Wang</strong>, Pingping Zhang*, Xuehu Liu, Zhengzheng Tu, Huchuan Lu"
   year: 2025
   venue: "IEEE Transactions on Intelligent Transportation Systems (TITS)"
   type: "Journal"
@@ -220,7 +366,7 @@
     - "Mamba"
   paper: "https://arxiv.org/abs/2404.04256"
   code: "https://github.com/zifuwan/Sigma"
-  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qjMakFHDy7sC"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:HDshCWvjkbEC"
   bibtex: "/ciations/Sigma.md"
 
 - id: EDITOR
@@ -282,12 +428,13 @@
     - "Person ReID"
     - "Vision-Language"
   paper: "https://ojs.aaai.org/index.php/AAAI/article/view/33039"
-  code: ""
+  code: "https://github.com/AsuradaYuci/CLIMB-ReID"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:WF5omc3nYNoC"
   bibtex: ""
 
 - id: LATex
   title: "LATex: Leveraging Attribute-based Text Knowledge for Aerial-Ground Person Re-Identification"
-  authors: "Xiang Hu, <strong>Yuhao Wang</strong>, Pingping Zhang*, Huchuan Lu"
+  authors: "Pingping Zhang*, Xiang Hu, <strong>Yuhao Wang</strong>, Huchuan Lu"
   year: 2025
   venue: "arXiv preprint"
   type: "Preprint"
@@ -302,6 +449,7 @@
     - "Vision-Language"
   paper: "https://arxiv.org/abs/2503.23722"
   code: "https://github.com/kevinhu314/LATex"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Wp0gIr-vW9MC"
 
 - id: Prompt-S6
   title: "Multi-Modal Object Re-Identification with Prompt-S6 and Semantic-Aware Knowledge Guidance"
@@ -322,6 +470,7 @@
   paper: "https://doi.org/10.1109/TIP.2026.3714829"
   arxiv: "https://arxiv.org/abs/2607.23451"
   code: "https://github.com/zw-absin/PRISM"
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:hC7cP41nSMkC"
 
 - id: VMambaX
   title: "VMambaX: Exploiting Vision Mamba for Abdominal X-ray Image Based NEC Classification"
@@ -338,13 +487,17 @@
 
 - id: AG-VPReID
   title: "AG-VPReID 2025: Aerial-Ground Video-based Person Re-identification Challenge Results"
-  authors: "Kien Nguyen Thanh, Clinton Fookes, …, <strong>Yuhao Wang</strong>, Pingping Zhang, …, Saeid Rezaei"
+  authors: "Kien Nguyen, Clinton Fookes, Sridha Sridharan, Huy Nguyen, Feng Liu, Xiaoming Liu, Arun Ross, et al., <strong>Yuhao Wang</strong>, Xuehu Liu, Pingping Zhang, et al."
   year: 2025
-  venue: "Challenge report"
-  status: "Ongoing"
-  status_class: "ongoing"
+  venue: "IEEE International Joint Conference on Biometrics (IJCB)"
+  type: "Challenge Report"
+  status: "Published"
+  status_class: "published"
   featured: false
   role: "Contributor"
   tags:
     - "Aerial–Ground ReID"
     - "Benchmarking"
+  summary: "Challenge report for large-scale aerial-ground video person ReID; the associated DLUT/WUT team ranked second."
+  paper: "https://arxiv.org/abs/2506.22843"
+  external_project: "https://agvpreid25.github.io/"
