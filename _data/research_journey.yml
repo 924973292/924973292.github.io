@@ -32,10 +32,12 @@
     - "Research internship · NUS LV Lab"
 
 - period: "Current"
-  phase: "On-device intelligence"
-  title: "Efficient multimodal GUI agents"
-  description: "Connecting training-free pruning and model compression with terminal latency, memory, and deployment constraints."
+  phase: "PhD year 1 · Information & Communication Engineering"
+  title: "A connected program in multimodal intelligence"
+  description: "Started the first year of my PhD at the School of Information and Communication Engineering, bringing multimodal perception, efficient models, and reliable on-device agents into one research program."
   evidence:
+    - "PhD Year 1 · DLUT Information & Communication Engineering"
+    - "ERA · Efficient multimodal models"
     - "OPPO Y-Lab collaboration"
     - "2.5× TTFT improvement"
 

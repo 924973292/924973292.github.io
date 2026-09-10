@@ -1,10 +1,16 @@
+- date: "2026 — now"
+  type: "Education"
+  title: "Ph.D. in Information and Communication Engineering"
+  organization: "School of Information and Communication Engineering · Dalian University of Technology"
+  description: "First-year doctoral research connecting multimodal perception, efficient multimodal models, and reliable on-device agents."
+
 - date: "Recent"
   type: "Industry research"
   title: "Research practice"
   organization: "OPPO Y-Lab"
   description: "Collaborated on efficient multimodal GUI agents, connecting model pruning with on-device latency and package-size constraints."
 
-- date: "2024.09 — now"
+- date: "2024.09 — 2026"
   type: "Education"
   title: "M.S. in Computer Science"
   organization: "School of Computer Science and Technology · Dalian University of Technology"
