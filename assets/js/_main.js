@@ -90,6 +90,7 @@ $(document).ready(function() {
       var active = $(this).data("research-panel") === id;
       $(this).toggleClass("is-active", active).prop("hidden", !active);
     });
+    $("[data-research-panel='" + id + "'] [data-research-paper-rail]").scrollTop(0);
   };
 
   $("[data-research-node]").on("click focus", function() {

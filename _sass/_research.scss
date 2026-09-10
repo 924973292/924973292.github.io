@@ -1553,7 +1553,7 @@ html[data-theme="dark"] .masthead {
 
 .research-atlas__canvas {
   position: relative;
-  min-height: 34rem;
+  min-height: 41rem;
   overflow: hidden;
   background:
     linear-gradient(var(--research-line) 1px, transparent 1px),
@@ -1667,6 +1667,15 @@ html[data-theme="dark"] .masthead {
     line-height: 1.35;
   }
 
+  b {
+    margin-top: 0.35rem;
+    color: var(--research-accent-dark);
+    font-family: $sans-serif-narrow;
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+
   &.is-active small {
     color: var(--research-accent-dark);
   }
@@ -1685,6 +1694,48 @@ html[data-theme="dark"] .masthead {
     margin-top: 0.55rem;
     color: var(--research-muted);
     font-size: 0.68rem;
+  }
+}
+
+.research-atlas__architecture {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: stretch;
+  gap: 0.45rem;
+  margin-top: 0.9rem;
+}
+
+.research-atlas__architecture-step {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.65rem 0.7rem;
+  border: 1px solid var(--research-line);
+  border-radius: 0.55rem;
+  background: rgba(255, 255, 255, 0.04);
+
+  span {
+    color: var(--research-accent);
+    font-family: $sans-serif-narrow;
+    font-size: 0.52rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+
+  strong {
+    color: var(--research-ink);
+    font-size: 0.67rem;
+  }
+
+  small {
+    color: var(--research-muted);
+    font-size: 0.56rem;
+    line-height: 1.35;
+  }
+
+  + i {
+    align-self: center;
+    color: var(--research-subtle);
+    font-style: normal;
   }
 }
 
@@ -1718,7 +1769,7 @@ html[data-theme="dark"] .masthead {
 
 .research-atlas__details {
   display: grid;
-  min-height: 34rem;
+  min-height: 41rem;
   padding: clamp(1.5rem, 3vw, 2.7rem);
 }
 
@@ -1790,6 +1841,87 @@ html[data-theme="dark"] .masthead {
     color: var(--research-muted);
     font-size: 0.72rem;
     line-height: 1.45;
+  }
+}
+
+.research-panel__evidence-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.7rem;
+  margin-bottom: 0.55rem;
+
+  > span:last-child {
+    color: var(--research-subtle);
+    font-family: $sans-serif-narrow;
+    font-size: 0.62rem;
+  }
+}
+
+.research-paper-rail {
+  display: grid;
+  max-height: 19rem;
+  overflow-y: auto;
+  border-top: 1px solid var(--research-line);
+  border-bottom: 1px solid var(--research-line);
+  scrollbar-color: var(--research-accent) transparent;
+  scrollbar-width: thin;
+}
+
+.research-paper-rail::-webkit-scrollbar {
+  width: 0.35rem;
+}
+
+.research-paper-rail::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--research-accent);
+}
+
+.research-paper-row {
+  display: grid;
+  gap: 0.28rem;
+  padding: 0.75rem 0.1rem 0.75rem 0.75rem;
+  border-bottom: 1px solid var(--research-line);
+  color: var(--research-ink);
+  text-decoration: none;
+  transition: background 160ms ease, padding 160ms ease;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:hover,
+  &:focus-visible {
+    padding-left: 1rem;
+    background: var(--research-soft);
+  }
+
+  strong {
+    font-family: $serif;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+}
+
+.research-paper-row__meta,
+.research-paper-row__footer {
+  color: var(--research-subtle);
+  font-family: $sans-serif-narrow;
+  font-size: 0.61rem;
+}
+
+.research-paper-row__footer {
+  color: var(--research-muted);
+  line-height: 1.4;
+}
+
+.research-paper-row--pending {
+  cursor: default;
+
+  &:hover {
+    padding-left: 0.75rem;
+    background: transparent;
   }
 }
 
@@ -3131,6 +3263,25 @@ html[data-theme="dark"] .publication-explorer {
     }
   }
 
+  .research-atlas__architecture {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+
+    > i {
+      display: none;
+    }
+  }
+
+  .research-atlas__architecture-step {
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 0.55rem;
+
+    small {
+      grid-column: 2;
+    }
+  }
+
   .research-atlas__lines,
   .research-atlas__core {
     display: none;
@@ -3155,6 +3306,11 @@ html[data-theme="dark"] .publication-explorer {
 
   .research-atlas__details {
     padding: 1.25rem 0.2rem;
+  }
+
+  .research-paper-rail {
+    max-height: none;
+    overflow: visible;
   }
 
   .research-panel__columns,

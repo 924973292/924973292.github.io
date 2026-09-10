@@ -25,6 +25,7 @@
         <strong>{{ theme.short_title }}</strong>
         <small>{{ theme.maturity }}</small>
         <em>{{ theme.keywords | slice: 0, 2 | join: " · " }}</em>
+        <b>{{ theme.publications.size }} related works</b>
       </button>
     {% endfor %}
 
@@ -40,6 +41,25 @@
         <span><b>04</b> Act</span>
       </div>
       <small>Heterogeneous evidence becomes efficient, deployable intelligence.</small>
+      <div class="research-atlas__architecture" aria-label="Research architecture">
+        <div class="research-atlas__architecture-step">
+          <span>01</span>
+          <strong>Evidence</strong>
+          <small>RGB · NIR · TIR · Text</small>
+        </div>
+        <i aria-hidden="true">→</i>
+        <div class="research-atlas__architecture-step">
+          <span>02</span>
+          <strong>Representation</strong>
+          <small>Align · select · compress</small>
+        </div>
+        <i aria-hidden="true">→</i>
+        <div class="research-atlas__architecture-step">
+          <span>03</span>
+          <strong>Action</strong>
+          <small>Reliable agent systems</small>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -67,10 +87,32 @@
             </ul>
           </div>
           <div>
-            <span class="micro-label">Evidence</span>
-            <div class="evidence-links">
-              {% for publication_id in theme.publications limit: 4 %}
-                <a href="{{ base_path }}/publications/#paper-{{ publication_id }}">Paper · {{ publication_id }}</a>
+            <div class="research-panel__evidence-heading">
+              <span class="micro-label">All related papers</span>
+              <span>{{ theme.publications.size }} works</span>
+            </div>
+            <div class="research-paper-rail" data-research-paper-rail tabindex="0" aria-label="{{ theme.title }} related papers">
+              {% for publication_id in theme.publications %}
+                {% assign related_publication = site.data.publications | where: "id", publication_id | first %}
+                {% if related_publication %}
+                  {% assign related_link = related_publication.paper %}
+                  {% if related_link == empty %}{% assign related_link = related_publication.arxiv %}{% endif %}
+                  {% if related_link == empty %}{% assign related_link = related_publication.scholar %}{% endif %}
+                  {% assign related_type = related_publication.type | default: "Manuscript" %}
+                  {% if related_link %}
+                  <a class="research-paper-row" href="{{ related_link }}" target="_blank" rel="noopener noreferrer">
+                    <span class="research-paper-row__meta">{{ related_publication.year }} · {{ related_type }}</span>
+                    <strong>{{ related_publication.title }}</strong>
+                    <span class="research-paper-row__footer">{{ related_publication.role }} · {{ related_publication.venue }} <span aria-hidden="true">↗</span></span>
+                  </a>
+                  {% else %}
+                  <div class="research-paper-row research-paper-row--pending">
+                    <span class="research-paper-row__meta">{{ related_publication.year }} · {{ related_type }}</span>
+                    <strong>{{ related_publication.title }}</strong>
+                    <span class="research-paper-row__footer">{{ related_publication.role }} · Public record pending</span>
+                  </div>
+                  {% endif %}
+                {% endif %}
               {% endfor %}
               {% if theme.publications.size == 0 %}
                 <span>Research direction in formation</span>
