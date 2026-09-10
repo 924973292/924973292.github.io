@@ -50,6 +50,12 @@ section {
   display: block;
 }
 
+/* The legacy HTML5 block rules above outrank the browser default for [hidden] */
+
+[hidden] {
+  display: none !important;
+}
+
 /* Display block in IE6-9 and FF3 */
 
 audio,

@@ -83,9 +83,6 @@ $(document).ready(function() {
       var active = $(this).data("research-node") === id;
       $(this).toggleClass("is-active", active).attr("aria-pressed", active ? "true" : "false");
     });
-    $("[data-research-line]").each(function() {
-      $(this).toggleClass("is-active", $(this).data("research-line") === id);
-    });
     $("[data-research-constellation]").each(function() {
       var active = $(this).data("research-constellation") === id;
       $(this).toggleClass("is-active", active).toggleClass("is-muted", !active);
@@ -118,69 +115,12 @@ $(document).ready(function() {
     activateResearchTheme($(this).data("research-star"));
   });
 
-  var constellationHandles = $("[data-research-constellation]");
-  var researchCanvas = $("[data-research-atlas] .research-atlas__canvas");
-  var constellationDrag = null;
-  var updateConstellationPosition = function(event) {
-    if (!constellationDrag) {
+  $("[data-research-constellation]").on("click", function(event) {
+    if ($(event.target).closest("[data-research-node], [data-research-star]").length) {
       return;
     }
-    var canvasRect = researchCanvas[0].getBoundingClientRect();
-    var constellationRect = constellationDrag.node.getBoundingClientRect();
-    var deltaX = (event.clientX - constellationDrag.startX) / canvasRect.width * 100;
-    var deltaY = (event.clientY - constellationDrag.startY) / canvasRect.height * 100;
-    var halfWidth = constellationRect.width / canvasRect.width * 50;
-    var x = Math.max(halfWidth + 2, Math.min(98 - halfWidth, constellationDrag.x + deltaX));
-    var heightPercent = constellationRect.height / canvasRect.height * 100;
-    var y = Math.max(2, Math.min(88 - heightPercent, constellationDrag.y + deltaY));
-    constellationDrag.node.style.setProperty("--group-x", x + "%");
-    constellationDrag.node.style.setProperty("--group-y", y + "%");
-  };
-  var endConstellationDrag = function(event) {
-    if (!constellationDrag) {
-      return;
-    }
-    var handle = constellationDrag.handle;
-    if (
-      event &&
-      handle.releasePointerCapture &&
-      (!handle.hasPointerCapture || handle.hasPointerCapture(event.pointerId))
-    ) {
-      handle.releasePointerCapture(event.pointerId);
-    }
-    constellationDrag = null;
-    $(handle).removeClass("is-dragging");
-  };
-
-  constellationHandles.on("pointerdown", function(event) {
-    if (
-      !researchCanvas.length ||
-      (window.matchMedia && window.matchMedia("(max-width: 42rem)").matches) ||
-      $(event.target).closest("[data-research-star]").length ||
-      event.pointerType === "mouse" && event.button !== 0
-    ) {
-      return;
-    }
-    var constellation = this;
-    var canvasRect = researchCanvas[0].getBoundingClientRect();
-    var constellationRect = constellation.getBoundingClientRect();
-    constellationDrag = {
-      handle: this,
-      node: constellation,
-      startX: event.clientX,
-      startY: event.clientY,
-      x: (constellationRect.left + constellationRect.width / 2 - canvasRect.left) / canvasRect.width * 100,
-      y: (constellationRect.top - canvasRect.top) / canvasRect.height * 100
-    };
-    $(this).addClass("is-dragging");
-    if (this.setPointerCapture) {
-      this.setPointerCapture(event.pointerId);
-    }
-    event.preventDefault();
+    activateResearchTheme($(this).data("research-constellation"));
   });
-
-  constellationHandles.on("pointermove", updateConstellationPosition);
-  constellationHandles.on("pointerup pointercancel pointerleave", endConstellationDrag);
 
   // Project filtering
   $("[data-project-filter]").on("click", function() {
