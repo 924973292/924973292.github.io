@@ -352,8 +352,7 @@ $(document).ready(function() {
     if (collection === "selected" && String(card.data("selected")) !== "true") {
       return false;
     }
-    if (collection === "lead" &&
-      ["first-author", "co-first-author"].indexOf(card.data("role")) === -1) {
+    if (collection === "lead" && String(card.data("lead-role")) !== "true") {
       return false;
     }
     if (collection === "peer-reviewed" && card.data("status") !== "published") {
@@ -374,11 +373,16 @@ $(document).ready(function() {
       var secondTitle = $(second).find(".publication-card__title").text().trim().toLowerCase();
       var firstYear = Number($(first).data("year"));
       var secondYear = Number($(second).data("year"));
+      var firstOrder = Number($(first).attr("data-sort-order")) || 0;
+      var secondOrder = Number($(second).attr("data-sort-order")) || 0;
       if (filterState.sort === "title") {
         return firstTitle.localeCompare(secondTitle);
       }
       if (filterState.sort === "title-desc") {
         return secondTitle.localeCompare(firstTitle);
+      }
+      if (firstOrder !== secondOrder) {
+        return filterState.sort === "oldest" ? firstOrder - secondOrder : secondOrder - firstOrder;
       }
       return filterState.sort === "oldest" ? firstYear - secondYear : secondYear - firstYear;
     });

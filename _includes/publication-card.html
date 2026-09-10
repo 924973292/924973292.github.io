@@ -6,8 +6,10 @@
   class="publication-card publication-card--{{ publication.status_class }}{% if include.compact %} publication-card--compact{% endif %}"
   data-publication-card
   data-year="{{ publication.year }}"
+  data-sort-order="{{ publication.sort_order | default: 0 }}"
   data-status="{{ publication.status_class }}"
   data-role="{{ publication.role | slugify }}"
+  data-lead-role="{% if publication.role == 'First author' or publication.role == 'Co-first author' %}true{% else %}false{% endif %}"
   data-type="{{ publication.type | default: 'paper' | slugify }}"
   data-area="{{ publication.area }}"
   data-selected="{{ publication.featured }}"
@@ -32,11 +34,18 @@
       <span class="status-pill status-pill--{{ publication.status_class }}">{{ publication.status }}</span>
       <span>{{ publication.year }}</span>
       {% if publication.type %}<span>{{ publication.type }}</span>{% endif %}
-      {% if publication.role %}<span>{{ publication.role }}</span>{% endif %}
       <span class="publication-citation" data-live-citations hidden></span>
     </div>
     <h3 class="publication-card__title">{{ publication.title }}</h3>
     <p class="publication-card__authors">{{ publication.authors }}</p>
+    {% if publication.role %}
+      <div class="publication-card__authorship" aria-label="Authorship contribution">
+        <span class="micro-label">Authorship</span>
+        <strong>{{ publication.role }}</strong>
+        {% if publication.role == "Co-first author" %}<span>† Shared first authorship</span>{% endif %}
+        {% if publication.role == "Co-corresponding author" %}<span>* Corresponding author</span>{% endif %}
+      </div>
+    {% endif %}
     <p class="publication-card__venue">{{ publication.venue }}</p>
     {% if publication.summary %}<p class="publication-card__summary">{{ publication.summary }}</p>{% endif %}
 

@@ -1,5 +1,6 @@
 - id: TRACE
   area: "efficient-agent-systems"
+  sort_order: 25
   title: "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents"
   authors: "<strong>Yuhao Wang</strong>, Mu Qiao, Xindong Zhang, Lei Zhang, Yunzhi Zhuge, Huchuan Lu"
   year: 2026
@@ -22,6 +23,7 @@
 
 - id: DSGM
   area: "multimodal-perception"
+  sort_order: 24
   title: "Multi-Modal Object Re-Identification with Dual Semantic Guidance and Global-Local Mutual Modulation"
   authors: "Weixiang Zhou†, Xingguo Xu†, <strong>Yuhao Wang</strong>, Cong Wang, Yang Yang, Zhixun Su, Jinshan Pan"
   year: 2026
@@ -43,6 +45,7 @@
 
 - id: INSPI
   area: "multimodal-perception"
+  sort_order: 22
   title: "Incentive Noise and Structural Prior Infusion for Multi-Modal Object Re-Identification"
   authors: "Weixiang Zhou, <strong>Yuhao Wang†</strong>, Xingguo Xu, Cong Wang, Weizhen Zhou, Zhixun Su, Jinshan Pan"
   year: 2026
@@ -62,6 +65,7 @@
 
 - id: STMI
   area: "multimodal-perception"
+  sort_order: 20
   title: "STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification"
   authors: "Xingguo Xu†, Zhanyu Liu†, Weixiang Zhou†, Yuansheng Gao, Junjie Cao, <strong>Yuhao Wang*</strong>, Jixiang Luo, Dell Zhang"
   year: 2026
@@ -84,6 +88,7 @@
 
 - id: VISTA-Bench
   area: "efficient-multimodal-llms"
+  sort_order: 19
   title: "VISTA-Bench: Do Vision-Language Models Really Understand Visualized Text as Well as Pure Text?"
   authors: "Qing’an Liu†, Juntong Feng†, <strong>Yuhao Wang†</strong>, Xinzhe Han, Yujie Cheng, Yue Zhu, Haiwen Diao, Yunzhi Zhuge, Huchuan Lu"
   year: 2026
@@ -105,6 +110,7 @@
 
 - id: ERA
   area: "efficient-multimodal-llms"
+  sort_order: 21
   title: "ERA: Entropy-Guided Visual Token Pruning with Rectified Attention for Efficient MLLMs"
   authors: "<strong>Yuhao Wang</strong>, Mu Qiao, Haiwen Diao, Yunzhi Zhuge, Pingping Zhang, Xindong Zhang, Lei Zhang, Huchuan Lu"
   year: 2026
@@ -126,6 +132,7 @@
 
 - id: Signal
   area: "multimodal-perception"
+  sort_order: 18
   title: "Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification"
   authors: "Yangyang Liu†, <strong>Yuhao Wang</strong>†, Pingping Zhang*"
   year: 2026
@@ -148,6 +155,7 @@
 
 - id: SD-ReID
   area: "multimodal-perception"
+  sort_order: 17
   title: "SD-ReID: View-aware Stable Diffusion for Aerial-Ground Person Re-Identification"
   authors: "<strong>Yuhao Wang</strong>, Xiang Hu, Lixin Wang, Pingping Zhang*, Huchuan Lu"
   year: 2026
@@ -169,6 +177,7 @@
 
 - id: HFP-SAM
   area: "multimodal-perception"
+  sort_order: 16
   title: "HFP-SAM: Hierarchical Frequency Prompted SAM for Efficient Marine Animal Segmentation"
   authors: "Pingping Zhang, Tianyu Yan, <strong>Yuhao Wang</strong>, Yang Liu*, Tongdan Tang, Yili Ma, Long Lv, Feng Tian, Weibing Sun, Huchuan Lu"
   year: 2026
@@ -190,6 +199,7 @@
 
 - id: CADTrack
   area: "multimodal-perception"
+  sort_order: 15
   title: "CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking"
   authors: "Hao Li, <strong>Yuhao Wang</strong>, Xiantao Hu, Wenning Hao, Pingping Zhang, Dong Wang, Huchuan Lu"
   year: 2026
@@ -212,6 +222,7 @@
 
 - id: RAGTrack
   area: "multimodal-perception"
+  sort_order: 14
   title: "RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation"
   authors: "Hao Li, <strong>Yuhao Wang</strong>, Wenning Hao*, Pingping Zhang*, Dong Wang, Huchuan Lu"
   year: 2026
@@ -234,6 +245,7 @@
 
 - id: SAS-VPReID
   area: "multimodal-perception"
+  sort_order: 13
   title: "SAS-VPReID: A Scale-Adaptive Framework with Shape Priors for Video-based Person Re-Identification at Extreme Far Distances"
   authors: "Qiwei Yang, Pingping Zhang, <strong>Yuhao Wang</strong>, Zijing Gong"
   year: 2026
@@ -255,6 +267,7 @@
 
 - id: VReID-XFD
   area: "multimodal-perception"
+  sort_order: 12
   title: "VReID-XFD: Video-based Person Re-identification at Extreme Far Distance Challenge Results"
   authors: "Kailash A. Hambarde, Hugo Proença, Md Rashidunnabi, Pranita Samale, Qiwei Yang, Pingping Zhang, Zijing Gong, <strong>Yuhao Wang</strong>, et al."
   year: 2026
@@ -274,6 +287,7 @@
 
 - id: IDEA
   area: "multimodal-perception"
+  sort_order: 10
   title: "IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-Modal Object Re-Identification"
   authors: "<strong>Yuhao Wang</strong>, Yongfeng Lv, Pingping Zhang*, Huchuan Lu"
   year: 2025
@@ -297,6 +311,7 @@
 
 - id: DeMo
   area: "multimodal-perception"
+  sort_order: 6
   title: "DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification"
   authors: "<strong>Yuhao Wang</strong>, Yang Liu, Aihua Zheng, Pingping Zhang*"
   year: 2025
@@ -320,6 +335,7 @@
 
 - id: MambaPro
   area: "multimodal-perception"
+  sort_order: 5
   title: "MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation and Synergistic Prompt"
   authors: "<strong>Yuhao Wang</strong>, Xuehu Liu, Tianyu Yan, Yang Liu, Aihua Zheng, Pingping Zhang*, Huchuan Lu"
   year: 2025
@@ -343,6 +359,7 @@
 
 - id: FusionReID
   area: "multimodal-perception"
+  sort_order: 7
   title: "Unity Is Strength: Unifying Convolutional and Transformeral Features for Better Person Re-Identification"
   authors: "<strong>Yuhao Wang</strong>, Pingping Zhang*, Xuehu Liu, Zhengzheng Tu, Huchuan Lu"
   year: 2025
@@ -366,6 +383,7 @@
 
 - id: Sigma
   area: "multimodal-perception"
+  sort_order: 4
   title: "Sigma: Siamese Mamba Network for Multi-Modal Semantic Segmentation"
   authors: "Zifu Wan, Pingping Zhang, <strong>Yuhao Wang</strong>, Silong Yong, Simon Stepputtis, Katia Sycara, Yaqi Xie"
   year: 2025
@@ -388,6 +406,7 @@
 
 - id: EDITOR
   area: "multimodal-perception"
+  sort_order: 1
   title: "Magic Tokens: Select Diverse Tokens for Multi-Modal Object Re-Identification"
   authors: "Pingping Zhang*, <strong>Yuhao Wang</strong>, Yang Liu, Zhengzheng Tu, Huchuan Lu"
   year: 2024
@@ -410,6 +429,7 @@
 
 - id: TOP-ReID
   area: "multimodal-perception"
+  sort_order: 2
   title: "TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation"
   authors: "<strong>Yuhao Wang</strong>, Xuehu Liu, Pingping Zhang*, Hu Lu, Zhengzheng Tu, Huchuan Lu"
   year: 2024
@@ -432,6 +452,7 @@
 
 - id: CLIMB-ReID
   area: "multimodal-perception"
+  sort_order: 9
   title: "CLIMB-ReID: A Hybrid CLIP-Mamba Framework for Person Re-Identification"
   authors: "Chenyang Yu, Xuehu Liu, Jiawen Zhu, <strong>Yuhao Wang</strong>, Pingping Zhang*, Huchuan Lu"
   year: 2025
@@ -453,6 +474,7 @@
 
 - id: LATex
   area: "multimodal-perception"
+  sort_order: 8
   title: "LATex: Leveraging Attribute-based Text Knowledge for Aerial-Ground Person Re-Identification"
   authors: "Pingping Zhang*, Xiang Hu, <strong>Yuhao Wang</strong>, Huchuan Lu"
   year: 2025
@@ -473,6 +495,7 @@
 
 - id: Prompt-S6
   area: "multimodal-perception"
+  sort_order: 23
   title: "Multi-Modal Object Re-Identification with Prompt-S6 and Semantic-Aware Knowledge Guidance"
   authors: "Weixiang Zhou†, Jiabei Zuo†, <strong>Yuhao Wang</strong>, Cong Wang*, Huchuan Lu, Zhixun Su*"
   year: 2026
@@ -495,6 +518,7 @@
 
 - id: VMambaX
   area: "multimodal-perception"
+  sort_order: 3
   title: "VMambaX: Exploiting Vision Mamba for Abdominal X-ray Image Based NEC Classification"
   authors: "Zhoushan Feng†, Wen Long†, <strong>Yuhao Wang</strong>†, Shicun Qiao, Jingwen Mei, Yiyu Shi, Pingping Zhang*, Chunhong Jia, Fan Wu"
   year: 2025
@@ -509,6 +533,7 @@
 
 - id: AG-VPReID
   area: "multimodal-perception"
+  sort_order: 11
   title: "AG-VPReID 2025: Aerial-Ground Video-based Person Re-identification Challenge Results"
   authors: "Kien Nguyen, Clinton Fookes, Sridha Sridharan, Huy Nguyen, Feng Liu, Xiaoming Liu, Arun Ross, et al., <strong>Yuhao Wang</strong>, Xuehu Liu, Pingping Zhang, et al."
   year: 2025

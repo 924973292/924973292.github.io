@@ -117,8 +117,8 @@ author_profile: false
   <p class="active-filter-summary" data-active-filter-summary aria-live="polite"></p>
 
   <div class="publication-grid publication-grid--archive" data-publication-list>
-    {% assign publications_by_year = site.data.publications | sort: "year" | reverse %}
-    {% for publication in publications_by_year %}
+    {% assign publications_by_order = site.data.publications | sort: "sort_order" | reverse %}
+    {% for publication in publications_by_order %}
       {% include publication-card.html publication=publication %}
     {% endfor %}
   </div>
