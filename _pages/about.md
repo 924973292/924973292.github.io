@@ -99,41 +99,21 @@ redirect_from:
     </div>
   </section>
 
-  <section class="home-section">
+  <section class="home-section" id="latest-work">
     <div class="section-heading section-heading--inline">
       <div>
-        <p class="eyebrow">03 / SELECTED HIGHLIGHTS</p>
-        <h2>The work to see first.</h2>
+        <p class="eyebrow">03 / LATEST WORK</p>
+        <h2>The newest paper, read closely.</h2>
       </div>
-      <p>A small set of research, systems, and open-source contributions that best explains the trajectory.</p>
+      <p>A dedicated reading of the current work: the constraint, the method, and why it sits at the edge of the research program.</p>
     </div>
-    <div class="highlight-grid">
-      {% for highlight in site.data.highlights %}
-        {% include highlight-card.html highlight=highlight %}
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="home-section" id="projects">
-    <div class="section-heading section-heading--inline">
-      <div>
-        <p class="eyebrow">04 / RESEARCH PROJECTS</p>
-        <h2>From question to evidence.</h2>
-      </div>
-      <a class="section-link" href="{{ base_path }}/projects/">Explore all projects <span aria-hidden="true">↗</span></a>
-    </div>
-    <div class="project-list project-list--home">
-      {% assign featured_projects = site.data.projects | where: "featured", true | sort: "order" %}
-      {% for project in featured_projects limit:3 %}
-        {% include project-card.html project=project %}
-      {% endfor %}
-    </div>
+    {% include featured-work.html work=site.data.featured_work %}
   </section>
 
   <section class="home-section" id="publications">
     <div class="section-heading section-heading--inline">
       <div>
-        <p class="eyebrow">05 / SELECTED PUBLICATIONS</p>
+        <p class="eyebrow">04 / SELECTED PUBLICATIONS</p>
         <h2>Methods that build on one another.</h2>
       </div>
       <a class="section-link" href="{{ base_path }}/publications/">Search the full record <span aria-hidden="true">↗</span></a>
@@ -150,7 +130,7 @@ redirect_from:
   <section class="home-section home-section--split">
     <div>
       <div class="section-heading">
-        <p class="eyebrow">06 / NOW</p>
+        <p class="eyebrow">05 / NOW</p>
         <h2>Recent signals.</h2>
       </div>
       <div class="news-list">
@@ -168,7 +148,7 @@ redirect_from:
 
     <div>
       <div class="section-heading">
-        <p class="eyebrow">07 / RESEARCH JOURNEY</p>
+        <p class="eyebrow">06 / RESEARCH JOURNEY</p>
         <h2>How the direction formed.</h2>
       </div>
       <div class="timeline">
@@ -187,7 +167,7 @@ redirect_from:
 
   <section class="home-section community-panel">
     <div class="community-panel__intro">
-      <p class="eyebrow">08 / COMMUNITY & OPEN WORK</p>
+      <p class="eyebrow">07 / COMMUNITY & OPEN WORK</p>
       <h2>Research also means reviewing, sharing, and maintaining.</h2>
       <p>Beyond papers, I contribute through peer review, talks, released implementations, and curated research resources.</p>
     </div>
@@ -201,7 +181,7 @@ redirect_from:
 
   <section class="home-section future-section">
     <div class="section-heading">
-      <p class="eyebrow">09 / WHERE I’M GOING</p>
+      <p class="eyebrow">08 / WHERE I’M GOING</p>
       <h2>From efficient models to reliable agent systems.</h2>
     </div>
     <div class="future-roadmap">
@@ -220,7 +200,7 @@ redirect_from:
 
   <section class="home-section beyond-research">
     <div>
-      <p class="eyebrow">10 / BEYOND RESEARCH</p>
+      <p class="eyebrow">09 / BEYOND RESEARCH</p>
       <h2>Curiosity needs a little room.</h2>
       <p>{{ profile.quote }}<br><span>{{ profile.quote_attribution }}</span></p>
     </div>

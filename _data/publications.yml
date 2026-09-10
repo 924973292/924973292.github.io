@@ -10,8 +10,8 @@
   status_class: "ongoing"
   featured: true
   role: "First author"
-  summary: "A training-free GUI-agent framework that makes irreversible visual-token admission decisions robust to unknown future targets while preserving spatial coverage."
-  contribution: "Combines layout-derived interaction priors, instruction relevance, feature novelty, native-token coverage repair, nested token ordering, and monotone KV contraction for reusable trajectory evidence."
+  summary: "A training-free GUI-agent framework for irreversible visual-token admission that remains useful for unknown future targets while preserving coverage of operable regions."
+  contribution: "Ranks visual evidence with layout-derived interaction priors, instruction relevance, and feature novelty; repairs spatial coverage into a nested token order; and contracts retired frames with monotone KV contraction."
   tags:
     - "GUI Agents"
     - "Efficient Agents"

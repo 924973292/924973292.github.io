@@ -1,0 +1,83 @@
+{% include base_path %}
+{% assign work = include.work %}
+<article class="featured-work" aria-labelledby="featured-work-title">
+  <header class="featured-work__header">
+    <div class="featured-work__meta">
+      <span>{{ work.kicker }}</span>
+      <span>{{ work.role }}</span>
+      <span>{{ work.status }}</span>
+      <span>{{ work.year }}</span>
+      <span>{{ work.area }}</span>
+    </div>
+    <p class="featured-work__name">{{ work.short_name }}</p>
+    {% if work.expansion %}<p class="featured-work__expansion">{{ work.expansion }}</p>{% endif %}
+    <h3 id="featured-work-title">{{ work.title }}</h3>
+    <p class="featured-work__authors">{{ work.authors }}</p>
+    <p class="featured-work__venue">{{ work.venue }}</p>
+  </header>
+
+  <div class="featured-work__body">
+    <div class="featured-work__narrative">
+      <section>
+        <span class="micro-label">Research question</span>
+        <p>{{ work.question }}</p>
+      </section>
+      <section>
+        <span class="micro-label">The difficulty</span>
+        <p>{{ work.problem }}</p>
+      </section>
+      <section>
+        <span class="micro-label">The idea</span>
+        <p>{{ work.insight }}</p>
+      </section>
+      {% if work.why_it_matters %}
+        <section>
+          <span class="micro-label">Why it is here</span>
+          <p>{{ work.why_it_matters }}</p>
+        </section>
+      {% endif %}
+      {% if work.evaluation %}
+        <section>
+          <span class="micro-label">Evidence</span>
+          <p>{{ work.evaluation }}</p>
+        </section>
+      {% endif %}
+    </div>
+
+    <div class="featured-work__method">
+      {% if work.stages %}
+        <span class="micro-label">Method</span>
+        <ol class="featured-work__stages">
+          {% for stage in work.stages %}
+            <li>
+              <b>{{ stage.index }}</b>
+              <strong>{{ stage.title }}</strong>
+              <span>{{ stage.text }}</span>
+            </li>
+          {% endfor %}
+        </ol>
+      {% endif %}
+
+      {% if work.components %}
+        <span class="micro-label">Technical pieces</span>
+        <ul class="featured-work__components">
+          {% for component in work.components %}
+            <li>{{ component }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if work.links %}
+    <footer class="featured-work__links">
+      {% for link in work.links %}
+        {% if link.internal %}
+          <a href="{{ link.url | relative_url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>
+        {% else %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }} <span aria-hidden="true">↗</span></a>
+        {% endif %}
+      {% endfor %}
+    </footer>
+  {% endif %}
+</article>
