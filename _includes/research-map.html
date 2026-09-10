@@ -15,7 +15,7 @@
 
     <div class="research-atlas__constellation-meta">
       <span class="micro-label">Research field / interactive map</span>
-      <p>One research identity, three directions, and a growing body of evidence.</p>
+      <p>Drag a constellation on desktop; select a node to inspect its evidence.</p>
       <div>
         <span><strong>{{ site.data.research_areas.size }}</strong> areas</span>
         <span><strong>{{ total_research_terms }}</strong> terms</span>
@@ -25,10 +25,19 @@
 
     <div class="research-atlas__constellation" aria-label="Interactive research constellation">
       {% for theme in site.data.research_areas %}
+        {% assign constellation_x = 30 %}
+        {% assign constellation_y = 23 %}
+        {% if theme.id == "efficient-multimodal-llms" %}
+          {% assign constellation_x = 28 %}
+          {% assign constellation_y = 68 %}
+        {% elsif theme.id == "efficient-agent-systems" %}
+          {% assign constellation_x = 73 %}
+          {% assign constellation_y = 23 %}
+        {% endif %}
         <div
           class="research-constellation research-constellation--{{ theme.id }}{% if forloop.first %} is-active{% else %} is-muted{% endif %}"
           data-research-constellation="{{ theme.id }}"
-          style="--constellation-x: {{ theme.position.x }}%; --constellation-y: {{ theme.position.y }}%;">
+          style="--constellation-x: {{ constellation_x }}%; --constellation-y: {{ constellation_y }}%;">
           <span class="research-constellation__orbit" aria-hidden="true"></span>
           <span class="research-constellation__label">{{ theme.short_title }}</span>
           {% for keyword in theme.keywords %}

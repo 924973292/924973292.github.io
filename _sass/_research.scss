@@ -1636,8 +1636,9 @@ html[data-theme="dark"] .masthead {
   left: var(--constellation-x);
   width: 19rem;
   height: 14rem;
+  cursor: grab;
   transform: translate(-50%, -50%);
-  pointer-events: none;
+  pointer-events: auto;
   transition: opacity 180ms ease, filter 180ms ease;
 
   &.is-muted {
@@ -1652,7 +1653,13 @@ html[data-theme="dark"] .masthead {
   border: 1px dashed var(--research-line);
   border-radius: 50%;
   opacity: 0.8;
+  cursor: grab;
+  pointer-events: auto;
   transform: rotate(-12deg);
+}
+
+.research-constellation.is-dragging {
+  cursor: grabbing;
 }
 
 .research-constellation.is-active .research-constellation__orbit {
@@ -1669,6 +1676,8 @@ html[data-theme="dark"] .masthead {
   font-size: 0.56rem;
   font-weight: 700;
   letter-spacing: 0.1em;
+  cursor: grab;
+  pointer-events: auto;
   text-transform: uppercase;
 }
 
@@ -1773,7 +1782,6 @@ html[data-theme="dark"] .masthead {
 .research-node {
   position: absolute;
   top: var(--node-y);
-  left: var(--node-x);
   display: grid;
   min-width: 9.4rem;
   padding: 0.75rem 0.85rem;
@@ -1784,6 +1792,7 @@ html[data-theme="dark"] .masthead {
   box-shadow: 0 0.4rem 1.2rem rgba(16, 23, 22, 0.07);
   cursor: pointer;
   text-align: left;
+  left: clamp(18%, var(--node-x), 82%);
   transform: translate(-50%, -50%);
   z-index: 5;
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
@@ -3438,6 +3447,8 @@ html[data-theme="dark"] .publication-explorer {
     gap: 0.35rem;
     width: auto;
     height: auto;
+    cursor: default;
+    pointer-events: none;
     transform: none;
   }
 
@@ -3449,6 +3460,8 @@ html[data-theme="dark"] .publication-explorer {
     position: static;
     flex-basis: 100%;
     margin-bottom: 0.1rem;
+    cursor: default;
+    pointer-events: none;
   }
 
   .research-star {

@@ -118,6 +118,70 @@ $(document).ready(function() {
     activateResearchTheme($(this).data("research-star"));
   });
 
+  var constellationHandles = $("[data-research-constellation]");
+  var researchCanvas = $("[data-research-atlas] .research-atlas__canvas");
+  var constellationDrag = null;
+  var updateConstellationPosition = function(event) {
+    if (!constellationDrag) {
+      return;
+    }
+    var canvasRect = researchCanvas[0].getBoundingClientRect();
+    var constellationRect = constellationDrag.node.getBoundingClientRect();
+    var deltaX = (event.clientX - constellationDrag.startX) / canvasRect.width * 100;
+    var deltaY = (event.clientY - constellationDrag.startY) / canvasRect.height * 100;
+    var halfWidth = constellationRect.width / canvasRect.width * 50;
+    var halfHeight = constellationRect.height / canvasRect.height * 50;
+    var x = Math.max(halfWidth + 2, Math.min(98 - halfWidth, constellationDrag.x + deltaX));
+    var y = Math.max(halfHeight + 2, Math.min(88 - halfHeight, constellationDrag.y + deltaY));
+    constellationDrag.node.style.setProperty("--constellation-x", x + "%");
+    constellationDrag.node.style.setProperty("--constellation-y", y + "%");
+  };
+  var endConstellationDrag = function(event) {
+    if (!constellationDrag) {
+      return;
+    }
+    var handle = constellationDrag.handle;
+    if (
+      event &&
+      handle.releasePointerCapture &&
+      (!handle.hasPointerCapture || handle.hasPointerCapture(event.pointerId))
+    ) {
+      handle.releasePointerCapture(event.pointerId);
+    }
+    constellationDrag = null;
+    $(handle).removeClass("is-dragging");
+  };
+
+  constellationHandles.on("pointerdown", function(event) {
+    if (
+      !researchCanvas.length ||
+      (window.matchMedia && window.matchMedia("(max-width: 42rem)").matches) ||
+      $(event.target).closest("[data-research-star]").length ||
+      event.pointerType === "mouse" && event.button !== 0
+    ) {
+      return;
+    }
+    var constellation = this;
+    var canvasRect = researchCanvas[0].getBoundingClientRect();
+    var constellationRect = constellation.getBoundingClientRect();
+    constellationDrag = {
+      handle: this,
+      node: constellation,
+      startX: event.clientX,
+      startY: event.clientY,
+      x: (constellationRect.left + constellationRect.width / 2 - canvasRect.left) / canvasRect.width * 100,
+      y: (constellationRect.top + constellationRect.height / 2 - canvasRect.top) / canvasRect.height * 100
+    };
+    $(this).addClass("is-dragging");
+    if (this.setPointerCapture) {
+      this.setPointerCapture(event.pointerId);
+    }
+    event.preventDefault();
+  });
+
+  constellationHandles.on("pointermove", updateConstellationPosition);
+  constellationHandles.on("pointerup pointercancel pointerleave", endConstellationDrag);
+
   // Project filtering
   $("[data-project-filter]").on("click", function() {
     var filter = $(this).data("project-filter");
@@ -185,6 +249,17 @@ $(document).ready(function() {
       $("[data-live-meta='github-stars']").text(
         "GitHub REST API · " + formatLiveDate(github.updated)
       );
+    }
+    if (github.repositories && github.repositories.length) {
+      $("[data-live-repository-stars]").each(function() {
+        var repositoryName = $(this).data("live-repository-stars");
+        var repository = github.repositories.find(function(item) {
+          return item.name === repositoryName;
+        });
+        if (repository) {
+          $(this).text(Number(repository.stars || 0).toLocaleString("en-US"));
+        }
+      });
     }
   };
 

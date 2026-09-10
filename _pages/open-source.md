@@ -7,6 +7,7 @@ author_profile: false
 ---
 
 {% include base_path %}
+{% assign github_metric = site.data.metrics | where: "id", "github-stars" | first %}
 
 <div class="open-source-page">
   <section class="page-intro page-intro--wide">
@@ -17,11 +18,11 @@ author_profile: false
 
   <section class="open-source-summary">
     <div>
-      <strong>800+</strong>
-      <span>stars across released research repositories</span>
-      <small>Personal and collaborative repositories · Sep 2026</small>
+      <strong data-live-metric="github-stars">{{ github_metric.value }}</strong>
+      <span>stars across all public repositories</span>
+      <small data-live-meta="github-stars">{{ github_metric.source }} · {{ github_metric.updated }}</small>
     </div>
-    <p>Repository-level counts below are snapshots, not live counters. They are intentionally dated so the page remains honest when GitHub data changes.</p>
+    <p>Aggregate count follows the same GitHub snapshot used by the Research overview. Repository cards update when their repository is present in that public listing.</p>
   </section>
 
   <div class="repository-grid">
@@ -34,7 +35,7 @@ author_profile: false
         <h2>{{ repository.name }}</h2>
         <p>{{ repository.description }}</p>
         <div class="repository-card__stats">
-          <span><strong>{{ repository.stars }}</strong> stars</span>
+          <span><strong data-live-repository-stars="{{ repository.name }}">{{ repository.stars }}</strong> stars</span>
           <span>{{ repository.language }}</span>
           <span>checked {{ repository.updated }}</span>
         </div>
