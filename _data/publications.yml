@@ -34,6 +34,7 @@
   status_class: "published"
   featured: false
   role: "Contributor"
+  image: "DSGM.png"
   summary: "Dual semantic guidance and global-local modulation improve part-level alignment and hierarchical multimodal aggregation."
   contribution: "Combines unified text semantics, soft-mask local modulation, and hierarchical mixture-of-experts fusion."
   tags:
@@ -76,6 +77,7 @@
   status_class: "published"
   featured: false
   role: "Co-corresponding author"
+  image: "STMI.png"
   summary: "Segmentation priors modulate foreground tokens while a cross-modal hypergraph captures higher-order RGB/NIR/TIR relations."
   contribution: "Uses SAM-guided token redistribution and unified hypergraph interaction without relying on hard foreground deletion."
   tags:
@@ -99,6 +101,7 @@
   status_class: "ongoing"
   featured: false
   role: "Co-first author"
+  image: "VISTA-Bench.png"
   summary: "A paired benchmark testing whether VLMs understand visualized text as reliably as equivalent pure text."
   contribution: "Builds 1,500 paired items and evaluates more than 30 VLMs, exposing a modality gap that widens with rendering difficulty."
   tags:
@@ -144,6 +147,7 @@
   status_class: "published"
   featured: false
   role: "Co-first author"
+  image: "Signal.png"
   summary: "Selective patch interaction and joint global-local alignment suppress background interference and improve consistency across three visual modalities."
   contribution: "Introduces selective interaction, Gramian-space global alignment, and shift-aware local alignment for multimodal object ReID."
   tags:
@@ -190,6 +194,7 @@
   status_class: "published"
   featured: false
   role: "Contributor"
+  image: "HFP-SAM.png"
   summary: "Frequency-domain priors and full-view Mamba adapt SAM to fine-grained marine animal segmentation under complex underwater noise."
   contribution: "Combines a frequency-guided adapter, frequency-aware point selection, and linear-complexity contextual modeling."
   tags:
@@ -212,6 +217,7 @@
   status_class: "published"
   featured: false
   role: "Contributor"
+  image: "CADTrack.png"
   summary: "Contextual aggregation and deformable alignment improve robust visual tracking across visible and thermal modalities."
   contribution: "Combines linear-complexity cross-modal interaction, sparse expert aggregation, and deformable temporal alignment."
   tags:
@@ -235,6 +241,7 @@
   status_class: "published"
   featured: false
   role: "Contributor"
+  image: "RAGTrack.png"
   summary: "Introduces MLLM-generated language and retrieval-augmented temporal reasoning into visible-thermal object tracking."
   contribution: "Builds text-enhanced RGBT benchmarks and combines adaptive token fusion with a dynamic visual-language knowledge base."
   tags:
@@ -258,6 +265,7 @@
   status_class: "published"
   featured: false
   role: "Contributor"
+  image: "SAS-VPReID.png"
   summary: "A scale-adaptive video ReID framework combining low-resolution enhancement, multiscale temporal modeling, and clothing-robust shape priors."
   contribution: "The DLUT challenge solution ranked first in the associated extreme-far-distance video ReID track."
   tags:
@@ -280,6 +288,7 @@
   status_class: "published"
   featured: false
   role: "Contributor"
+  image: "VReID-XFD.png"
   summary: "Challenge report for extreme-far-distance video person ReID, including the DLUT SAS-VPReID solution."
   tags:
     - "Video ReID"
@@ -465,6 +474,7 @@
   status_class: "published"
   featured: false
   role: "Contributor"
+  image: "CLIMB-ReID.png"
   summary: "A hybrid CLIP–Mamba framework for transferring language-aligned visual representations to person re-identification."
   contribution: "Combines CLIP semantics with Mamba sequence modeling for efficient person representation."
   tags:
@@ -487,6 +497,7 @@
   status_class: "ongoing"
   featured: false
   role: "Contributor"
+  image: "LATex.png"
   summary: "A parameter-efficient CLIP prompt-tuning framework that turns stable person attributes and camera viewpoints into structured text guidance."
   contribution: "Introduces attribute-aware image encoding, prompted attribute classification, and coupled text prompts for aerial-ground ReID."
   tags:
@@ -508,6 +519,7 @@
   status_class: "published"
   featured: false
   role: "Contributor"
+  image: "Prompt-S6.png"
   summary: "PRISM combines Prompt-S6, semantic-driven token pruning, and progressive fusion for efficient tri-modal object ReID."
   contribution: "Uses segmentation-model priors to suppress background tokens while preserving linear-complexity cross-modal interaction."
   tags:
@@ -546,6 +558,7 @@
   status_class: "published"
   featured: false
   role: "Contributor"
+  image: "AG-VPReID.png"
   tags:
     - "Aerial–Ground ReID"
     - "Benchmarking"
