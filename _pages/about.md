@@ -57,7 +57,6 @@ redirect_from:
           <strong>Perception → Efficiency → Agency</strong>
         </div>
       </div>
-      <div class="portfolio-hero__monogram" aria-hidden="true">YW</div>
     </aside>
   </section>
 
