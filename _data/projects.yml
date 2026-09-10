@@ -1,187 +1,36 @@
-- id: efficient-mllm-pruning
+- id: undergraduate-multimodal-reid
   order: 1
   featured: true
-  theme: "efficient-intelligence"
-  eyebrow: "LATEST PAPER / EFFICIENT MLLM"
-  title: "ERA: logit-preserving visual token pruning"
-  tagline: "Preserve visual evidence—even after aggressively shortening the sequence."
-  role: "First author"
-  partner: "DLUT · NTU S-Lab · OPPO Research Institute · PolyU"
-  status: "Public preprint & code"
-  year: "2026"
-  problem: "Training-free token pruning accelerates MLLMs, but replacing many visual tokens with a few representatives systematically suppresses accumulated visual attention."
-  motivation: "Pruning is only useful when the reduced sequence preserves both the content and attention distribution of the original visual evidence."
-  method: "Dual-view entropy pruning finds diverse, head-salient anchors; bias-aware token recycling records pruned evidence; logit-preserving rectification restores the missing attention mass."
-  contribution: "Identifies Attention Logit Collapse, gives it a principled treatment, and validates the approach across single-image, multi-image, video, multiple MLLM architectures, and a vLLM serving environment."
-  outcomes:
-    - metric: "~5%"
-      label: "tokens retained in extreme settings"
-    - metric: "5 families"
-      label: "representative MLLM families"
-    - metric: "vLLM"
-      label: "serving-level verification"
+  theme: "undergraduate-research"
+  eyebrow: "UNDERGRADUATE RESEARCH / MULTIMODAL PERCEPTION"
+  title: "Multimodal object re-identification"
+  tagline: "A foundational research project on multimodal object re-identification."
+  role: "Research project"
+  status: "Undergraduate research"
+  year: "Undergraduate study"
+  problem: "Studied object re-identification across heterogeneous visual modalities."
+  motivation: "This project established the initial research direction in multimodal perception."
+  method: "Multimodal object re-identification."
+  contribution: "Built the foundation for subsequent work on multimodal perception."
   tags:
-    - "Efficient MLLM"
-    - "Visual Token Pruning"
-    - "Attention Rectification"
-  related_publications:
-    - "ERA"
-  links:
-    - label: "Paper"
-      url: "https://arxiv.org/abs/2606.31982"
-    - label: "Code"
-      url: "https://github.com/924973292/ERA"
+    - "Multimodal Perception"
+    - "Object Re-identification"
 
-- id: edge-gui-agent
+- id: oppo-edge-gui-agents
   order: 2
   featured: true
-  theme: "on-device-agents"
-  eyebrow: "LATEST WORK / EDGE INTELLIGENCE"
-  title: "Training-free acceleration for on-device GUI agents"
-  tagline: "Remove redundant multimodal computation before it becomes device latency."
-  role: "Research & deployment"
-  partner: "OPPO Y-Lab collaboration"
-  status: "Research in progress"
-  year: "2025–now"
-  problem: "High-resolution GUI observations generate substantial visual-token redundancy, while mobile devices impose strict latency, memory, and package-size constraints."
-  motivation: "An agent that understands an interface but cannot respond within a practical device budget is not yet deployable."
-  method: "A training-free large-model pruning strategy for GUI interfaces, paired with system-level optimization for terminal deployment."
-  contribution: "Connects model-side redundancy reduction with end-to-end deployment constraints, without requiring additional model training."
-  disclosure: "Selected implementation and evaluation details are described at a high level because this is ongoing collaborative research."
-  outcomes:
-    - metric: "2.5×"
-      label: "faster time-to-first-token"
-    - metric: "30 ms"
-      label: "first-token latency in deployment"
-    - metric: "300 MB"
-      label: "optimized model package"
+  theme: "oppo-edge-agents"
+  eyebrow: "OPPO / ON-DEVICE INTELLIGENCE"
+  title: "On-device model deployment and GUI Agent development"
+  tagline: "Work on deploying models at the edge and developing GUI Agents."
+  role: "Research & engineering"
+  partner: "OPPO"
+  status: "Ongoing"
+  year: "Current"
+  problem: "On-device model deployment and GUI Agent development must meet practical terminal constraints."
+  motivation: "The work connects model capability with deployment on real devices."
+  method: "On-device model deployment and GUI Agent development."
+  contribution: "Focused on bringing efficient models and GUI Agent development into practical edge settings."
   tags:
-    - "GUI Agent"
-    - "Training-free Pruning"
-    - "Mobile AI"
-    - "Efficient MLLM"
-  related_publications:
-    - "TRACE"
-  links:
-    - label: "Scholar record"
-      url: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:TQgYirikUcIC"
-
-- id: text-enhanced-reid
-  order: 3
-  featured: true
-  theme: "multimodal-foundation-models"
-  eyebrow: "CVPR 2025 / MULTIMODAL PERCEPTION"
-  title: "Text-enhanced multimodal object re-identification"
-  tagline: "Use language to expose identity cues that visual fusion alone can miss."
-  role: "First author"
-  status: "Published"
-  year: "2025"
-  image: "IDEA.png"
-  problem: "Conventional multimodal ReID systems fuse heterogeneous visual features but underuse text semantics and retain redundant local observations."
-  motivation: "Structured text can provide a shared semantic space for objects observed under different spectra and viewpoints."
-  method: "IDEA combines an inverted multimodal feature extractor with cooperative deformable aggregation and text-enhanced benchmarks."
-  contribution: "Introduces semantic guidance from MLLM-generated captions and adaptive local aggregation for robust multimodal retrieval."
-  outcomes:
-    - metric: "3"
-      label: "text-enhanced benchmarks"
-    - metric: "CVPR"
-      label: "peer-reviewed publication"
-  tags:
-    - "Multimodal ReID"
-    - "Vision-Language"
-    - "Cross-modal Retrieval"
-  related_publications:
-    - "IDEA"
-  links:
-    - label: "Paper"
-      url: "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_IDEA_Inverted_Text_with_Cooperative_Deformable_Aggregation_for_Multi-modal_Object_CVPR_2025_paper.html"
-    - label: "Code"
-      url: "https://github.com/924973292/IDEA"
-
-- id: efficient-representation
-  order: 4
-  featured: true
-  theme: "efficient-intelligence"
-  eyebrow: "AAAI 2025 / EFFICIENT REPRESENTATION"
-  title: "Efficient multimodal representation learning"
-  tagline: "Route, select, and aggregate the information that matters."
-  role: "First author"
-  status: "Published"
-  year: "2024–2025"
-  image: "MambaPro.png"
-  problem: "Long multimodal sequences contain both modality-specific knowledge and substantial redundancy, making direct fusion brittle and expensive."
-  motivation: "Efficiency should come from better information organization, not merely from shrinking the model."
-  method: "A connected line of work spanning token selection, decoupled mixture-of-experts, synergistic prompting, and Mamba aggregation."
-  contribution: "Builds a progression from diverse token discovery to adaptive feature routing and scalable long-sequence interaction."
-  outcomes:
-    - metric: "3"
-      label: "connected methods"
-    - metric: "CVPR / AAAI"
-      label: "research venues"
-  tags:
-    - "Token Selection"
-    - "Mixture of Experts"
-    - "Mamba"
-  related_publications:
-    - "EDITOR"
-    - "DeMo"
-    - "MambaPro"
-  links:
-    - label: "DeMo Code"
-      url: "https://github.com/924973292/DeMo"
-    - label: "MambaPro Code"
-      url: "https://github.com/924973292/MambaPro"
-
-- id: multimodal-reid
-  order: 5
-  featured: false
-  theme: "multimodal-perception"
-  eyebrow: "RESEARCH PROGRAM / 2023–NOW"
-  title: "Multimodal identity under real-world variation"
-  tagline: "A research program across spectra, semantics, architectures, and viewpoints."
-  role: "Lead & collaborator"
-  status: "Active"
-  year: "2023–now"
-  image: "TOPReID.png"
-  problem: "Identity cues change across RGB, near-infrared, thermal, aerial, and text-enhanced observations."
-  motivation: "Reliable retrieval requires both shared semantics and respect for modality-specific evidence."
-  method: "Token permutation, diverse token selection, hybrid convolution–Transformer representation, Mamba aggregation, mixture-of-experts, and diffusion priors."
-  contribution: "A continuous body of work that connects foundational multimodal recognition with emerging vision-language and efficiency questions."
-  tags:
-    - "RGBNT"
-    - "Aerial–Ground"
-    - "Person / Vehicle ReID"
-  related_publications:
-    - "TOP-ReID"
-    - "EDITOR"
-    - "FusionReID"
-    - "IDEA"
-    - "DeMo"
-    - "MambaPro"
-  links:
-    - label: "Research Code"
-      url: "https://github.com/924973292"
-
-- id: knowledge-curation
-  order: 6
-  featured: true
-  theme: "multimodal-perception"
-  eyebrow: "OPEN SOURCE / CURATION"
-  title: "Making fast-moving research easier to enter"
-  tagline: "Curated maps of multimodal ReID and efficient MLLM research."
-  role: "Creator & maintainer"
-  status: "Maintained"
-  year: "Ongoing"
-  problem: "Fast-moving research areas are difficult to navigate when methods, datasets, and resources are scattered."
-  motivation: "Good research infrastructure begins with a legible map of the field."
-  method: "Continuously organized paper lists, datasets, taxonomies, and implementation resources."
-  contribution: "Two community-facing knowledge bases connecting multimodal perception and efficient multimodal foundation models."
-  tags:
-    - "Open Source"
-    - "Research Curation"
-    - "Knowledge Infrastructure"
-  links:
-    - label: "Multimodal ReID List"
-      url: "https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification"
-    - label: "Efficient MLLM List"
-      url: "https://github.com/924973292/Awesome-EfficientAI-for-MLLM"
+    - "On-device Deployment"
+    - "GUI Agents"

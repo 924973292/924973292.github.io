@@ -8,9 +8,9 @@
 <div class="research-atlas" data-research-atlas>
   <div class="research-atlas__canvas" aria-label="Interactive map of Yuhao Wang's research">
     <svg class="research-atlas__lines" viewBox="0 0 100 100" role="img" aria-label="Research themes connected through multimodal intelligence">
-      <path d="M50 50 L16 38" data-research-line="multimodal-perception"></path>
-      <path d="M50 50 L50 62" data-research-line="efficient-multimodal-llms"></path>
-      <path d="M50 50 L84 38" data-research-line="efficient-agent-systems"></path>
+      <path d="M50 50 L30 30" data-research-line="multimodal-perception"></path>
+      <path d="M50 50 L50 68" data-research-line="efficient-multimodal-llms"></path>
+      <path d="M50 50 L70 30" data-research-line="efficient-agent-systems"></path>
     </svg>
 
     <div class="research-atlas__constellation-meta">
@@ -23,23 +23,41 @@
       </div>
     </div>
 
-    <div class="research-atlas__constellation" aria-label="Interactive research constellation">
+    <div class="research-atlas__areas" aria-label="Interactive research constellation">
       {% for theme in site.data.research_areas %}
-        {% assign constellation_x = 30 %}
-        {% assign constellation_y = 23 %}
+        {% assign group_x = 30 %}
+        {% assign group_y = 20 %}
         {% if theme.id == "efficient-multimodal-llms" %}
-          {% assign constellation_x = 28 %}
-          {% assign constellation_y = 68 %}
+          {% assign group_x = 50 %}
+          {% assign group_y = 58 %}
         {% elsif theme.id == "efficient-agent-systems" %}
-          {% assign constellation_x = 73 %}
-          {% assign constellation_y = 23 %}
+          {% assign group_x = 70 %}
+          {% assign group_y = 20 %}
         {% endif %}
         <div
-          class="research-constellation research-constellation--{{ theme.id }}{% if forloop.first %} is-active{% else %} is-muted{% endif %}"
+          class="research-area-group research-area-group--{{ theme.id }}{% if forloop.first %} is-active{% else %} is-muted{% endif %}"
           data-research-constellation="{{ theme.id }}"
-          style="--constellation-x: {{ constellation_x }}%; --constellation-y: {{ constellation_y }}%;">
-          <span class="research-constellation__orbit" aria-hidden="true"></span>
-          <span class="research-constellation__label">{{ theme.short_title }}</span>
+          style="--group-x: {{ group_x }}%; --group-y: {{ group_y }}%;">
+          <button
+            class="research-node"
+            type="button"
+            style="--node-x: {{ theme.position.x }}%; --node-y: {{ theme.position.y }}%;"
+            data-research-node="{{ theme.id }}"
+            aria-controls="research-panel-{{ theme.id }}"
+            aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
+            <span>{{ theme.index }}</span>
+            <strong>{{ theme.short_title }}</strong>
+            <small>{{ theme.maturity }}</small>
+            <em>{{ theme.keywords | slice: 0, 2 | join: " · " }}</em>
+            <b>{{ theme.publications.size }} related works</b>
+            <span class="research-node__methods" aria-label="{{ theme.title }} methods">
+              {% for method in theme.methods limit: 2 %}<i>{{ method }}</i>{% endfor %}
+            </span>
+          </button>
+
+          <div class="research-constellation">
+            <span class="research-constellation__orbit" aria-hidden="true"></span>
+            <span class="research-constellation__label">{{ theme.short_title }} focus</span>
           {% for keyword in theme.keywords %}
             <button
               class="research-star research-star--keyword"
@@ -54,6 +72,7 @@
               data-research-star="{{ theme.id }}"
               aria-label="Show {{ theme.title }} method: {{ method }}">{{ method }}</button>
           {% endfor %}
+          </div>
         </div>
       {% endfor %}
     </div>
@@ -63,25 +82,6 @@
       <strong>Multimodal<br>Intelligence</strong>
       <small>Perceive · Compress · Act</small>
     </div>
-
-    {% for theme in site.data.research_areas %}
-      <button
-        class="research-node{% if forloop.first %} is-active{% endif %}"
-        type="button"
-        style="--node-x: {{ theme.position.x }}%; --node-y: {{ theme.position.y }}%;"
-        data-research-node="{{ theme.id }}"
-        aria-controls="research-panel-{{ theme.id }}"
-        aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
-        <span>{{ theme.index }}</span>
-        <strong>{{ theme.short_title }}</strong>
-        <small>{{ theme.maturity }}</small>
-        <em>{{ theme.keywords | slice: 0, 2 | join: " · " }}</em>
-        <b>{{ theme.publications.size }} related works</b>
-        <span class="research-node__methods" aria-label="{{ theme.title }} methods">
-          {% for method in theme.methods limit: 2 %}<i>{{ method }}</i>{% endfor %}
-        </span>
-      </button>
-    {% endfor %}
 
     <div class="research-atlas__program-rail" aria-label="Connected research program">
       <span class="micro-label">One connected program</span>

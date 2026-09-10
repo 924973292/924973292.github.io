@@ -12,16 +12,14 @@ author_profile: false
   <section class="page-intro page-intro--wide">
     <p class="eyebrow">PROJECTS / FROM QUESTION TO EVIDENCE</p>
     <h1>Research is more than a paper title.</h1>
-    <p class="page-intro__lead">These case studies connect the problem, technical idea, contribution, result, and artifact behind each research thread.</p>
+    <p class="page-intro__lead">Two projects define the path from foundational multimodal research to current on-device AI work.</p>
   </section>
 
   <div class="project-toolbar" data-project-filters aria-label="Filter research projects">
     <span class="filter-label">Research lens</span>
     <button class="filter-button is-active" type="button" data-project-filter="all" aria-pressed="true">All projects</button>
-    <button class="filter-button" type="button" data-project-filter="multimodal-perception" aria-pressed="false">Perception</button>
-    <button class="filter-button" type="button" data-project-filter="multimodal-foundation-models" aria-pressed="false">Foundation models</button>
-    <button class="filter-button" type="button" data-project-filter="efficient-intelligence" aria-pressed="false">Efficiency</button>
-    <button class="filter-button" type="button" data-project-filter="on-device-agents" aria-pressed="false">GUI agents</button>
+    <button class="filter-button" type="button" data-project-filter="undergraduate-research" aria-pressed="false">Undergraduate research</button>
+    <button class="filter-button" type="button" data-project-filter="oppo-edge-agents" aria-pressed="false">OPPO edge work</button>
   </div>
 
   <div class="project-list" data-project-list>
@@ -32,6 +30,6 @@ author_profile: false
   </div>
 
   <section class="project-note">
-    <p><strong>Evidence policy.</strong> Links and detailed claims are shown only when the corresponding material is public. Ongoing collaborative work is intentionally described at a higher level.</p>
+    <p><strong>Evidence policy.</strong> Ongoing collaborative work is intentionally described at a high level.</p>
   </section>
 </div>

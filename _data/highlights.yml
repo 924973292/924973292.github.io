@@ -4,7 +4,7 @@
   title: "ERA preserves attention after pruning"
   description: "Entropy-guided anchor selection, token recycling, and attention rectification address visual-logit collapse in training-free MLLM acceleration."
   impact: "First author · paper and code released"
-  url: "/projects/#efficient-mllm-pruning"
+  url: "/publications/#paper-ERA"
 
 - type: "Research"
   year: "2025"
@@ -21,7 +21,7 @@
   title: "From model pruning to device latency"
   description: "Ongoing GUI Agent research connects training-free pruning with a 2.5× TTFT improvement and deployment-oriented optimization."
   impact: "30 ms TTFT · 300 MB package"
-  url: "/projects/#edge-gui-agent"
+  url: "/projects/#oppo-edge-gui-agents"
 
 - type: "Research"
   year: "2024–2025"
@@ -30,7 +30,7 @@
   description: "EDITOR, DeMo, and MambaPro progress from token selection to adaptive feature routing and long-sequence aggregation."
   impact: "Three connected multimodal methods"
   image: "MambaPro.png"
-  url: "/projects/#efficient-representation"
+  url: "/publications/?area=multimodal-perception"
 
 - type: "Open Source"
   year: "Ongoing"

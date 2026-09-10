@@ -18,7 +18,7 @@
   paper: "https://arxiv.org/abs/2609.10297"
   arxiv: "https://arxiv.org/abs/2609.10297"
   scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:TQgYirikUcIC"
-  project: "/projects/#edge-gui-agent"
+  project: "/projects/#oppo-edge-gui-agents"
 
 - id: DSGM
   area: "multimodal-perception"
@@ -123,7 +123,6 @@
   paper: "https://arxiv.org/abs/2606.31982"
   code: "https://github.com/924973292/ERA"
   scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qUcmZB5y_30C"
-  project: "/projects/#efficient-mllm-pruning"
 
 - id: Signal
   area: "multimodal-perception"
@@ -293,7 +292,6 @@
   paper: "https://arxiv.org/abs/2503.10324"
   arxiv: "https://arxiv.org/abs/2503.10324"
   code: "https://github.com/924973292/IDEA"
-  project: "/projects/#text-enhanced-reid"
   scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:5nxA0vEk-isC"
   bibtex: "/ciations/IDEA.md"
 
@@ -317,7 +315,6 @@
   paper: "https://arxiv.org/abs/2412.10650"
   arxiv: "https://arxiv.org/abs/2412.10650"
   code: "https://github.com/924973292/DeMo"
-  project: "/projects/#efficient-representation"
   scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:MXK_kJrjxJIC"
   bibtex: "/ciations/DeMo.md"
 
@@ -341,7 +338,6 @@
   paper: "https://arxiv.org/abs/2412.10707"
   arxiv: "https://arxiv.org/abs/2412.10707"
   code: "https://github.com/924973292/MambaPro"
-  project: "/projects/#efficient-representation"
   scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:ufrVoPGSRksC"
   bibtex: "/ciations/MambaPro.md"
 
@@ -409,7 +405,6 @@
     - "Token Learning"
   paper: "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Magic_Tokens_Select_Diverse_Tokens_for_Multi-modal_Object_Re-Identification_CVPR_2024_paper.html"
   code: "https://github.com/924973292/EDITOR"
-  project: "/projects/#efficient-representation"
   scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:2osOgNQ5qMEC"
   bibtex: "/ciations/EDITOR.md"
 

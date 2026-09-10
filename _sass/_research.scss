@@ -1553,7 +1553,7 @@ html[data-theme="dark"] .masthead {
 
 .research-atlas__canvas {
   position: relative;
-  min-height: 41rem;
+  min-height: 50rem;
   overflow: hidden;
   background:
     linear-gradient(var(--research-line) 1px, transparent 1px),
@@ -1623,28 +1623,40 @@ html[data-theme="dark"] .masthead {
   }
 }
 
-.research-atlas__constellation {
+.research-atlas__areas {
   position: absolute;
   z-index: 1;
   inset: 0;
   pointer-events: none;
 }
 
-.research-constellation {
+.research-area-group {
   position: absolute;
-  top: var(--constellation-y);
-  left: var(--constellation-x);
-  width: 19rem;
-  height: 14rem;
+  top: var(--group-y);
+  left: var(--group-x);
+  width: min(18rem, calc(100% - 2rem));
   cursor: grab;
-  transform: translate(-50%, -50%);
   pointer-events: auto;
+  transform: translateX(-50%);
   transition: opacity 180ms ease, filter 180ms ease;
 
   &.is-muted {
     opacity: 0.26;
     filter: saturate(0.45);
   }
+}
+
+.research-area-group.is-dragging {
+  cursor: grabbing;
+}
+
+.research-constellation {
+  position: relative;
+  width: 100%;
+  height: 10.5rem;
+  margin-top: 0.85rem;
+  pointer-events: auto;
+  transform: none;
 }
 
 .research-constellation__orbit {
@@ -1658,11 +1670,7 @@ html[data-theme="dark"] .masthead {
   transform: rotate(-12deg);
 }
 
-.research-constellation.is-dragging {
-  cursor: grabbing;
-}
-
-.research-constellation.is-active .research-constellation__orbit {
+.research-area-group.is-active .research-constellation__orbit {
   border-color: var(--research-accent);
   opacity: 1;
 }
@@ -1733,15 +1741,15 @@ html[data-theme="dark"] .masthead {
   50% { margin-top: -0.18rem; }
 }
 
-.research-constellation.is-active .research-star--keyword {
+.research-area-group.is-active .research-star--keyword {
   animation: research-star-drift 7s ease-in-out infinite;
 }
 
-.research-constellation.is-active .research-star--keyword:nth-of-type(2) {
+.research-area-group.is-active .research-star--keyword:nth-of-type(2) {
   animation-delay: -2.2s;
 }
 
-.research-constellation.is-active .research-star--keyword:nth-of-type(3) {
+.research-area-group.is-active .research-star--keyword:nth-of-type(3) {
   animation-delay: -4.1s;
 }
 
@@ -1780,10 +1788,11 @@ html[data-theme="dark"] .masthead {
 }
 
 .research-node {
-  position: absolute;
-  top: var(--node-y);
+  position: relative;
+  top: auto;
+  left: auto;
   display: grid;
-  width: min(18rem, calc(100% - 2rem));
+  width: 100%;
   min-width: 0;
   box-sizing: border-box;
   padding: 0.75rem 0.85rem;
@@ -1794,8 +1803,7 @@ html[data-theme="dark"] .masthead {
   box-shadow: 0 0.4rem 1.2rem rgba(16, 23, 22, 0.07);
   cursor: pointer;
   text-align: left;
-  left: clamp(10rem, var(--node-x), calc(100% - 10rem));
-  transform: translate(-50%, -50%);
+  transform: none;
   z-index: 5;
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 
@@ -1804,7 +1812,7 @@ html[data-theme="dark"] .masthead {
   &.is-active {
     border-color: var(--research-accent);
     box-shadow: 0 0.7rem 1.6rem rgba(20, 125, 112, 0.16);
-    transform: translate(-50%, -53%);
+    transform: translateY(-0.15rem);
   }
 
   span,
@@ -3435,11 +3443,19 @@ html[data-theme="dark"] .publication-explorer {
     order: 1;
   }
 
-  .research-atlas__constellation {
+  .research-atlas__areas {
     position: static;
     display: grid;
     gap: 0.8rem;
     order: 2;
+  }
+
+  .research-area-group {
+    position: static;
+    width: auto;
+    cursor: default;
+    pointer-events: none;
+    transform: none;
   }
 
   .research-constellation {
@@ -3452,6 +3468,7 @@ html[data-theme="dark"] .publication-explorer {
     gap: 0.35rem;
     width: auto;
     height: auto;
+    margin-top: 0.65rem;
     cursor: default;
     pointer-events: none;
     transform: none;

@@ -130,11 +130,11 @@ $(document).ready(function() {
     var deltaX = (event.clientX - constellationDrag.startX) / canvasRect.width * 100;
     var deltaY = (event.clientY - constellationDrag.startY) / canvasRect.height * 100;
     var halfWidth = constellationRect.width / canvasRect.width * 50;
-    var halfHeight = constellationRect.height / canvasRect.height * 50;
     var x = Math.max(halfWidth + 2, Math.min(98 - halfWidth, constellationDrag.x + deltaX));
-    var y = Math.max(halfHeight + 2, Math.min(88 - halfHeight, constellationDrag.y + deltaY));
-    constellationDrag.node.style.setProperty("--constellation-x", x + "%");
-    constellationDrag.node.style.setProperty("--constellation-y", y + "%");
+    var heightPercent = constellationRect.height / canvasRect.height * 100;
+    var y = Math.max(2, Math.min(88 - heightPercent, constellationDrag.y + deltaY));
+    constellationDrag.node.style.setProperty("--group-x", x + "%");
+    constellationDrag.node.style.setProperty("--group-y", y + "%");
   };
   var endConstellationDrag = function(event) {
     if (!constellationDrag) {
@@ -170,7 +170,7 @@ $(document).ready(function() {
       startX: event.clientX,
       startY: event.clientY,
       x: (constellationRect.left + constellationRect.width / 2 - canvasRect.left) / canvasRect.width * 100,
-      y: (constellationRect.top + constellationRect.height / 2 - canvasRect.top) / canvasRect.height * 100
+      y: (constellationRect.top - canvasRect.top) / canvasRect.height * 100
     };
     $(this).addClass("is-dragging");
     if (this.setPointerCapture) {
