@@ -10,6 +10,7 @@
   status_class: "ongoing"
   featured: true
   role: "First author"
+  image: "TRACE.png"
   summary: "A training-free GUI-agent framework for irreversible visual-token admission that remains useful for unknown future targets while preserving coverage of operable regions."
   contribution: "Ranks visual evidence with layout-derived interaction priors, instruction relevance, and feature novelty; repairs spatial coverage into a nested token order; and contracts retired frames with monotone KV contraction."
   tags:
@@ -120,6 +121,7 @@
   status_class: "ongoing"
   featured: true
   role: "First author"
+  image: "ERA.png"
   summary: "An entropy-guided, training-free pruning framework that preserves visual evidence by rectifying attention-logit collapse after token reduction."
   contribution: "ERA unifies head-wise entropy pruning, bias-aware token recycling, and logit-preserving attention rectification across single-image, multi-image, video, and vLLM serving settings."
   tags:
@@ -165,6 +167,7 @@
   status_class: "published"
   featured: true
   role: "First author"
+  image: "SD-ReID.png"
   summary: "A view-aware generative framework that uses controllable diffusion priors to improve identity consistency across aerial and ground cameras."
   contribution: "Models view-specific feature distributions with a controllable Stable Diffusion model and a view-refined decoder across five aerial-ground ReID benchmarks."
   tags:
