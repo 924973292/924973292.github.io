@@ -1,19 +1,35 @@
 {% include base_path %}
 {% assign work = include.work %}
 <article class="featured-work" aria-labelledby="featured-work-title">
-  <header class="featured-work__header">
-    <div class="featured-work__meta">
-      <span>{{ work.kicker }}</span>
-      <span>{{ work.role }}</span>
-      <span>{{ work.status }}</span>
-      <span>{{ work.year }}</span>
-      <span>{{ work.area }}</span>
+  <header class="featured-work__header{% if work.figures %} featured-work__header--with-gallery{% endif %}">
+    <div class="featured-work__identity">
+      <div class="featured-work__meta">
+        <span>{{ work.kicker }}</span>
+        <span>{{ work.role }}</span>
+        <span>{{ work.status }}</span>
+        <span>{{ work.year }}</span>
+        <span>{{ work.area }}</span>
+      </div>
+      <p class="featured-work__name">{{ work.short_name }}</p>
+      {% if work.expansion %}<p class="featured-work__expansion">{{ work.expansion }}</p>{% endif %}
+      <h3 id="featured-work-title">{{ work.title }}</h3>
+      <p class="featured-work__authors">{{ work.authors }}</p>
+      <p class="featured-work__venue">{{ work.venue }}</p>
     </div>
-    <p class="featured-work__name">{{ work.short_name }}</p>
-    {% if work.expansion %}<p class="featured-work__expansion">{{ work.expansion }}</p>{% endif %}
-    <h3 id="featured-work-title">{{ work.title }}</h3>
-    <p class="featured-work__authors">{{ work.authors }}</p>
-    <p class="featured-work__venue">{{ work.venue }}</p>
+
+    {% if work.figures %}
+      <div class="featured-work__gallery" tabindex="0" aria-label="{{ work.short_name }} paper figures">
+        <p class="featured-work__gallery-hint">Scroll figures</p>
+        {% for figure in work.figures %}
+          <figure class="featured-work__figure">
+            <a class="image-popup" href="{{ figure.file | prepend: '/images/' | relative_url }}" aria-label="{{ figure.alt }}">
+              <img src="{{ figure.file | prepend: '/images/' | relative_url }}" alt="{{ figure.alt }}" loading="lazy">
+            </a>
+            {% if figure.caption %}<figcaption>{{ figure.caption }}</figcaption>{% endif %}
+          </figure>
+        {% endfor %}
+      </div>
+    {% endif %}
   </header>
 
   <div class="featured-work__body">
