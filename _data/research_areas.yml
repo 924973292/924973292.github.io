@@ -53,13 +53,6 @@
   publications:
     - "VISTA-Bench"
     - "ERA"
-    - "IDEA"
-    - "DeMo"
-    - "MambaPro"
-    - "CLIMB-ReID"
-    - "LATex"
-    - "Prompt-S6"
-    - "VMambaX"
   position:
     x: 50
     y: 62
