@@ -1783,7 +1783,9 @@ html[data-theme="dark"] .masthead {
   position: absolute;
   top: var(--node-y);
   display: grid;
-  min-width: 9.4rem;
+  width: min(18rem, calc(100% - 2rem));
+  min-width: 0;
+  box-sizing: border-box;
   padding: 0.75rem 0.85rem;
   border: 1px solid var(--research-line);
   border-radius: 0.8rem;
@@ -1792,7 +1794,7 @@ html[data-theme="dark"] .masthead {
   box-shadow: 0 0.4rem 1.2rem rgba(16, 23, 22, 0.07);
   cursor: pointer;
   text-align: left;
-  left: clamp(18%, var(--node-x), 82%);
+  left: clamp(10rem, var(--node-x), calc(100% - 10rem));
   transform: translate(-50%, -50%);
   z-index: 5;
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
@@ -1839,6 +1841,7 @@ html[data-theme="dark"] .masthead {
     display: flex;
     flex-wrap: wrap;
     gap: 0.25rem;
+    min-width: 0;
     margin-top: 0.45rem;
   }
 
@@ -1850,6 +1853,8 @@ html[data-theme="dark"] .masthead {
     font-size: 0.48rem;
     font-style: normal;
     line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: anywhere;
   }
 
   &.is-active small {
