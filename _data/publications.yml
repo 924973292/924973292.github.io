@@ -274,7 +274,7 @@
   arxiv: "https://arxiv.org/abs/2601.01312"
 
 - id: IDEA
-  area: "efficient-multimodal-llms"
+  area: "multimodal-perception"
   title: "IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-Modal Object Re-Identification"
   authors: "<strong>Yuhao Wang</strong>, Yongfeng Lv, Pingping Zhang*, Huchuan Lu"
   year: 2025
@@ -298,7 +298,7 @@
   bibtex: "/ciations/IDEA.md"
 
 - id: DeMo
-  area: "efficient-multimodal-llms"
+  area: "multimodal-perception"
   title: "DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification"
   authors: "<strong>Yuhao Wang</strong>, Yang Liu, Aihua Zheng, Pingping Zhang*"
   year: 2025
@@ -322,7 +322,7 @@
   bibtex: "/ciations/DeMo.md"
 
 - id: MambaPro
-  area: "efficient-multimodal-llms"
+  area: "multimodal-perception"
   title: "MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation and Synergistic Prompt"
   authors: "<strong>Yuhao Wang</strong>, Xuehu Liu, Tianyu Yan, Yang Liu, Aihua Zheng, Pingping Zhang*, Huchuan Lu"
   year: 2025
@@ -436,7 +436,7 @@
   bibtex: "/ciations/TOPReID.md"
 
 - id: CLIMB-ReID
-  area: "efficient-multimodal-llms"
+  area: "multimodal-perception"
   title: "CLIMB-ReID: A Hybrid CLIP-Mamba Framework for Person Re-Identification"
   authors: "Chenyang Yu, Xuehu Liu, Jiawen Zhu, <strong>Yuhao Wang</strong>, Pingping Zhang*, Huchuan Lu"
   year: 2025
@@ -457,7 +457,7 @@
   bibtex: ""
 
 - id: LATex
-  area: "efficient-multimodal-llms"
+  area: "multimodal-perception"
   title: "LATex: Leveraging Attribute-based Text Knowledge for Aerial-Ground Person Re-Identification"
   authors: "Pingping Zhang*, Xiang Hu, <strong>Yuhao Wang</strong>, Huchuan Lu"
   year: 2025
@@ -477,7 +477,7 @@
   scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Wp0gIr-vW9MC"
 
 - id: Prompt-S6
-  area: "efficient-multimodal-llms"
+  area: "multimodal-perception"
   title: "Multi-Modal Object Re-Identification with Prompt-S6 and Semantic-Aware Knowledge Guidance"
   authors: "Weixiang Zhou†, Jiabei Zuo†, <strong>Yuhao Wang</strong>, Cong Wang*, Huchuan Lu, Zhixun Su*"
   year: 2026
@@ -499,7 +499,7 @@
   scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:hC7cP41nSMkC"
 
 - id: VMambaX
-  area: "efficient-multimodal-llms"
+  area: "multimodal-perception"
   title: "VMambaX: Exploiting Vision Mamba for Abdominal X-ray Image Based NEC Classification"
   authors: "Zhoushan Feng†, Wen Long†, <strong>Yuhao Wang</strong>†, Shicun Qiao, Jingwen Mei, Yiyu Shi, Pingping Zhang*, Chunhong Jia, Fan Wu"
   year: 2025

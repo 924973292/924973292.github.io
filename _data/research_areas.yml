@@ -30,6 +30,13 @@
     - "EDITOR"
     - "TOP-ReID"
     - "AG-VPReID"
+    - "IDEA"
+    - "DeMo"
+    - "MambaPro"
+    - "CLIMB-ReID"
+    - "LATex"
+    - "Prompt-S6"
+    - "VMambaX"
   position:
     x: 16
     y: 38
