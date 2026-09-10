@@ -13,9 +13,9 @@
       <path d="M50 50 L84 38" data-research-line="efficient-agent-systems"></path>
     </svg>
 
-    <div class="research-atlas__field-meta">
+    <div class="research-atlas__constellation-meta">
       <span class="micro-label">Research field / interactive map</span>
-      <p>Select a term or drag the empty field to explore the three research directions.</p>
+      <p>One research identity, three directions, and a growing body of evidence.</p>
       <div>
         <span><strong>{{ site.data.research_areas.size }}</strong> areas</span>
         <span><strong>{{ total_research_terms }}</strong> terms</span>
@@ -23,29 +23,26 @@
       </div>
     </div>
 
-    <div class="research-atlas__field-surface" data-research-field-pan aria-label="Drag to explore the research field"></div>
-    <div class="research-atlas__cloud" data-research-cloud>
+    <div class="research-atlas__constellation" aria-label="Interactive research constellation">
       {% for theme in site.data.research_areas %}
         <div
-          class="research-cluster research-cluster--{{ theme.id }}{% if forloop.first %} is-active{% else %} is-muted{% endif %}"
-          data-research-cluster="{{ theme.id }}"
-          style="--cluster-x: {{ theme.position.x }}%; --cluster-y: {{ theme.position.y }}%;">
-          <span class="research-cluster__label">{{ theme.short_title }}</span>
+          class="research-constellation research-constellation--{{ theme.id }}{% if forloop.first %} is-active{% else %} is-muted{% endif %}"
+          data-research-constellation="{{ theme.id }}"
+          style="--constellation-x: {{ theme.position.x }}%; --constellation-y: {{ theme.position.y }}%;">
+          <span class="research-constellation__orbit" aria-hidden="true"></span>
+          <span class="research-constellation__label">{{ theme.short_title }}</span>
           {% for keyword in theme.keywords %}
             <button
-              class="research-token research-token--keyword"
+              class="research-star research-star--keyword"
               type="button"
-              data-research-token="{{ theme.id }}"
-              style="--token-index: {{ forloop.index0 }};"
+              data-research-star="{{ theme.id }}"
               aria-label="Show {{ theme.title }}: {{ keyword }}">{{ keyword }}</button>
           {% endfor %}
           {% for method in theme.methods %}
-            {% assign method_index = forloop.index0 | plus: 3 %}
             <button
-              class="research-token research-token--method"
+              class="research-star research-star--method"
               type="button"
-              data-research-token="{{ theme.id }}"
-              style="--token-index: {{ method_index }};"
+              data-research-star="{{ theme.id }}"
               aria-label="Show {{ theme.title }} method: {{ method }}">{{ method }}</button>
           {% endfor %}
         </div>
