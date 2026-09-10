@@ -1,4 +1,10 @@
 {% include base_path %}
+{% assign total_research_works = 0 %}
+{% assign total_research_terms = 0 %}
+{% for research_area in site.data.research_areas %}
+  {% assign total_research_works = total_research_works | plus: research_area.publications.size %}
+  {% assign total_research_terms = total_research_terms | plus: research_area.methods.size | plus: research_area.keywords.size %}
+{% endfor %}
 <div class="research-atlas" data-research-atlas>
   <div class="research-atlas__canvas" aria-label="Interactive map of Yuhao Wang's research">
     <svg class="research-atlas__lines" viewBox="0 0 100 100" role="img" aria-label="Research themes connected through multimodal intelligence">
@@ -6,6 +12,45 @@
       <path d="M50 50 L50 62" data-research-line="efficient-multimodal-llms"></path>
       <path d="M50 50 L84 38" data-research-line="efficient-agent-systems"></path>
     </svg>
+
+    <div class="research-atlas__field-meta">
+      <span class="micro-label">Research field / interactive map</span>
+      <p>Select a term or drag the empty field to explore the three research directions.</p>
+      <div>
+        <span><strong>{{ site.data.research_areas.size }}</strong> areas</span>
+        <span><strong>{{ total_research_terms }}</strong> terms</span>
+        <span><strong>{{ total_research_works }}</strong> works</span>
+      </div>
+    </div>
+
+    <div class="research-atlas__field-surface" data-research-field-pan aria-label="Drag to explore the research field"></div>
+    <div class="research-atlas__cloud" data-research-cloud>
+      {% for theme in site.data.research_areas %}
+        <div
+          class="research-cluster research-cluster--{{ theme.id }}{% if forloop.first %} is-active{% else %} is-muted{% endif %}"
+          data-research-cluster="{{ theme.id }}"
+          style="--cluster-x: {{ theme.position.x }}%; --cluster-y: {{ theme.position.y }}%;">
+          <span class="research-cluster__label">{{ theme.short_title }}</span>
+          {% for keyword in theme.keywords %}
+            <button
+              class="research-token research-token--keyword"
+              type="button"
+              data-research-token="{{ theme.id }}"
+              style="--token-index: {{ forloop.index0 }};"
+              aria-label="Show {{ theme.title }}: {{ keyword }}">{{ keyword }}</button>
+          {% endfor %}
+          {% for method in theme.methods %}
+            {% assign method_index = forloop.index0 | plus: 3 %}
+            <button
+              class="research-token research-token--method"
+              type="button"
+              data-research-token="{{ theme.id }}"
+              style="--token-index: {{ method_index }};"
+              aria-label="Show {{ theme.title }} method: {{ method }}">{{ method }}</button>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
 
     <div class="research-atlas__core">
       <span>Research identity</span>

@@ -86,6 +86,13 @@ $(document).ready(function() {
     $("[data-research-line]").each(function() {
       $(this).toggleClass("is-active", $(this).data("research-line") === id);
     });
+    $("[data-research-cluster]").each(function() {
+      var active = $(this).data("research-cluster") === id;
+      $(this).toggleClass("is-active", active).toggleClass("is-muted", !active);
+    });
+    $("[data-research-token]").each(function() {
+      $(this).toggleClass("is-active", $(this).data("research-token") === id);
+    });
     $("[data-research-panel]").each(function() {
       var active = $(this).data("research-panel") === id;
       $(this).toggleClass("is-active", active).prop("hidden", !active);
@@ -106,6 +113,52 @@ $(document).ready(function() {
   $("[data-research-node]").on("click focus", function() {
     activateResearchTheme($(this).data("research-node"));
   });
+
+  $("[data-research-token]").on("click", function() {
+    activateResearchTheme($(this).data("research-token"));
+  });
+
+  var fieldSurface = $("[data-research-field-pan]");
+  var researchCloud = $("[data-research-cloud]");
+  var fieldDrag = null;
+  var endFieldDrag = function() {
+    if (!fieldDrag) {
+      return;
+    }
+    fieldDrag = null;
+    fieldSurface.removeClass("is-dragging");
+    researchCloud.removeClass("is-dragging");
+  };
+
+  fieldSurface.on("pointerdown", function(event) {
+    if (!researchCloud.length || event.pointerType === "mouse" && event.button !== 0) {
+      return;
+    }
+    fieldDrag = {
+      startX: event.clientX,
+      startY: event.clientY,
+      panX: parseFloat(researchCloud.css("--field-pan-x")) || 0,
+      panY: parseFloat(researchCloud.css("--field-pan-y")) || 0
+    };
+    fieldSurface.addClass("is-dragging");
+    researchCloud.addClass("is-dragging");
+    if (this.setPointerCapture) {
+      this.setPointerCapture(event.pointerId);
+    }
+    event.preventDefault();
+  });
+
+  fieldSurface.on("pointermove", function(event) {
+    if (!fieldDrag) {
+      return;
+    }
+    var panX = Math.max(-72, Math.min(72, fieldDrag.panX + event.clientX - fieldDrag.startX));
+    var panY = Math.max(-58, Math.min(58, fieldDrag.panY + event.clientY - fieldDrag.startY));
+    researchCloud[0].style.setProperty("--field-pan-x", panX + "px");
+    researchCloud[0].style.setProperty("--field-pan-y", panY + "px");
+  });
+
+  fieldSurface.on("pointerup pointercancel pointerleave", endFieldDrag);
 
   // Project filtering
   $("[data-project-filter]").on("click", function() {
