@@ -1,23 +1,27 @@
-- value: "25"
+- id: research-works
+  value: "25"
   label: "research works"
   detail: "CVPR · ECCV · AAAI · WACV · IEEE journals"
   source: "Verified publication dataset"
   updated: "Sep 2026"
 
-- value: "10"
+- id: lead-works
+  value: "10"
   label: "first / co-first works"
   detail: "from fusion to edge intelligence"
   source: "Verified publication dataset"
   updated: "Sep 2026"
 
-- value: "735"
+- id: citations
+  value: "735"
   label: "Google Scholar citations"
   detail: "across multimodal vision research"
   source: "Google Scholar"
   updated: "Sep 2026"
 
-- value: "800+"
+- id: github-stars
+  value: "593"
   label: "GitHub stars"
-  detail: "personal and collaborative repositories"
-  source: "Public GitHub snapshots"
+  detail: "19 public repositories · forks included"
+  source: "GitHub REST API"
   updated: "Sep 2026"

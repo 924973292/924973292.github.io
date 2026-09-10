@@ -27,8 +27,23 @@
         <span>{{ theme.index }}</span>
         <strong>{{ theme.short_title }}</strong>
         <small>{{ theme.maturity }}</small>
+        <em>{{ theme.keywords | slice: 0, 2 | join: " · " }}</em>
       </button>
     {% endfor %}
+
+    <div class="research-atlas__program-rail" aria-label="Connected research program">
+      <span class="micro-label">One connected program</span>
+      <div class="research-atlas__program-steps">
+        <span><b>01</b> Perceive</span>
+        <i aria-hidden="true">→</i>
+        <span><b>02</b> Interpret</span>
+        <i aria-hidden="true">→</i>
+        <span><b>03</b> Compress</span>
+        <i aria-hidden="true">→</i>
+        <span><b>04</b> Act</span>
+      </div>
+      <small>Heterogeneous evidence becomes efficient, deployable intelligence.</small>
+    </div>
   </div>
 
   <div class="research-atlas__details" aria-live="polite">
@@ -57,10 +72,10 @@
           <div>
             <span class="micro-label">Evidence</span>
             <div class="evidence-links">
-              {% for project_id in theme.projects %}
+              {% for project_id in theme.projects limit: 2 %}
                 <a href="{{ base_path }}/projects/#{{ project_id }}">Project · {{ project_id | replace: "-", " " }}</a>
               {% endfor %}
-              {% for publication_id in theme.publications %}
+              {% for publication_id in theme.publications limit: 3 %}
                 <a href="{{ base_path }}/publications/#paper-{{ publication_id }}">Paper · {{ publication_id }}</a>
               {% endfor %}
               {% if theme.projects.size == 0 and theme.publications.size == 0 %}
@@ -69,6 +84,9 @@
             </div>
           </div>
         </div>
+        <a class="research-panel__all-link" href="{{ base_path }}/publications/{% if theme.filter_topic and theme.filter_topic != 'all' %}?topic={{ theme.filter_topic | url_encode }}{% endif %}">
+          View all related works <span aria-hidden="true">↗</span>
+        </a>
         <ul class="tag-list" aria-label="{{ theme.title }} keywords">
           {% for keyword in theme.keywords %}<li>{{ keyword }}</li>{% endfor %}
         </ul>

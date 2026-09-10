@@ -13,6 +13,7 @@
     - "RGB / NIR / TIR"
     - "Multimodal ReID"
     - "Cross-modal Retrieval"
+  filter_topic: "multimodal reid"
   publications:
     - "DSGM"
     - "INSPI"
@@ -51,6 +52,7 @@
     - "VLM"
     - "MLLM"
     - "Vision-Language"
+  filter_topic: "vision-language"
   publications:
     - "ERA"
     - "VISTA-Bench"
@@ -81,6 +83,7 @@
     - "Token Pruning"
     - "Compression"
     - "Fast Inference"
+  filter_topic: "token pruning"
   publications:
     - "ERA"
     - "STMI"
@@ -112,6 +115,7 @@
     - "GUI Agents"
     - "Agent Memory"
     - "Mobile / Edge AI"
+  filter_topic: "gui agents"
   publications:
     - "TRACE"
   projects:
@@ -135,6 +139,7 @@
     - "Agent Systems"
     - "Autonomous Decision"
     - "Reliable Deployment"
+  filter_topic: "all"
   publications: []
   projects: []
   position:

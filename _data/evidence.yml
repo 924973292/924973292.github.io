@@ -28,9 +28,11 @@ metrics:
     checked: "2026-09-05"
     source: "Last successful Google Scholar automation snapshot"
   github_stars:
-    value: "800+"
+    value: 593
+    repositories: 19
+    include_forks: true
     checked: "2026-09"
-    source: "Public personal and collaborative research-repository snapshots; current verified listed total exceeds 1,000"
+    source: "GitHub REST API public repository listing"
 
 display_policy:
   - "Accepted and published work is labeled Published."

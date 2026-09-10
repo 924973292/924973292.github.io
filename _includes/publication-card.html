@@ -1,5 +1,6 @@
 {% include base_path %}
 {% assign publication = include.publication %}
+{% assign scholar_id = publication.scholar | split: "citation_for_view=" | last %}
 <article
   id="paper-{{ publication.id }}"
   class="publication-card publication-card--{{ publication.status_class }}{% if include.compact %} publication-card--compact{% endif %}"
@@ -9,6 +10,7 @@
   data-role="{{ publication.role | slugify }}"
   data-type="{{ publication.type | default: 'paper' | slugify }}"
   data-selected="{{ publication.featured }}"
+  data-scholar-id="{% if publication.scholar and publication.scholar != empty %}{{ scholar_id }}{% endif %}"
   data-tags="{{ publication.tags | join: ',' | downcase }}">
   {% if publication.image %}
     {% assign optimized_image = publication.image | replace: ".png", "-800.webp" %}
@@ -30,6 +32,7 @@
       <span>{{ publication.year }}</span>
       {% if publication.type %}<span>{{ publication.type }}</span>{% endif %}
       {% if publication.role %}<span>{{ publication.role }}</span>{% endif %}
+      <span class="publication-citation" data-live-citations hidden></span>
     </div>
     <h3 class="publication-card__title">{{ publication.title }}</h3>
     <p class="publication-card__authors">{{ publication.authors }}</p>

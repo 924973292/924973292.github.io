@@ -106,15 +106,119 @@ $(document).ready(function() {
     });
   });
 
+  // Live Scholar and GitHub snapshot
+  var liveSnapshotUrl = "https://raw.githubusercontent.com/924973292/924973292.github.io/google-scholar-stats/google_scholar_crawler/results/live_snapshot.json";
+  var liveSnapshotPromise = null;
+  var loadLiveSnapshot = function() {
+    if (!liveSnapshotPromise) {
+      if (!window.fetch) {
+        liveSnapshotPromise = Promise.reject(new Error("Fetch is unavailable"));
+      } else {
+        liveSnapshotPromise = window.fetch(liveSnapshotUrl + "?v=" + Date.now(), {
+          cache: "no-store"
+        }).then(function(response) {
+          if (!response.ok) {
+            throw new Error("Live snapshot request failed");
+          }
+          return response.json();
+        });
+      }
+    }
+    return liveSnapshotPromise;
+  };
+
+  var formatLiveDate = function(value) {
+    if (!value) {
+      return "";
+    }
+    var normalized = String(value).replace(" ", "T").replace(/(\.\d{3})\d+/, "$1");
+    var date = new Date(normalized);
+    if (isNaN(date.getTime())) {
+      return "";
+    }
+    return date.toLocaleDateString("en-US", { month: "short", year: "numeric" });
+  };
+
+  var updateLiveMetrics = function(snapshot) {
+    var scholar = snapshot.scholar || {};
+    var github = snapshot.github || {};
+    var metricValues = {
+      "citations": scholar.citations,
+      "github-stars": github.available === false && !Number(github.stars) ? null : github.stars
+    };
+    Object.keys(metricValues).forEach(function(key) {
+      if (metricValues[key] === undefined || metricValues[key] === null) {
+        return;
+      }
+      $("[data-live-metric='" + key + "']").text(
+        Number(metricValues[key]).toLocaleString("en-US")
+      );
+    });
+    if (scholar.source_updated) {
+      $("[data-live-meta='citations']").text(
+        "Google Scholar · " + formatLiveDate(scholar.source_updated)
+      );
+    }
+    if (github.updated) {
+      $("[data-live-meta='github-stars']").text(
+        "GitHub REST API · " + formatLiveDate(github.updated)
+      );
+    }
+  };
+
+  var refreshGithubStarsLive = function() {
+    if (!$("[data-live-metric='github-stars']").length || !window.fetch) {
+      return Promise.resolve();
+    }
+    var page = 1;
+    var totalStars = 0;
+    var fetchPage = function() {
+      return window.fetch(
+        "https://api.github.com/users/924973292/repos?type=all&per_page=100&page=" + page,
+        { cache: "no-store" }
+      ).then(function(response) {
+        if (!response.ok) {
+          throw new Error("GitHub repository request failed");
+        }
+        return response.json();
+      }).then(function(repositories) {
+        repositories.forEach(function(repository) {
+          totalStars += Number(repository.stargazers_count || 0);
+        });
+        if (repositories.length === 100) {
+          page += 1;
+          return fetchPage();
+        }
+        $("[data-live-metric='github-stars']").text(totalStars.toLocaleString("en-US"));
+        $("[data-live-meta='github-stars']").text("GitHub REST API · now");
+      });
+    };
+    return fetchPage();
+  };
+
+  if ($("[data-live-metric]").length || $("[data-live-publications]").length) {
+    loadLiveSnapshot().then(function(snapshot) {
+      updateLiveMetrics(snapshot);
+      return refreshGithubStarsLive().catch(function() {
+        return undefined;
+      });
+    }).catch(function() {
+      $("[data-live-publication-count]").text("Live snapshot unavailable");
+    });
+  }
+
   // Publication explorer
   var publicationCards = $("[data-publication-card]");
+  var publicationList = $("[data-publication-list]");
   var filterState = {
     scope: "all",
     year: "all",
     status: "all",
     role: "all",
     topic: "all",
-    query: ""
+    type: "all",
+    query: "",
+    sort: "newest"
   };
 
   var populatePublicationYears = function() {
@@ -146,16 +250,89 @@ $(document).ready(function() {
     window.history.replaceState({}, "", window.location.pathname + (queryString ? "?" + queryString : ""));
   };
 
+  var collectionMatches = function(card) {
+    var collection = filterState.scope;
+    if (collection === "selected" && String(card.data("selected")) !== "true") {
+      return false;
+    }
+    if (collection === "lead" &&
+      ["first-author", "co-first-author"].indexOf(card.data("role")) === -1) {
+      return false;
+    }
+    if (collection === "peer-reviewed" && card.data("status") !== "published") {
+      return false;
+    }
+    if (collection === "non-final" && card.data("status") !== "ongoing") {
+      return false;
+    }
+    return true;
+  };
+
+  var sortPublicationCards = function() {
+    if (!publicationList.length) {
+      return;
+    }
+    var cards = publicationCards.get().sort(function(first, second) {
+      var firstTitle = $(first).find(".publication-card__title").text().trim().toLowerCase();
+      var secondTitle = $(second).find(".publication-card__title").text().trim().toLowerCase();
+      var firstYear = Number($(first).data("year"));
+      var secondYear = Number($(second).data("year"));
+      if (filterState.sort === "title") {
+        return firstTitle.localeCompare(secondTitle);
+      }
+      if (filterState.sort === "title-desc") {
+        return secondTitle.localeCompare(firstTitle);
+      }
+      return filterState.sort === "oldest" ? firstYear - secondYear : secondYear - firstYear;
+    });
+    publicationList.children("[data-publication-card]").detach();
+    publicationList.find("[data-generated-year]").remove();
+    var lastYear = null;
+    cards.forEach(function(card) {
+      var year = String($(card).data("year"));
+      if (filterState.sort === "newest" || filterState.sort === "oldest") {
+        if (year !== lastYear) {
+          publicationList.append(
+            $("<h2>", {
+              class: "publication-year-heading",
+              "data-generated-year": "true",
+              text: year
+            })
+          );
+          lastYear = year;
+        }
+      }
+      publicationList.append(card);
+    });
+  };
+
+  var updatePublicationYearHeadings = function() {
+    publicationList.find("[data-generated-year]").each(function() {
+      var heading = $(this);
+      var visible = false;
+      var next = heading.next();
+      while (next.length && !next.is("[data-generated-year]")) {
+        if (!next.hasClass("is-hidden")) {
+          visible = true;
+          break;
+        }
+        next = next.next();
+      }
+      heading.toggleClass("is-hidden", !visible);
+    });
+  };
+
   var updatePublicationFilter = function() {
     var visible = 0;
     publicationCards.each(function() {
       var card = $(this);
       var haystack = (card.text() + " " + card.data("tags")).toLowerCase();
       var matches =
-        (filterState.scope === "all" || String(card.data("selected")) === "true") &&
+        collectionMatches(card) &&
         (filterState.year === "all" || String(card.data("year")) === filterState.year) &&
         (filterState.status === "all" || card.data("status") === filterState.status) &&
         (filterState.role === "all" || card.data("role") === filterState.role) &&
+        (filterState.type === "all" || card.data("type") === filterState.type) &&
         (filterState.topic === "all" || String(card.data("tags")).toLowerCase().indexOf(filterState.topic) !== -1) &&
         (!filterState.query || haystack.indexOf(filterState.query) !== -1);
 
@@ -164,7 +341,27 @@ $(document).ready(function() {
         visible += 1;
       }
     });
+    sortPublicationCards();
+    updatePublicationYearHeadings();
     $("[data-filter-result]").text(visible + " research item" + (visible === 1 ? "" : "s") + " shown");
+    $("[data-publication-filter-summary]").text(
+      filterState.sort === "title" || filterState.sort === "title-desc"
+        ? "Sorted alphabetically · status shown explicitly"
+        : (filterState.sort === "oldest" ? "Oldest first · status shown explicitly" : "Newest first · status shown explicitly")
+    );
+    var activeFilters = [];
+    if (filterState.scope !== "all") {
+      activeFilters.push(filterState.scope === "lead" ? "First / co-first" : filterState.scope.replace("-", " "));
+    }
+    if (filterState.year !== "all") { activeFilters.push(filterState.year); }
+    if (filterState.status !== "all") { activeFilters.push(filterState.status); }
+    if (filterState.role !== "all") { activeFilters.push(filterState.role.replace("-", " ")); }
+    if (filterState.type !== "all") { activeFilters.push(filterState.type.replace("-", " ")); }
+    if (filterState.topic !== "all") { activeFilters.push(filterState.topic); }
+    if (filterState.query) { activeFilters.push("search: " + filterState.query); }
+    $("[data-active-filter-summary]").text(
+      activeFilters.length ? "Active filters · " + activeFilters.join(" · ") : "Showing the complete verified record"
+    );
     updatePublicationUrl();
   };
 
@@ -176,20 +373,26 @@ $(document).ready(function() {
     });
   };
 
-  if (publicationCards.length) {
-    populatePublicationYears();
+  var setPublicationQueryState = function() {
     var params = new URLSearchParams(window.location.search);
-    ["scope", "year", "status", "role", "topic", "query"].forEach(function(key) {
+    ["scope", "year", "status", "role", "topic", "type", "query", "sort"].forEach(function(key) {
       if (params.get(key)) {
         filterState[key] = params.get(key);
       }
     });
+  };
+
+  if (publicationCards.length) {
+    populatePublicationYears();
+    setPublicationQueryState();
     setScope(filterState.scope);
     $("[data-year-filter]").val(filterState.year);
     $("[data-status-select]").val(filterState.status);
     $("[data-role-filter]").val(filterState.role);
+    $("[data-type-filter]").val(filterState.type);
     $("[data-topic-filter]").val(filterState.topic);
     $("[data-publication-search]").val(filterState.query);
+    $("[data-publication-sort]").val(filterState.sort);
     updatePublicationFilter();
   }
 
@@ -209,6 +412,10 @@ $(document).ready(function() {
     filterState.role = $(this).val();
     updatePublicationFilter();
   });
+  $("[data-type-filter]").on("change", function() {
+    filterState.type = $(this).val();
+    updatePublicationFilter();
+  });
   $("[data-topic-filter]").on("change", function() {
     filterState.topic = $(this).val();
     updatePublicationFilter();
@@ -217,13 +424,67 @@ $(document).ready(function() {
     filterState.query = $(this).val().trim().toLowerCase();
     updatePublicationFilter();
   });
-  $("[data-filter-reset]").on("click", function() {
-    filterState = { scope: "all", year: "all", status: "all", role: "all", topic: "all", query: "" };
-    setScope("all");
-    $("[data-year-filter], [data-status-select], [data-role-filter], [data-topic-filter]").val("all");
-    $("[data-publication-search]").val("");
+  $("[data-publication-sort]").on("change", function() {
+    filterState.sort = $(this).val();
     updatePublicationFilter();
   });
+  $("[data-filter-reset]").on("click", function() {
+    filterState = { scope: "all", year: "all", status: "all", role: "all", topic: "all", type: "all", query: "", sort: "newest" };
+    setScope("all");
+    $("[data-year-filter], [data-status-select], [data-role-filter], [data-type-filter], [data-topic-filter]").val("all");
+    $("[data-publication-search]").val("");
+    $("[data-publication-sort]").val("newest");
+    updatePublicationFilter();
+  });
+
+  // Populate citations and uncurated records from the live Scholar snapshot.
+  var escapeHtml = function(value) {
+    return $("<div>").text(value || "").html();
+  };
+  var renderLivePublications = function(snapshot) {
+    var liveScholar = snapshot.scholar || {};
+    var livePublications = liveScholar.publications || [];
+    var curatedIds = {};
+    publicationCards.each(function() {
+      var scholarId = $(this).data("scholar-id");
+      if (scholarId) {
+        curatedIds[scholarId] = true;
+      }
+    });
+    livePublications.forEach(function(publication) {
+      if (publication.id) {
+        var citationNodes = $("[data-scholar-id='" + publication.id + "'] [data-live-citations]");
+        citationNodes.text((publication.citations || 0) + " Scholar citations").prop("hidden", false);
+        if (curatedIds[publication.id]) {
+          return;
+        }
+      }
+      if (!publication.title || !$("[data-live-publication-list]").length) {
+        return;
+      }
+      var item = $("<article>", { class: "live-publication-item" });
+      item.html(
+        "<div><span class=\"micro-label\">Scholar-indexed · " +
+        escapeHtml(publication.year || "Undated") +
+        "</span><h3>" + escapeHtml(publication.title) + "</h3><p>" +
+        escapeHtml(publication.authors || "Author list pending verification") +
+        "</p></div><div><strong>" + escapeHtml(String(publication.citations || 0)) +
+        "</strong><span>citations</span><a href=\"" + escapeHtml(publication.url) +
+        "\" target=\"_blank\" rel=\"noopener noreferrer\">Scholar ↗</a></div>"
+      );
+      $("[data-live-publication-list]").append(item);
+    });
+    var newCount = $("[data-live-publication-list] .live-publication-item").length;
+    $("[data-live-publication-count]").text(
+      newCount ? newCount + " new record" + (newCount === 1 ? "" : "s") : "No new records"
+    );
+  };
+
+  if ($("[data-live-publications]").length) {
+    loadLiveSnapshot().then(renderLivePublications).catch(function() {
+      $("[data-live-publication-count]").text("Live snapshot unavailable");
+    });
+  }
 
   // Copyable citations
   $("[data-copy-bibtex]").on("click", function() {

@@ -23,7 +23,10 @@ author_profile: false
   <section class="publication-explorer" data-publication-filters aria-label="Explore publications">
     <div class="publication-view-toggle" role="group" aria-label="Publication scope">
       <button class="filter-button" type="button" data-scope-filter="selected" aria-pressed="false">Selected</button>
-      <button class="filter-button is-active" type="button" data-scope-filter="all" aria-pressed="true">Full record</button>
+      <button class="filter-button" type="button" data-scope-filter="lead" aria-pressed="false">First / co-first</button>
+      <button class="filter-button" type="button" data-scope-filter="peer-reviewed" aria-pressed="false">Peer-reviewed</button>
+      <button class="filter-button" type="button" data-scope-filter="non-final" aria-pressed="false">Preprints / reports</button>
+      <button class="filter-button is-active" type="button" data-scope-filter="all" aria-pressed="true">All works</button>
     </div>
 
     <div class="publication-toolbar">
@@ -58,18 +61,34 @@ author_profile: false
           </select>
         </label>
         <label>
+          <span class="filter-label">Type</span>
+          <select data-type-filter>
+            <option value="all">All types</option>
+            {% assign publication_types = site.data.publications | map: "type" | compact | uniq | sort_natural %}
+            {% for publication_type in publication_types %}
+              <option value="{{ publication_type | slugify }}">{{ publication_type }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label>
           <span class="filter-label">Topic</span>
           <select data-topic-filter>
             <option value="all">All topics</option>
-            <option value="multimodal reid">Multimodal ReID</option>
-            <option value="gui agents">GUI Agents</option>
-            <option value="vision-language">Vision-Language</option>
-            <option value="benchmark">Benchmarks</option>
-            <option value="rgbt tracking">RGBT Tracking</option>
-            <option value="segmentation">Segmentation</option>
-            <option value="mamba">Mamba</option>
-            <option value="aerial–ground reid">Aerial–Ground</option>
-            <option value="medical vision">Medical Vision</option>
+            {% assign publication_topics = site.data.publications | map: "tags" | join: "|" | split: "|" | uniq | sort_natural %}
+            {% for publication_topic in publication_topics %}
+              {% if publication_topic != empty %}
+                <option value="{{ publication_topic | downcase }}">{{ publication_topic }}</option>
+              {% endif %}
+            {% endfor %}
+          </select>
+        </label>
+        <label>
+          <span class="filter-label">Sort</span>
+          <select data-publication-sort>
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="title">Title A–Z</option>
+            <option value="title-desc">Title Z–A</option>
           </select>
         </label>
       </div>
@@ -78,10 +97,20 @@ author_profile: false
     </div>
   </section>
 
+  <details class="live-publication-note" data-live-publications>
+    <summary>
+      <span>New Scholar records awaiting curation</span>
+      <span data-live-publication-count>Checking Scholar snapshot…</span>
+    </summary>
+    <p class="publication-note__lead">Automatically indexed records are shown with minimal metadata until their venue, authorship, contribution, and public evidence are manually verified.</p>
+    <div class="live-publication-list" data-live-publication-list></div>
+  </details>
+
   <div class="publication-results-head">
     <p class="filter-result" data-filter-result aria-live="polite"></p>
-    <p>Newest first · status shown explicitly</p>
+    <p data-publication-filter-summary>Newest first · status shown explicitly</p>
   </div>
+  <p class="active-filter-summary" data-active-filter-summary aria-live="polite"></p>
 
   <div class="publication-grid publication-grid--archive" data-publication-list>
     {% assign publications_by_year = site.data.publications | sort: "year" | reverse %}

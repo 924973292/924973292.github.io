@@ -63,11 +63,11 @@ redirect_from:
 
   <section class="metric-grid" aria-label="Research at a glance">
     {% for metric in site.data.metrics %}
-      <article class="metric-card">
-        <strong>{{ metric.value }}</strong>
+      <article class="metric-card" data-live-metric-card="{{ metric.id }}">
+        <strong data-live-metric="{{ metric.id }}">{{ metric.value }}</strong>
         <span>{{ metric.label }}</span>
         <small>{{ metric.detail }}</small>
-        <em>{{ metric.source }} · {{ metric.updated }}</em>
+        <em data-live-meta="{{ metric.id }}">{{ metric.source }} · {{ metric.updated }}</em>
       </article>
     {% endfor %}
   </section>
