@@ -3,17 +3,20 @@
   title: "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents"
   authors: "<strong>Yuhao Wang</strong>, Mu Qiao, Xindong Zhang, Lei Zhang, Yunzhi Zhuge, Huchuan Lu"
   year: 2026
-  venue: "Technical report"
-  type: "Technical Report"
-  status: "Technical Report"
+  venue: "arXiv preprint"
+  type: "Preprint"
+  status: "Preprint"
   status_class: "ongoing"
   featured: true
   role: "First author"
-  summary: "A newly indexed technical report on efficient GUI agents. Detailed claims are withheld until the report itself becomes public."
+  summary: "A training-free GUI-agent framework that makes irreversible visual-token admission decisions robust to unknown future targets while preserving spatial coverage."
+  contribution: "Combines layout-derived interaction priors, instruction relevance, feature novelty, native-token coverage repair, nested token ordering, and monotone KV contraction for reusable trajectory evidence."
   tags:
     - "GUI Agents"
     - "Efficient Agents"
     - "Evidence Ordering"
+  paper: "https://arxiv.org/abs/2609.10297"
+  arxiv: "https://arxiv.org/abs/2609.10297"
   scholar: "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:TQgYirikUcIC"
   project: "/projects/#edge-gui-agent"
 
