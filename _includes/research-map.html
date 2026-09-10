@@ -26,6 +26,9 @@
         <small>{{ theme.maturity }}</small>
         <em>{{ theme.keywords | slice: 0, 2 | join: " · " }}</em>
         <b>{{ theme.publications.size }} related works</b>
+        <span class="research-node__methods" aria-label="{{ theme.title }} methods">
+          {% for method in theme.methods limit: 2 %}<i>{{ method }}</i>{% endfor %}
+        </span>
       </button>
     {% endfor %}
 
@@ -44,26 +47,26 @@
       <div class="research-atlas__architecture" aria-label="Research architecture">
         <div class="research-atlas__architecture-step">
           <span>01</span>
-          <strong>Evidence</strong>
+          <strong>Perception</strong>
           <small>RGB · NIR · TIR · Text</small>
         </div>
         <i aria-hidden="true">→</i>
         <div class="research-atlas__architecture-step">
           <span>02</span>
-          <strong>Representation</strong>
+          <strong>Efficient models</strong>
           <small>Align · select · compress</small>
         </div>
         <i aria-hidden="true">→</i>
         <div class="research-atlas__architecture-step">
           <span>03</span>
-          <strong>Action</strong>
+          <strong>Agents</strong>
           <small>Reliable agent systems</small>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="research-atlas__details" aria-live="polite">
+  <div class="research-atlas__details" data-research-details aria-live="polite">
     {% for theme in site.data.research_areas %}
       <article
         id="research-panel-{{ theme.id }}"

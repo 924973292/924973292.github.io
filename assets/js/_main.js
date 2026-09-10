@@ -91,6 +91,16 @@ $(document).ready(function() {
       $(this).toggleClass("is-active", active).prop("hidden", !active);
     });
     $("[data-research-panel='" + id + "'] [data-research-paper-rail]").scrollTop(0);
+    var details = $("[data-research-details]")[0];
+    var compactLayout = window.matchMedia && window.matchMedia("(max-width: 72rem)").matches;
+    if (details && compactLayout) {
+      window.requestAnimationFrame(function() {
+        var bounds = details.getBoundingClientRect();
+        if (bounds.top < 0 || bounds.top > window.innerHeight) {
+          details.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+    }
   };
 
   $("[data-research-node]").on("click focus", function() {

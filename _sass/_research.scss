@@ -1626,7 +1626,7 @@ html[data-theme="dark"] .masthead {
   top: var(--node-y);
   left: var(--node-x);
   display: grid;
-  min-width: 7.2rem;
+  min-width: 9.4rem;
   padding: 0.75rem 0.85rem;
   border: 1px solid var(--research-line);
   border-radius: 0.8rem;
@@ -1674,6 +1674,23 @@ html[data-theme="dark"] .masthead {
     font-size: 0.55rem;
     font-weight: 700;
     letter-spacing: 0.04em;
+  }
+
+  .research-node__methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-top: 0.45rem;
+  }
+
+  .research-node__methods i {
+    padding: 0.18rem 0.3rem;
+    border: 1px solid var(--research-line);
+    border-radius: 999px;
+    color: var(--research-muted);
+    font-size: 0.48rem;
+    font-style: normal;
+    line-height: 1.2;
   }
 
   &.is-active small {
@@ -3302,6 +3319,10 @@ html[data-theme="dark"] .publication-explorer {
     &.is-active {
       transform: none;
     }
+  }
+
+  .research-node__methods {
+    grid-column: 2 / -1;
   }
 
   .research-atlas__details {
