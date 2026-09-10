@@ -44,14 +44,14 @@
 - id: INSPI
   area: "multimodal-perception"
   title: "Incentive Noise and Structural Prior Infusion for Multi-Modal Object Re-Identification"
-  authors: "Weixiang Zhou, <strong>Yuhao Wang</strong>, Xingguo Xu, Cong Wang, Weizhen Zhou, Zhixun Su, Jinshan Pan"
+  authors: "Weixiang Zhou, <strong>Yuhao Wang†</strong>, Xingguo Xu, Cong Wang, Weizhen Zhou, Zhixun Su, Jinshan Pan"
   year: 2026
   venue: "European Conference on Computer Vision (ECCV)"
   type: "Conference"
   status: "Accepted · Poster"
   status_class: "published"
   featured: false
-  role: "Contributor"
+  role: "Co-first author"
   summary: "Accepted ECCV 2026 poster. A technical summary is intentionally omitted until reliable public paper metadata is available."
   tags:
     - "Multimodal ReID"
@@ -70,7 +70,7 @@
   status: "Published"
   status_class: "published"
   featured: false
-  role: "Contributor"
+  role: "Co-corresponding author"
   summary: "Segmentation priors modulate foreground tokens while a cross-modal hypergraph captures higher-order RGB/NIR/TIR relations."
   contribution: "Uses SAM-guided token redistribution and unified hypergraph interaction without relying on hard foreground deletion."
   tags:

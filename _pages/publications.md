@@ -63,6 +63,7 @@ author_profile: false
             <option value="all">All roles</option>
             <option value="first-author">First author</option>
             <option value="co-first-author">Co-first author</option>
+            <option value="co-corresponding-author">Co-corresponding author</option>
             <option value="contributor">Contributor</option>
           </select>
         </label>
