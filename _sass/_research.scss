@@ -3329,6 +3329,103 @@ html[data-theme="dark"] .publication-explorer {
   }
 }
 
+@media (max-width: 72rem) {
+  .research-atlas__canvas {
+    display: grid;
+    min-height: auto;
+    gap: 0.85rem;
+    overflow: visible;
+    padding: 1rem;
+  }
+
+  .research-atlas__lines,
+  .research-atlas__core {
+    display: none;
+  }
+
+  .research-atlas__constellation-meta {
+    position: static;
+    z-index: auto;
+    order: 1;
+    max-width: 34rem;
+  }
+
+  .research-atlas__areas {
+    position: static;
+    display: grid;
+    order: 2;
+    gap: 1rem;
+  }
+
+  .research-area-group {
+    position: static;
+    width: 100%;
+    max-width: 36rem;
+    justify-self: center;
+    cursor: default;
+    pointer-events: none;
+    opacity: 1 !important;
+    filter: none !important;
+    transform: none;
+  }
+
+  .research-constellation {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    width: auto;
+    height: auto;
+    margin-top: 0.65rem;
+    pointer-events: none;
+    transform: none;
+  }
+
+  .research-constellation__orbit {
+    display: none;
+  }
+
+  .research-constellation__label {
+    position: static;
+    flex-basis: 100%;
+    margin-bottom: 0.1rem;
+    pointer-events: none;
+  }
+
+  .research-star {
+    position: static;
+    max-width: none;
+    transform: none;
+  }
+
+  .research-star:hover,
+  .research-star:focus-visible,
+  .research-star.is-active {
+    transform: none;
+  }
+
+  .research-node {
+    position: static;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 0.7rem;
+    width: 100%;
+    transform: none;
+  }
+
+  .research-node__methods {
+    grid-column: 2 / -1;
+  }
+
+  .research-atlas__program-rail {
+    position: static;
+    order: 3;
+    margin-top: 0.7rem;
+  }
+}
+
 @media (max-width: 58rem) {
   .portfolio-hero {
     grid-template-columns: 1fr;
