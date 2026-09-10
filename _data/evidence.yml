@@ -13,7 +13,7 @@ publication_record:
   public_preprints: 3
   technical_reports: 1
   ongoing: 1
-  first_or_cofirst: 10
+  first_or_cofirst: 11
   sources:
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=WZvjVLkAAAAJ&hl=en"
