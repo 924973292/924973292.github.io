@@ -9,6 +9,7 @@
   data-status="{{ publication.status_class }}"
   data-role="{{ publication.role | slugify }}"
   data-type="{{ publication.type | default: 'paper' | slugify }}"
+  data-area="{{ publication.area }}"
   data-selected="{{ publication.featured }}"
   data-scholar-id="{% if publication.scholar and publication.scholar != empty %}{{ scholar_id }}{% endif %}"
   data-tags="{{ publication.tags | join: ',' | downcase }}">

@@ -12,7 +12,7 @@ author_profile: false
   <section class="page-intro page-intro--wide">
     <p class="eyebrow">PUBLICATIONS / RESEARCH RECORD</p>
     <h1>Ideas, methods,<br>and the evidence behind them.</h1>
-    <p class="page-intro__lead">Browse the research by topic, year, status, and authorship. Each entry is written at two levels: a fast plain-language takeaway and the technical record.</p>
+    <p class="page-intro__lead">Browse three connected research areas separately, then refine by year, status, authorship, and publication type. Each entry is written at two levels: a fast plain-language takeaway and the technical record.</p>
     <div class="page-intro__links">
       <a class="button button--primary" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
       <a class="button button--quiet" href="{{ site.data.profile.cv_url | relative_url }}">Download CV <span aria-hidden="true">↗</span></a>
@@ -27,6 +27,12 @@ author_profile: false
       <button class="filter-button" type="button" data-scope-filter="peer-reviewed" aria-pressed="false">Peer-reviewed</button>
       <button class="filter-button" type="button" data-scope-filter="non-final" aria-pressed="false">Preprints / reports</button>
       <button class="filter-button is-active" type="button" data-scope-filter="all" aria-pressed="true">All works</button>
+    </div>
+    <div class="publication-area-toggle" role="group" aria-label="Research area">
+      <button class="filter-button is-active" type="button" data-area-filter-button="all" aria-pressed="true">All areas</button>
+      {% for research_area in site.data.research_areas %}
+        <button class="filter-button" type="button" data-area-filter-button="{{ research_area.id }}" aria-pressed="false">{{ research_area.title }}</button>
+      {% endfor %}
     </div>
 
     <div class="publication-toolbar">
@@ -71,14 +77,11 @@ author_profile: false
           </select>
         </label>
         <label>
-          <span class="filter-label">Topic</span>
-          <select data-topic-filter>
-            <option value="all">All topics</option>
-            {% assign publication_topics = site.data.publications | map: "tags" | join: "|" | split: "|" | uniq | sort_natural %}
-            {% for publication_topic in publication_topics %}
-              {% if publication_topic != empty %}
-                <option value="{{ publication_topic | downcase }}">{{ publication_topic }}</option>
-              {% endif %}
+          <span class="filter-label">Research area</span>
+          <select data-area-filter>
+            <option value="all">All research areas</option>
+            {% for research_area in site.data.research_areas %}
+              <option value="{{ research_area.id }}">{{ research_area.title }}</option>
             {% endfor %}
           </select>
         </label>

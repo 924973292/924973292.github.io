@@ -2,12 +2,9 @@
 <div class="research-atlas" data-research-atlas>
   <div class="research-atlas__canvas" aria-label="Interactive map of Yuhao Wang's research">
     <svg class="research-atlas__lines" viewBox="0 0 100 100" role="img" aria-label="Research themes connected through multimodal intelligence">
-      <path d="M50 50 L14 31" data-research-line="multimodal-perception"></path>
-      <path d="M50 50 L38 69" data-research-line="multimodal-foundation-models"></path>
-      <path d="M50 50 L64 31" data-research-line="efficient-intelligence"></path>
-      <path d="M50 50 L88 69" data-research-line="on-device-agents"></path>
-      <path d="M64 31 L88 31" data-research-line="cloud-edge-agents"></path>
-      <path d="M38 69 C52 86, 73 85, 88 69" data-research-line="on-device-agents"></path>
+      <path d="M50 50 L16 38" data-research-line="multimodal-perception"></path>
+      <path d="M50 50 L50 62" data-research-line="efficient-multimodal-llms"></path>
+      <path d="M50 50 L84 38" data-research-line="efficient-agent-systems"></path>
     </svg>
 
     <div class="research-atlas__core">
@@ -16,7 +13,7 @@
       <small>Perceive · Compress · Act</small>
     </div>
 
-    {% for theme in site.data.research %}
+    {% for theme in site.data.research_areas %}
       <button
         class="research-node{% if forloop.first %} is-active{% endif %}"
         type="button"
@@ -47,7 +44,7 @@
   </div>
 
   <div class="research-atlas__details" aria-live="polite">
-    {% for theme in site.data.research %}
+    {% for theme in site.data.research_areas %}
       <article
         id="research-panel-{{ theme.id }}"
         class="research-panel{% if forloop.first %} is-active{% endif %}"
@@ -72,19 +69,16 @@
           <div>
             <span class="micro-label">Evidence</span>
             <div class="evidence-links">
-              {% for project_id in theme.projects limit: 2 %}
-                <a href="{{ base_path }}/projects/#{{ project_id }}">Project · {{ project_id | replace: "-", " " }}</a>
-              {% endfor %}
-              {% for publication_id in theme.publications limit: 3 %}
+              {% for publication_id in theme.publications limit: 4 %}
                 <a href="{{ base_path }}/publications/#paper-{{ publication_id }}">Paper · {{ publication_id }}</a>
               {% endfor %}
-              {% if theme.projects.size == 0 and theme.publications.size == 0 %}
+              {% if theme.publications.size == 0 %}
                 <span>Research direction in formation</span>
               {% endif %}
             </div>
           </div>
         </div>
-        <a class="research-panel__all-link" href="{{ base_path }}/publications/{% if theme.filter_topic and theme.filter_topic != 'all' %}?topic={{ theme.filter_topic | url_encode }}{% endif %}">
+        <a class="research-panel__all-link" href="{{ base_path }}/publications/?area={{ theme.filter_area | url_encode }}">
           View all related works <span aria-hidden="true">↗</span>
         </a>
         <ul class="tag-list" aria-label="{{ theme.title }} keywords">

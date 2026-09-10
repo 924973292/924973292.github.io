@@ -2269,6 +2269,15 @@ html[data-theme="dark"] .publication-explorer {
   margin-bottom: 0.7rem;
 }
 
+.publication-area-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--research-line);
+}
+
 .publication-toolbar {
   display: grid;
   grid-template-columns: minmax(14rem, 1fr) auto auto;
@@ -2359,6 +2368,10 @@ html[data-theme="dark"] .publication-explorer {
 .publication-grid--archive .publication-card {
   display: grid;
   grid-template-columns: minmax(15rem, 0.72fr) minmax(0, 1.28fr);
+}
+
+.publication-grid--archive .publication-card.is-hidden {
+  display: none;
 }
 
 .publication-grid--archive .publication-card__media {

@@ -1,0 +1,87 @@
+- id: multimodal-perception
+  index: "01"
+  short_title: "Perception"
+  title: "Multimodal Perception"
+  maturity: "Established"
+  question: "How can heterogeneous sensors describe the same identity across viewpoints, spectra, and environments?"
+  description: "I align RGB, near-infrared, thermal, text, and aerial-ground observations into identity-aware representations that remain dependable in complex scenes."
+  methods:
+    - "Cross-modal alignment"
+    - "Modality-specific representation"
+    - "Text-guided fusion"
+  keywords:
+    - "RGB / NIR / TIR"
+    - "Multimodal ReID"
+    - "Cross-modal Retrieval"
+  filter_area: "multimodal-perception"
+  publications:
+    - "DSGM"
+    - "INSPI"
+    - "STMI"
+    - "Signal"
+    - "SD-ReID"
+    - "HFP-SAM"
+    - "CADTrack"
+    - "RAGTrack"
+    - "SAS-VPReID"
+    - "VReID-XFD"
+    - "FusionReID"
+    - "Sigma"
+    - "EDITOR"
+    - "TOP-ReID"
+    - "AG-VPReID"
+  position:
+    x: 16
+    y: 38
+
+- id: efficient-multimodal-llms
+  index: "02"
+  short_title: "Efficient MLLMs"
+  title: "Efficient Multimodal Large Models"
+  maturity: "Growing"
+  question: "How can multimodal foundation models preserve useful evidence while spending less compute?"
+  description: "I study visual token selection, semantic priors, state-space modeling, and efficient adaptation for multimodal models."
+  methods:
+    - "Visual token pruning"
+    - "Vision-language adaptation"
+    - "State-space aggregation"
+  keywords:
+    - "MLLM / VLM"
+    - "Token Pruning"
+    - "Efficient Inference"
+  filter_area: "efficient-multimodal-llms"
+  publications:
+    - "VISTA-Bench"
+    - "ERA"
+    - "IDEA"
+    - "DeMo"
+    - "MambaPro"
+    - "CLIMB-ReID"
+    - "LATex"
+    - "Prompt-S6"
+    - "VMambaX"
+  position:
+    x: 50
+    y: 62
+
+- id: efficient-agent-systems
+  index: "03"
+  short_title: "Agent Systems"
+  title: "Efficient Agent Systems"
+  maturity: "Emerging"
+  question: "How can multimodal agents perceive, remember, and act under strict latency, memory, and device constraints?"
+  description: "My emerging agent direction connects visual evidence management with reliable, deployment-aware GUI agent systems."
+  methods:
+    - "Evidence-aware inference"
+    - "Visual memory efficiency"
+    - "Device-aware deployment"
+  keywords:
+    - "GUI Agents"
+    - "Agent Memory"
+    - "Mobile / Edge AI"
+  filter_area: "efficient-agent-systems"
+  publications:
+    - "TRACE"
+  position:
+    x: 84
+    y: 38

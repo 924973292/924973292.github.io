@@ -215,7 +215,7 @@ $(document).ready(function() {
     year: "all",
     status: "all",
     role: "all",
-    topic: "all",
+    area: "all",
     type: "all",
     query: "",
     sort: "newest"
@@ -332,8 +332,8 @@ $(document).ready(function() {
         (filterState.year === "all" || String(card.data("year")) === filterState.year) &&
         (filterState.status === "all" || card.data("status") === filterState.status) &&
         (filterState.role === "all" || card.data("role") === filterState.role) &&
+        (filterState.area === "all" || card.data("area") === filterState.area) &&
         (filterState.type === "all" || card.data("type") === filterState.type) &&
-        (filterState.topic === "all" || String(card.data("tags")).toLowerCase().indexOf(filterState.topic) !== -1) &&
         (!filterState.query || haystack.indexOf(filterState.query) !== -1);
 
       card.toggleClass("is-hidden", !matches);
@@ -357,7 +357,10 @@ $(document).ready(function() {
     if (filterState.status !== "all") { activeFilters.push(filterState.status); }
     if (filterState.role !== "all") { activeFilters.push(filterState.role.replace("-", " ")); }
     if (filterState.type !== "all") { activeFilters.push(filterState.type.replace("-", " ")); }
-    if (filterState.topic !== "all") { activeFilters.push(filterState.topic); }
+    if (filterState.area !== "all") {
+      var areaLabel = $("[data-area-filter] option[value='" + filterState.area + "']").text();
+      activeFilters.push(areaLabel || filterState.area);
+    }
     if (filterState.query) { activeFilters.push("search: " + filterState.query); }
     $("[data-active-filter-summary]").text(
       activeFilters.length ? "Active filters · " + activeFilters.join(" · ") : "Showing the complete verified record"
@@ -373,9 +376,18 @@ $(document).ready(function() {
     });
   };
 
+  var setArea = function(area) {
+    filterState.area = area;
+    $("[data-area-filter]").val(area);
+    $("[data-area-filter-button]").each(function() {
+      var active = $(this).data("area-filter-button") === area;
+      $(this).toggleClass("is-active", active).attr("aria-pressed", active ? "true" : "false");
+    });
+  };
+
   var setPublicationQueryState = function() {
     var params = new URLSearchParams(window.location.search);
-    ["scope", "year", "status", "role", "topic", "type", "query", "sort"].forEach(function(key) {
+    ["scope", "year", "status", "role", "area", "type", "query", "sort"].forEach(function(key) {
       if (params.get(key)) {
         filterState[key] = params.get(key);
       }
@@ -386,11 +398,12 @@ $(document).ready(function() {
     populatePublicationYears();
     setPublicationQueryState();
     setScope(filterState.scope);
+    setArea(filterState.area);
     $("[data-year-filter]").val(filterState.year);
     $("[data-status-select]").val(filterState.status);
     $("[data-role-filter]").val(filterState.role);
     $("[data-type-filter]").val(filterState.type);
-    $("[data-topic-filter]").val(filterState.topic);
+    $("[data-area-filter]").val(filterState.area);
     $("[data-publication-search]").val(filterState.query);
     $("[data-publication-sort]").val(filterState.sort);
     updatePublicationFilter();
@@ -398,6 +411,10 @@ $(document).ready(function() {
 
   $("[data-scope-filter]").on("click", function() {
     setScope($(this).data("scope-filter"));
+    updatePublicationFilter();
+  });
+  $("[data-area-filter-button]").on("click", function() {
+    setArea($(this).data("area-filter-button"));
     updatePublicationFilter();
   });
   $("[data-year-filter]").on("change", function() {
@@ -416,8 +433,8 @@ $(document).ready(function() {
     filterState.type = $(this).val();
     updatePublicationFilter();
   });
-  $("[data-topic-filter]").on("change", function() {
-    filterState.topic = $(this).val();
+  $("[data-area-filter]").on("change", function() {
+    setArea($(this).val());
     updatePublicationFilter();
   });
   $("[data-publication-search]").on("input", function() {
@@ -429,9 +446,10 @@ $(document).ready(function() {
     updatePublicationFilter();
   });
   $("[data-filter-reset]").on("click", function() {
-    filterState = { scope: "all", year: "all", status: "all", role: "all", topic: "all", type: "all", query: "", sort: "newest" };
+    filterState = { scope: "all", year: "all", status: "all", role: "all", area: "all", type: "all", query: "", sort: "newest" };
     setScope("all");
-    $("[data-year-filter], [data-status-select], [data-role-filter], [data-type-filter], [data-topic-filter]").val("all");
+    setArea("all");
+    $("[data-year-filter], [data-status-select], [data-role-filter], [data-type-filter]").val("all");
     $("[data-publication-search]").val("");
     $("[data-publication-sort]").val("newest");
     updatePublicationFilter();
