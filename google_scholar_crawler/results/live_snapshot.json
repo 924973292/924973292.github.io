@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-12T08:05:27.215052+00:00",
+  "scholar": {
+    "available": false,
+    "citations": 736,
+    "publication_count": 21,
+    "publications": [
+      {
+        "id": "WZvjVLkAAAAJ:HDshCWvjkbEC",
+        "title": "Sigma: Siamese mamba network for multi-modal semantic segmentation",
+        "authors": "",
+        "venue": "",
+        "year": "2025",
+        "citations": 203,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:HDshCWvjkbEC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:2osOgNQ5qMEC",
+        "title": "Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification",
+        "authors": "",
+        "venue": "",
+        "year": "2024",
+        "citations": 114,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:2osOgNQ5qMEC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:IjCSPb-OGe4C",
+        "title": "TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation",
+        "authors": "",
+        "venue": "",
+        "year": "2024",
+        "citations": 92,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:IjCSPb-OGe4C"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:MXK_kJrjxJIC",
+        "title": "Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification",
+        "authors": "",
+        "venue": "",
+        "year": "2025",
+        "citations": 79,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:MXK_kJrjxJIC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:ufrVoPGSRksC",
+        "title": "MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation and Synergistic Prompt",
+        "authors": "",
+        "venue": "",
+        "year": "2025",
+        "citations": 62,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:ufrVoPGSRksC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:5nxA0vEk-isC",
+        "title": "IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification",
+        "authors": "",
+        "venue": "",
+        "year": "2025",
+        "citations": 54,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:5nxA0vEk-isC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:WF5omc3nYNoC",
+        "title": "CLIMB-ReID: A Hybrid CLIP-Mamba Framework for Person Re-Identification",
+        "authors": "",
+        "venue": "",
+        "year": "2025",
+        "citations": 41,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:WF5omc3nYNoC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:Y0pCki6q_DkC",
+        "title": "Unity is Strength: Unifying Convolutional and Transformeral Features for Better Person Re-Identification",
+        "authors": "",
+        "venue": "",
+        "year": "2025",
+        "citations": 23,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Y0pCki6q_DkC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:Zph67rFs4hoC",
+        "title": "CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 21,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Zph67rFs4hoC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:Wp0gIr-vW9MC",
+        "title": "Latex: Leveraging attribute-based text knowledge for aerial-ground person re-identification",
+        "authors": "",
+        "venue": "",
+        "year": "2025",
+        "citations": 11,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:Wp0gIr-vW9MC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:YOwf2qJgpHMC",
+        "title": "SD-ReID: View-aware Stable Diffusion for Aerial-Ground Person Re-Identification",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 10,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:YOwf2qJgpHMC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:9ZlFYXVOiuMC",
+        "title": "RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 10,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:9ZlFYXVOiuMC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:-f6ydRqryjwC",
+        "title": "VISTA-Bench: Do Vision-Language Models Really Understand Visualized Text as Well as Pure Text?",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 7,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:-f6ydRqryjwC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:_kc_bZDykSQC",
+        "title": "Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification",
+        "authors": "",
+        "venue": "",
+        "year": "2025",
+        "citations": 6,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:_kc_bZDykSQC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:mVmsd5A6BfQC",
+        "title": "STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 3,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:mVmsd5A6BfQC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:TQgYirikUcIC",
+        "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 0,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:TQgYirikUcIC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:hFOr9nPyWt4C",
+        "title": "Multi-Modal Object Re-Identification with Dual Semantic Guidance and Global-Local Mutual Modulation",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 0,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:hFOr9nPyWt4C"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:hC7cP41nSMkC",
+        "title": "Multi-Modal Object Re-Identification with Prompt-S6 and Semantic-Aware Knowledge Guidance",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 0,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:hC7cP41nSMkC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:qUcmZB5y_30C",
+        "title": "ERA: Entropy-Guided Visual Token Pruning with Rectified Attention for Efficient MLLMs",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 0,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:qUcmZB5y_30C"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:IWHjjKOFINEC",
+        "title": "Incentive Noise and Structural Prior Infusion for Multi-Modal Object Re-Identification",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 0,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:IWHjjKOFINEC"
+      },
+      {
+        "id": "WZvjVLkAAAAJ:QIV2ME_5wuYC",
+        "title": "HFP-SAM: Hierarchical Frequency Prompted SAM for Efficient Marine Animal Segmentation",
+        "authors": "",
+        "venue": "",
+        "year": "2026",
+        "citations": 0,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&user=WZvjVLkAAAAJ&citation_for_view=WZvjVLkAAAAJ:QIV2ME_5wuYC"
+      }
+    ],
+    "source_updated": "2026-09-10T06:56:43.976349+00:00",
+    "refreshed_at": "2026-09-12T08:05:27.215052+00:00",
+    "source": "Google Scholar via scholarly",
+    "fallback_reason": "MaxTriesExceededException"
+  },
+  "github": {
+    "username": "924973292",
+    "repository_count": 20,
+    "stars": 594,
+    "include_forks": true,
+    "repositories": [
+      {
+        "name": "Signal",
+        "full_name": "010129/Signal",
+        "url": "https://github.com/010129/Signal",
+        "stars": 12,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "924973292",
+        "full_name": "924973292/924973292",
+        "url": "https://github.com/924973292/924973292",
+        "stars": 0,
+        "fork": false,
+        "language": null
+      },
+      {
+        "name": "924973292.github.io",
+        "full_name": "924973292/924973292.github.io",
+        "url": "https://github.com/924973292/924973292.github.io",
+        "stars": 1,
+        "fork": false,
+        "language": "JavaScript"
+      },
+      {
+        "name": "Awesome-Aerial-Ground-Object-Re-Identification",
+        "full_name": "924973292/Awesome-Aerial-Ground-Object-Re-Identification",
+        "url": "https://github.com/924973292/Awesome-Aerial-Ground-Object-Re-Identification",
+        "stars": 8,
+        "fork": false,
+        "language": null
+      },
+      {
+        "name": "Awesome-EfficientAI-for-MLLM",
+        "full_name": "924973292/Awesome-EfficientAI-for-MLLM",
+        "url": "https://github.com/924973292/Awesome-EfficientAI-for-MLLM",
+        "stars": 5,
+        "fork": false,
+        "language": null
+      },
+      {
+        "name": "Awesome-Multi-Modal-Object-Re-Identification",
+        "full_name": "924973292/Awesome-Multi-Modal-Object-Re-Identification",
+        "url": "https://github.com/924973292/Awesome-Multi-Modal-Object-Re-Identification",
+        "stars": 123,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "DeMo",
+        "full_name": "924973292/DeMo",
+        "url": "https://github.com/924973292/DeMo",
+        "stars": 76,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "DUTAI",
+        "full_name": "924973292/DUTAI",
+        "url": "https://github.com/924973292/DUTAI",
+        "stars": 2,
+        "fork": false,
+        "language": "HTML"
+      },
+      {
+        "name": "EDITOR",
+        "full_name": "924973292/EDITOR",
+        "url": "https://github.com/924973292/EDITOR",
+        "stars": 114,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "ERA",
+        "full_name": "924973292/ERA",
+        "url": "https://github.com/924973292/ERA",
+        "stars": 2,
+        "fork": false,
+        "language": null
+      },
+      {
+        "name": "FusionReID",
+        "full_name": "924973292/FusionReID",
+        "url": "https://github.com/924973292/FusionReID",
+        "stars": 28,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "IDEA",
+        "full_name": "924973292/IDEA",
+        "url": "https://github.com/924973292/IDEA",
+        "stars": 52,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "MambaPro",
+        "full_name": "924973292/MambaPro",
+        "url": "https://github.com/924973292/MambaPro",
+        "stars": 91,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "SD-ReID",
+        "full_name": "924973292/SD-ReID",
+        "url": "https://github.com/924973292/SD-ReID",
+        "stars": 6,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "Sigma",
+        "full_name": "924973292/Sigma",
+        "url": "https://github.com/924973292/Sigma",
+        "stars": 0,
+        "fork": true,
+        "language": null
+      },
+      {
+        "name": "TOP-ReID",
+        "full_name": "924973292/TOP-ReID",
+        "url": "https://github.com/924973292/TOP-ReID",
+        "stars": 71,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "TRACE",
+        "full_name": "924973292/TRACE",
+        "url": "https://github.com/924973292/TRACE",
+        "stars": 1,
+        "fork": false,
+        "language": null
+      },
+      {
+        "name": "VMambaX",
+        "full_name": "924973292/VMambaX",
+        "url": "https://github.com/924973292/VMambaX",
+        "stars": 2,
+        "fork": false,
+        "language": null
+      },
+      {
+        "name": "medical-NEC",
+        "full_name": "Euynux-xy/medical-NEC",
+        "url": "https://github.com/Euynux-xy/medical-NEC",
+        "stars": 0,
+        "fork": false,
+        "language": "Python"
+      },
+      {
+        "name": "DeMo2",
+        "full_name": "maxingan2412/DeMo2",
+        "url": "https://github.com/maxingan2412/DeMo2",
+        "stars": 0,
+        "fork": true,
+        "language": "Python"
+      }
+    ],
+    "updated": "2026-09-12T08:07:06.325762+00:00",
+    "source": "GitHub REST API"
+  }
+}

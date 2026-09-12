@@ -1,0 +1,348 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "WZvjVLkAAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Yuhao Wang",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=WZvjVLkAAAAJ&citpid=6",
+  "affiliation": "Dalian University of Technology",
+  "organization": 16416005854777279154,
+  "interests": [
+    "Efficient MLLMs",
+    "Multi-modal Fusion"
+  ],
+  "email_domain": "@mail.dlut.edu.cn",
+  "homepage": "https://924973292.github.io/",
+  "citedby": 736,
+  "publications": {
+    "WZvjVLkAAAAJ:HDshCWvjkbEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Sigma: Siamese mamba network for multi-modal semantic segmentation",
+        "pub_year": "2025",
+        "citation": "WACV 2025 Oral, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:HDshCWvjkbEC",
+      "num_citations": 203,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13693169728089947866",
+      "cites_id": [
+        "13693169728089947866"
+      ]
+    },
+    "WZvjVLkAAAAJ:2osOgNQ5qMEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification",
+        "pub_year": "2024",
+        "citation": "CVPR 2024, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:2osOgNQ5qMEC",
+      "num_citations": 114,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6825162439521864969",
+      "cites_id": [
+        "6825162439521864969"
+      ]
+    },
+    "WZvjVLkAAAAJ:IjCSPb-OGe4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation",
+        "pub_year": "2024",
+        "citation": "⭐️ AAAI 2024, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:IjCSPb-OGe4C",
+      "num_citations": 92,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4425128383889618872",
+      "cites_id": [
+        "4425128383889618872"
+      ]
+    },
+    "WZvjVLkAAAAJ:MXK_kJrjxJIC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification",
+        "pub_year": "2025",
+        "citation": "⭐️ AAAI 2025, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:MXK_kJrjxJIC",
+      "num_citations": 79,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16529793047801034276",
+      "cites_id": [
+        "16529793047801034276"
+      ]
+    },
+    "WZvjVLkAAAAJ:ufrVoPGSRksC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "MambaPro: Multi-Modal Object Re-Identification with Mamba Aggregation and Synergistic Prompt",
+        "pub_year": "2025",
+        "citation": "⭐️ AAAI 2025, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:ufrVoPGSRksC",
+      "num_citations": 62,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15608937039850122357",
+      "cites_id": [
+        "15608937039850122357"
+      ]
+    },
+    "WZvjVLkAAAAJ:5nxA0vEk-isC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "IDEA: Inverted Text with Cooperative Deformable Aggregation for Multi-modal Object Re-Identification",
+        "pub_year": "2025",
+        "citation": "⭐️ CVPR 2025, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:5nxA0vEk-isC",
+      "num_citations": 54,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6913958275220854949",
+      "cites_id": [
+        "6913958275220854949"
+      ]
+    },
+    "WZvjVLkAAAAJ:WF5omc3nYNoC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "CLIMB-ReID: A Hybrid CLIP-Mamba Framework for Person Re-Identification",
+        "pub_year": "2025",
+        "citation": "AAAI 2025, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:WF5omc3nYNoC",
+      "num_citations": 41,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16714448367987020661",
+      "cites_id": [
+        "16714448367987020661"
+      ]
+    },
+    "WZvjVLkAAAAJ:Y0pCki6q_DkC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Unity is Strength: Unifying Convolutional and Transformeral Features for Better Person Re-Identification",
+        "pub_year": "2025",
+        "citation": "⭐️ IEEE TITS 2025, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:Y0pCki6q_DkC",
+      "num_citations": 23,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6255720783886906255",
+      "cites_id": [
+        "6255720783886906255"
+      ]
+    },
+    "WZvjVLkAAAAJ:Zph67rFs4hoC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking",
+        "pub_year": "2026",
+        "citation": "AAAI 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:Zph67rFs4hoC",
+      "num_citations": 21,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9081250158131715208",
+      "cites_id": [
+        "9081250158131715208"
+      ]
+    },
+    "WZvjVLkAAAAJ:Wp0gIr-vW9MC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Latex: Leveraging attribute-based text knowledge for aerial-ground person re-identification",
+        "pub_year": "2025",
+        "citation": "arXiv preprint arXiv:2503.23722, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:Wp0gIr-vW9MC",
+      "num_citations": 11,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=223379296178652682",
+      "cites_id": [
+        "223379296178652682"
+      ]
+    },
+    "WZvjVLkAAAAJ:YOwf2qJgpHMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "SD-ReID: View-aware Stable Diffusion for Aerial-Ground Person Re-Identification",
+        "pub_year": "2026",
+        "citation": "⭐️ IEEE TIP 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:YOwf2qJgpHMC",
+      "num_citations": 10,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2462919035981278587",
+      "cites_id": [
+        "2462919035981278587"
+      ]
+    },
+    "WZvjVLkAAAAJ:9ZlFYXVOiuMC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation",
+        "pub_year": "2026",
+        "citation": "CVPR 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:9ZlFYXVOiuMC",
+      "num_citations": 10,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7639842516505983724",
+      "cites_id": [
+        "7639842516505983724"
+      ]
+    },
+    "WZvjVLkAAAAJ:-f6ydRqryjwC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "VISTA-Bench: Do Vision-Language Models Really Understand Visualized Text as Well as Pure Text?",
+        "pub_year": "2026",
+        "citation": "arXiv preprint arXiv:2602.04802, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:-f6ydRqryjwC",
+      "num_citations": 7,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8270559358947428330,15159813168133087194",
+      "cites_id": [
+        "8270559358947428330",
+        "15159813168133087194"
+      ]
+    },
+    "WZvjVLkAAAAJ:_kc_bZDykSQC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Signal: Selective Interaction and Global-local Alignment for Multi-Modal Object Re-Identification",
+        "pub_year": "2025",
+        "citation": "AAAI 2026, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:_kc_bZDykSQC",
+      "num_citations": 6,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13407005128046315802",
+      "cites_id": [
+        "13407005128046315802"
+      ]
+    },
+    "WZvjVLkAAAAJ:mVmsd5A6BfQC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification",
+        "pub_year": "2026",
+        "citation": "AAAI 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:mVmsd5A6BfQC",
+      "num_citations": 3,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11913481710099049953",
+      "cites_id": [
+        "11913481710099049953"
+      ]
+    },
+    "WZvjVLkAAAAJ:TQgYirikUcIC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
+        "pub_year": "2026",
+        "citation": "⭐️ Technical Report, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:TQgYirikUcIC",
+      "num_citations": 0
+    },
+    "WZvjVLkAAAAJ:hFOr9nPyWt4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Multi-Modal Object Re-Identification with Dual Semantic Guidance and Global-Local Mutual Modulation",
+        "pub_year": "2026",
+        "citation": "IEEE TCSVT 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:hFOr9nPyWt4C",
+      "num_citations": 0
+    },
+    "WZvjVLkAAAAJ:hC7cP41nSMkC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Multi-Modal Object Re-Identification with Prompt-S6 and Semantic-Aware Knowledge Guidance",
+        "pub_year": "2026",
+        "citation": "IEEE TIP 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:hC7cP41nSMkC",
+      "num_citations": 0
+    },
+    "WZvjVLkAAAAJ:qUcmZB5y_30C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "ERA: Entropy-Guided Visual Token Pruning with Rectified Attention for Efficient MLLMs",
+        "pub_year": "2026",
+        "citation": "⭐️ arXiv preprint arXiv:2606.31982, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:qUcmZB5y_30C",
+      "num_citations": 0
+    },
+    "WZvjVLkAAAAJ:IWHjjKOFINEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Incentive Noise and Structural Prior Infusion for Multi-Modal Object Re-Identification",
+        "pub_year": "2026",
+        "citation": "ECCV 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:IWHjjKOFINEC",
+      "num_citations": 0
+    },
+    "WZvjVLkAAAAJ:QIV2ME_5wuYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "HFP-SAM: Hierarchical Frequency Prompted SAM for Efficient Marine Animal Segmentation",
+        "pub_year": "2026",
+        "citation": "IEEE TIP 2026, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "WZvjVLkAAAAJ:QIV2ME_5wuYC",
+      "num_citations": 0
+    }
+  },
+  "citedby5y": 736,
+  "hindex": 10,
+  "hindex5y": 10,
+  "i10index": 12,
+  "i10index5y": 12,
+  "cites_per_year": {
+    "2024": 48,
+    "2025": 247,
+    "2026": 433
+  },
+  "updated": "2026-09-10T06:56:43.976349+00:00"
+}
